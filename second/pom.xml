@@ -146,5 +146,6 @@
   	<module>second-identity</module>
   	<module>second-console</module>
   	<module>second-controller</module>
+  	<module>second-crypto</module>
   </modules>
 </project>
