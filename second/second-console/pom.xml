@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <artifactId>second</artifactId>
+    <groupId>com.geoffrey</groupId>
+    <version>0.0.2-SNAPSHOT</version>
+  </parent>
+  <artifactId>second-console</artifactId>
+  <packaging>war</packaging>
+  <name>second-console Maven Webapp</name>
+  <url>http://maven.apache.org</url>
+  <dependencies>
+  	<dependency>
+  		<groupId>${project.parent.groupId}</groupId>
+  		<artifactId>second-controller</artifactId>
+  		<version>${project.parent.version}</version>
+  		<type>jar</type>
+  		<scope>compile</scope>
+  	</dependency>
+    <dependency>
+    	<groupId>javax.servlet</groupId>
+    	<artifactId>jstl</artifactId>
+    </dependency>
+    <dependency>
+    	<groupId>javax.servlet</groupId>
+    	<artifactId>servlet-api</artifactId>
+    </dependency>
+    <dependency>
+  		<groupId>log4j</groupId>
+  		<artifactId>log4j</artifactId>
+    </dependency>
+  </dependencies>
+  <build>
+    <finalName>second-console</finalName>
+  </build>
+</project>
