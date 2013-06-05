@@ -1,262 +1,104 @@
-2013-05-29 22:56:26 DEBUG Init:37 - Welcome to Encryption.
-2013-05-29 22:56:26 DEBUG Init:44 - Entering process.
-2013-05-29 22:56:26 DEBUG Init:51 - Entering displayOptions.
-2013-05-29 22:56:26 DEBUG Init:56 - Exiting displayOptions.
-2013-05-29 22:56:26 DEBUG Init:61 - Entering processUserInput.
-2013-05-29 22:56:36 DEBUG Init:67 - Starting Encryption.
-2013-05-29 22:56:36 DEBUG Init:93 - Entering encrypt.
-2013-05-29 22:56:36 DEBUG Init:100 - Entering displayEncryptOptions.
-2013-05-29 22:56:36 DEBUG Init:106 - Exiting displayEncryptOptions.
-2013-05-29 22:56:36 DEBUG Init:110 - Entering processUserInputForEncryption.
-2013-05-29 22:56:48 DEBUG Init:135 - Starting Encryption of file: '.\resources\com\myinstitution\myapp\input\plainfiles\passwords.data'
-2013-05-29 22:56:48 DEBUG Init:160 - Entering encrypt.
-2013-05-29 23:02:01 DEBUG Init:37 - Welcome to Encryption.
-2013-05-29 23:02:01 DEBUG Init:44 - Entering process.
-2013-05-29 23:02:01 DEBUG Init:51 - Entering displayOptions.
-2013-05-29 23:02:01 DEBUG Init:56 - Exiting displayOptions.
-2013-05-29 23:02:01 DEBUG Init:61 - Entering processUserInput.
-2013-05-29 23:02:03 DEBUG Init:67 - Starting Encryption.
-2013-05-29 23:02:03 DEBUG Init:93 - Entering encrypt.
-2013-05-29 23:02:03 DEBUG Init:100 - Entering displayEncryptOptions.
-2013-05-29 23:02:03 DEBUG Init:106 - Exiting displayEncryptOptions.
-2013-05-29 23:02:03 DEBUG Init:110 - Entering processUserInputForEncryption.
-2013-05-29 23:02:06 DEBUG Init:135 - Starting Encryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\plainfiles\passwords.data'
-2013-05-29 23:02:06 DEBUG Init:160 - Entering encrypt.
-2013-05-29 23:02:06 DEBUG Encrypt:15 - Entering encrypt.
-2013-05-29 23:02:06 INFO  Encrypt:21 - Successfully Completed Encryption.
-2013-05-29 23:02:06 DEBUG Encrypt:22 - Exiting encrypt.
-2013-05-29 23:02:06 DEBUG Init:167 - Exiting encrypt.
-2013-05-29 23:02:06 DEBUG Init:100 - Entering displayEncryptOptions.
-2013-05-29 23:02:06 DEBUG Init:106 - Exiting displayEncryptOptions.
-2013-05-29 23:02:38 DEBUG Init:145 - Exiting.
-2013-05-29 23:02:38 DEBUG Init:155 - Exiting processUserInputForEncryption.
-2013-05-29 23:02:38 DEBUG Init:96 - Exiting encrypt.
-2013-05-29 23:02:38 DEBUG Init:51 - Entering displayOptions.
-2013-05-29 23:02:38 DEBUG Init:56 - Exiting displayOptions.
-2013-05-29 23:02:45 DEBUG Init:73 - Starting Decryption.
-2013-05-29 23:02:45 DEBUG Init:171 - Entering decrypt.
-2013-05-29 23:02:45 DEBUG Init:178 - Entering displayDecryptOptions.
-2013-05-29 23:02:45 DEBUG Init:184 - Exiting displayDecryptOptions.
-2013-05-29 23:02:45 DEBUG Init:188 - Entering processUserInputForDecryption.
-2013-05-29 23:02:47 DEBUG Init:213 - Starting Decryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\encryptedfiles\passwords.data'
-2013-05-29 23:02:47 DEBUG Init:238 - Entering decrypt.
-2013-05-29 23:02:47 DEBUG Decrypt:14 - Entering decrypt.
-2013-05-29 23:02:47 INFO  Decrypt:20 - Successfully Completed Decryption.
-2013-05-29 23:02:47 DEBUG Decrypt:21 - Exiting decrypt.
-2013-05-29 23:02:47 DEBUG Init:245 - Exiting decrypt.
-2013-05-29 23:02:47 DEBUG Init:178 - Entering displayDecryptOptions.
-2013-05-29 23:02:47 DEBUG Init:184 - Exiting displayDecryptOptions.
-2013-05-29 23:03:18 DEBUG Init:223 - Exiting.
-2013-05-29 23:03:18 DEBUG Init:233 - Exiting processUserInputForDecryption.
-2013-05-29 23:03:18 DEBUG Init:174 - Exiting decrypt.
-2013-05-29 23:03:18 DEBUG Init:51 - Entering displayOptions.
-2013-05-29 23:03:18 DEBUG Init:56 - Exiting displayOptions.
-2013-05-29 23:03:19 DEBUG Init:79 - Exiting.
-2013-05-29 23:05:31 DEBUG Init:41 - Welcome to Encryption.
-2013-05-29 23:05:31 DEBUG Init:48 - Entering process.
-2013-05-29 23:05:31 DEBUG Init:55 - Entering displayOptions.
-2013-05-29 23:05:31 DEBUG Init:60 - Exiting displayOptions.
-2013-05-29 23:05:31 DEBUG Init:65 - Entering processUserInput.
-2013-05-29 23:05:34 DEBUG Init:71 - Starting Encryption.
-2013-05-29 23:05:34 DEBUG Init:97 - Entering encrypt.
-2013-05-29 23:05:34 DEBUG Init:104 - Entering displayEncryptOptions.
-2013-05-29 23:05:34 DEBUG Init:110 - Exiting displayEncryptOptions.
-2013-05-29 23:05:34 DEBUG Init:114 - Entering processUserInputForEncryption.
-2013-05-29 23:05:35 DEBUG Init:120 - Starting Encryption of all files.
-2013-05-29 23:05:35 DEBUG Init:126 - Starting Encryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\plainfiles\Excel.xlsx'
-2013-05-29 23:05:35 DEBUG Init:164 - Entering encrypt.
-2013-05-29 23:05:35 DEBUG Encrypt:15 - Entering encrypt.
-2013-05-29 23:05:35 INFO  Encrypt:21 - Successfully Completed Encryption.
-2013-05-29 23:05:35 DEBUG Encrypt:22 - Exiting encrypt.
-2013-05-29 23:05:35 DEBUG Init:171 - Exiting encrypt.
-2013-05-29 23:05:35 DEBUG Init:126 - Starting Encryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\plainfiles\Image.bmp'
-2013-05-29 23:05:35 DEBUG Init:164 - Entering encrypt.
-2013-05-29 23:05:35 DEBUG Encrypt:15 - Entering encrypt.
-2013-05-29 23:05:40 INFO  Encrypt:21 - Successfully Completed Encryption.
-2013-05-29 23:05:40 DEBUG Encrypt:22 - Exiting encrypt.
-2013-05-29 23:05:40 DEBUG Init:171 - Exiting encrypt.
-2013-05-29 23:05:40 DEBUG Init:126 - Starting Encryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\plainfiles\passwords.data'
-2013-05-29 23:05:40 DEBUG Init:164 - Entering encrypt.
-2013-05-29 23:05:40 DEBUG Encrypt:15 - Entering encrypt.
-2013-05-29 23:05:40 INFO  Encrypt:21 - Successfully Completed Encryption.
-2013-05-29 23:05:40 DEBUG Encrypt:22 - Exiting encrypt.
-2013-05-29 23:05:40 DEBUG Init:171 - Exiting encrypt.
-2013-05-29 23:05:40 DEBUG Init:126 - Starting Encryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\plainfiles\PDF.pdf'
-2013-05-29 23:05:40 DEBUG Init:164 - Entering encrypt.
-2013-05-29 23:05:40 DEBUG Encrypt:15 - Entering encrypt.
-2013-05-29 23:05:42 INFO  Encrypt:21 - Successfully Completed Encryption.
-2013-05-29 23:05:42 DEBUG Encrypt:22 - Exiting encrypt.
-2013-05-29 23:05:42 DEBUG Init:171 - Exiting encrypt.
-2013-05-29 23:05:42 DEBUG Init:126 - Starting Encryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\plainfiles\Text.txt'
-2013-05-29 23:05:42 DEBUG Init:164 - Entering encrypt.
-2013-05-29 23:05:42 DEBUG Encrypt:15 - Entering encrypt.
-2013-05-29 23:05:42 INFO  Encrypt:21 - Successfully Completed Encryption.
-2013-05-29 23:05:42 DEBUG Encrypt:22 - Exiting encrypt.
-2013-05-29 23:05:42 DEBUG Init:171 - Exiting encrypt.
-2013-05-29 23:05:42 DEBUG Init:126 - Starting Encryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\plainfiles\Word.docx'
-2013-05-29 23:05:42 DEBUG Init:164 - Entering encrypt.
-2013-05-29 23:05:42 DEBUG Encrypt:15 - Entering encrypt.
-2013-05-29 23:05:42 INFO  Encrypt:21 - Successfully Completed Encryption.
-2013-05-29 23:05:42 DEBUG Encrypt:22 - Exiting encrypt.
-2013-05-29 23:05:42 DEBUG Init:171 - Exiting encrypt.
-2013-05-29 23:05:42 DEBUG Init:104 - Entering displayEncryptOptions.
-2013-05-29 23:05:42 DEBUG Init:110 - Exiting displayEncryptOptions.
-2013-05-29 23:06:09 DEBUG Init:149 - Exiting.
-2013-05-29 23:06:09 DEBUG Init:159 - Exiting processUserInputForEncryption.
-2013-05-29 23:06:09 DEBUG Init:100 - Exiting encrypt.
-2013-05-29 23:06:09 DEBUG Init:55 - Entering displayOptions.
-2013-05-29 23:06:09 DEBUG Init:60 - Exiting displayOptions.
-2013-05-29 23:06:10 DEBUG Init:77 - Starting Decryption.
-2013-05-29 23:06:10 DEBUG Init:175 - Entering decrypt.
-2013-05-29 23:06:10 DEBUG Init:182 - Entering displayDecryptOptions.
-2013-05-29 23:06:10 DEBUG Init:188 - Exiting displayDecryptOptions.
-2013-05-29 23:06:10 DEBUG Init:192 - Entering processUserInputForDecryption.
-2013-05-29 23:06:12 DEBUG Init:198 - Starting Decryption of all files.
-2013-05-29 23:06:12 DEBUG Init:204 - Starting Decryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\encryptedfiles\Excel.xlsx'
-2013-05-29 23:06:12 DEBUG Init:242 - Entering decrypt.
-2013-05-29 23:06:12 DEBUG Decrypt:14 - Entering decrypt.
-2013-05-29 23:06:12 INFO  Decrypt:20 - Successfully Completed Decryption.
-2013-05-29 23:06:12 DEBUG Decrypt:21 - Exiting decrypt.
-2013-05-29 23:06:12 DEBUG Init:249 - Exiting decrypt.
-2013-05-29 23:06:12 DEBUG Init:204 - Starting Decryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\encryptedfiles\Image.bmp'
-2013-05-29 23:06:12 DEBUG Init:242 - Entering decrypt.
-2013-05-29 23:06:12 DEBUG Decrypt:14 - Entering decrypt.
-2013-05-29 23:06:24 INFO  Decrypt:20 - Successfully Completed Decryption.
-2013-05-29 23:06:24 DEBUG Decrypt:21 - Exiting decrypt.
-2013-05-29 23:06:24 DEBUG Init:249 - Exiting decrypt.
-2013-05-29 23:06:24 DEBUG Init:204 - Starting Decryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\encryptedfiles\passwords.data'
-2013-05-29 23:06:24 DEBUG Init:242 - Entering decrypt.
-2013-05-29 23:06:24 DEBUG Decrypt:14 - Entering decrypt.
-2013-05-29 23:06:24 INFO  Decrypt:20 - Successfully Completed Decryption.
-2013-05-29 23:06:24 DEBUG Decrypt:21 - Exiting decrypt.
-2013-05-29 23:06:24 DEBUG Init:249 - Exiting decrypt.
-2013-05-29 23:06:24 DEBUG Init:204 - Starting Decryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\encryptedfiles\PDF.pdf'
-2013-05-29 23:06:24 DEBUG Init:242 - Entering decrypt.
-2013-05-29 23:06:24 DEBUG Decrypt:14 - Entering decrypt.
-2013-05-29 23:06:26 INFO  Decrypt:20 - Successfully Completed Decryption.
-2013-05-29 23:06:26 DEBUG Decrypt:21 - Exiting decrypt.
-2013-05-29 23:06:26 DEBUG Init:249 - Exiting decrypt.
-2013-05-29 23:06:26 DEBUG Init:204 - Starting Decryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\encryptedfiles\Text.txt'
-2013-05-29 23:06:26 DEBUG Init:242 - Entering decrypt.
-2013-05-29 23:06:26 DEBUG Decrypt:14 - Entering decrypt.
-2013-05-29 23:06:26 INFO  Decrypt:20 - Successfully Completed Decryption.
-2013-05-29 23:06:26 DEBUG Decrypt:21 - Exiting decrypt.
-2013-05-29 23:06:26 DEBUG Init:249 - Exiting decrypt.
-2013-05-29 23:06:26 DEBUG Init:204 - Starting Decryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\encryptedfiles\Word.docx'
-2013-05-29 23:06:26 DEBUG Init:242 - Entering decrypt.
-2013-05-29 23:06:26 DEBUG Decrypt:14 - Entering decrypt.
-2013-05-29 23:06:26 INFO  Decrypt:20 - Successfully Completed Decryption.
-2013-05-29 23:06:26 DEBUG Decrypt:21 - Exiting decrypt.
-2013-05-29 23:06:26 DEBUG Init:249 - Exiting decrypt.
-2013-05-29 23:06:26 DEBUG Init:182 - Entering displayDecryptOptions.
-2013-05-29 23:06:26 DEBUG Init:188 - Exiting displayDecryptOptions.
-2013-05-29 23:06:43 DEBUG Init:227 - Exiting.
-2013-05-29 23:06:43 DEBUG Init:237 - Exiting processUserInputForDecryption.
-2013-05-29 23:06:43 DEBUG Init:178 - Exiting decrypt.
-2013-05-29 23:06:43 DEBUG Init:55 - Entering displayOptions.
-2013-05-29 23:06:43 DEBUG Init:60 - Exiting displayOptions.
-2013-05-29 23:06:44 DEBUG Init:83 - Exiting.
-[DEBUG 29/05/2013 11:10:10,651] com.myinstitution.myapp.Init.main(Init.java:41) - Welcome to Encryption.
-[DEBUG 29/05/2013 11:10:10,655] com.myinstitution.myapp.Init.process(Init.java:48) - Entering process.
-[DEBUG 29/05/2013 11:10:10,655] com.myinstitution.myapp.Init.displayOptions(Init.java:55) - Entering displayOptions.
-[DEBUG 29/05/2013 11:10:10,656] com.myinstitution.myapp.Init.displayOptions(Init.java:60) - Exiting displayOptions.
-[DEBUG 29/05/2013 11:10:10,656] com.myinstitution.myapp.Init.processUserInput(Init.java:65) - Entering processUserInput.
-[DEBUG 29/05/2013 11:10:12,880] com.myinstitution.myapp.Init.processUserInput(Init.java:71) - Starting Encryption.
-[DEBUG 29/05/2013 11:10:12,880] com.myinstitution.myapp.Init.encrypt(Init.java:97) - Entering encrypt.
-[DEBUG 29/05/2013 11:10:12,881] com.myinstitution.myapp.Init.displayEncryptOptions(Init.java:104) - Entering displayEncryptOptions.
-[DEBUG 29/05/2013 11:10:12,881] com.myinstitution.myapp.Init.displayEncryptOptions(Init.java:110) - Exiting displayEncryptOptions.
-[DEBUG 29/05/2013 11:10:12,881] com.myinstitution.myapp.Init.processUserInputForEncryption(Init.java:114) - Entering processUserInputForEncryption.
-[DEBUG 29/05/2013 11:10:13,759] com.myinstitution.myapp.Init.processUserInputForEncryption(Init.java:120) - Starting Encryption of all files.
-[DEBUG 29/05/2013 11:10:13,761] com.myinstitution.myapp.Init.processUserInputForEncryption(Init.java:126) - Starting Encryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\plainfiles\Excel.xlsx'
-[DEBUG 29/05/2013 11:10:13,762] com.myinstitution.myapp.Init.encrypt(Init.java:164) - Entering encrypt.
-[DEBUG 29/05/2013 11:10:13,772] com.myinstitution.myapp.Encrypt.encrypt(Encrypt.java:15) - Entering encrypt.
-[INFO  29/05/2013 11:10:13,839] com.myinstitution.myapp.Encrypt.encrypt(Encrypt.java:21) - Successfully Completed Encryption.
-[DEBUG 29/05/2013 11:10:13,840] com.myinstitution.myapp.Encrypt.encrypt(Encrypt.java:22) - Exiting encrypt.
-[DEBUG 29/05/2013 11:10:13,843] com.myinstitution.myapp.Init.encrypt(Init.java:171) - Exiting encrypt.
-[DEBUG 29/05/2013 11:10:13,843] com.myinstitution.myapp.Init.processUserInputForEncryption(Init.java:126) - Starting Encryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\plainfiles\Image.bmp'
-[DEBUG 29/05/2013 11:10:13,843] com.myinstitution.myapp.Init.encrypt(Init.java:164) - Entering encrypt.
-[DEBUG 29/05/2013 11:10:13,844] com.myinstitution.myapp.Encrypt.encrypt(Encrypt.java:15) - Entering encrypt.
-[INFO  29/05/2013 11:10:18,398] com.myinstitution.myapp.Encrypt.encrypt(Encrypt.java:21) - Successfully Completed Encryption.
-[DEBUG 29/05/2013 11:10:18,398] com.myinstitution.myapp.Encrypt.encrypt(Encrypt.java:22) - Exiting encrypt.
-[DEBUG 29/05/2013 11:10:18,403] com.myinstitution.myapp.Init.encrypt(Init.java:171) - Exiting encrypt.
-[DEBUG 29/05/2013 11:10:18,404] com.myinstitution.myapp.Init.processUserInputForEncryption(Init.java:126) - Starting Encryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\plainfiles\passwords.data'
-[DEBUG 29/05/2013 11:10:18,404] com.myinstitution.myapp.Init.encrypt(Init.java:164) - Entering encrypt.
-[DEBUG 29/05/2013 11:10:18,405] com.myinstitution.myapp.Encrypt.encrypt(Encrypt.java:15) - Entering encrypt.
-[INFO  29/05/2013 11:10:18,407] com.myinstitution.myapp.Encrypt.encrypt(Encrypt.java:21) - Successfully Completed Encryption.
-[DEBUG 29/05/2013 11:10:18,407] com.myinstitution.myapp.Encrypt.encrypt(Encrypt.java:22) - Exiting encrypt.
-[DEBUG 29/05/2013 11:10:18,412] com.myinstitution.myapp.Init.encrypt(Init.java:171) - Exiting encrypt.
-[DEBUG 29/05/2013 11:10:18,413] com.myinstitution.myapp.Init.processUserInputForEncryption(Init.java:126) - Starting Encryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\plainfiles\PDF.pdf'
-[DEBUG 29/05/2013 11:10:18,413] com.myinstitution.myapp.Init.encrypt(Init.java:164) - Entering encrypt.
-[DEBUG 29/05/2013 11:10:18,414] com.myinstitution.myapp.Encrypt.encrypt(Encrypt.java:15) - Entering encrypt.
-[INFO  29/05/2013 11:10:21,883] com.myinstitution.myapp.Encrypt.encrypt(Encrypt.java:21) - Successfully Completed Encryption.
-[DEBUG 29/05/2013 11:10:21,883] com.myinstitution.myapp.Encrypt.encrypt(Encrypt.java:22) - Exiting encrypt.
-[DEBUG 29/05/2013 11:10:21,893] com.myinstitution.myapp.Init.encrypt(Init.java:171) - Exiting encrypt.
-[DEBUG 29/05/2013 11:10:21,894] com.myinstitution.myapp.Init.processUserInputForEncryption(Init.java:126) - Starting Encryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\plainfiles\Text.txt'
-[DEBUG 29/05/2013 11:10:21,894] com.myinstitution.myapp.Init.encrypt(Init.java:164) - Entering encrypt.
-[DEBUG 29/05/2013 11:10:21,895] com.myinstitution.myapp.Encrypt.encrypt(Encrypt.java:15) - Entering encrypt.
-[INFO  29/05/2013 11:10:21,895] com.myinstitution.myapp.Encrypt.encrypt(Encrypt.java:21) - Successfully Completed Encryption.
-[DEBUG 29/05/2013 11:10:21,895] com.myinstitution.myapp.Encrypt.encrypt(Encrypt.java:22) - Exiting encrypt.
-[DEBUG 29/05/2013 11:10:21,896] com.myinstitution.myapp.Init.encrypt(Init.java:171) - Exiting encrypt.
-[DEBUG 29/05/2013 11:10:21,896] com.myinstitution.myapp.Init.processUserInputForEncryption(Init.java:126) - Starting Encryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\plainfiles\Word.docx'
-[DEBUG 29/05/2013 11:10:21,896] com.myinstitution.myapp.Init.encrypt(Init.java:164) - Entering encrypt.
-[DEBUG 29/05/2013 11:10:21,897] com.myinstitution.myapp.Encrypt.encrypt(Encrypt.java:15) - Entering encrypt.
-[INFO  29/05/2013 11:10:21,980] com.myinstitution.myapp.Encrypt.encrypt(Encrypt.java:21) - Successfully Completed Encryption.
-[DEBUG 29/05/2013 11:10:21,980] com.myinstitution.myapp.Encrypt.encrypt(Encrypt.java:22) - Exiting encrypt.
-[DEBUG 29/05/2013 11:10:21,987] com.myinstitution.myapp.Init.encrypt(Init.java:171) - Exiting encrypt.
-[DEBUG 29/05/2013 11:10:21,987] com.myinstitution.myapp.Init.displayEncryptOptions(Init.java:104) - Entering displayEncryptOptions.
-[DEBUG 29/05/2013 11:10:21,988] com.myinstitution.myapp.Init.displayEncryptOptions(Init.java:110) - Exiting displayEncryptOptions.
-[DEBUG 29/05/2013 11:10:23,231] com.myinstitution.myapp.Init.processUserInputForEncryption(Init.java:149) - Exiting.
-[DEBUG 29/05/2013 11:10:23,232] com.myinstitution.myapp.Init.processUserInputForEncryption(Init.java:159) - Exiting processUserInputForEncryption.
-[DEBUG 29/05/2013 11:10:23,232] com.myinstitution.myapp.Init.encrypt(Init.java:100) - Exiting encrypt.
-[DEBUG 29/05/2013 11:10:23,233] com.myinstitution.myapp.Init.displayOptions(Init.java:55) - Entering displayOptions.
-[DEBUG 29/05/2013 11:10:23,234] com.myinstitution.myapp.Init.displayOptions(Init.java:60) - Exiting displayOptions.
-[DEBUG 29/05/2013 11:10:25,983] com.myinstitution.myapp.Init.processUserInput(Init.java:77) - Starting Decryption.
-[DEBUG 29/05/2013 11:10:25,984] com.myinstitution.myapp.Init.decrypt(Init.java:175) - Entering decrypt.
-[DEBUG 29/05/2013 11:10:25,984] com.myinstitution.myapp.Init.displayDecryptOptions(Init.java:182) - Entering displayDecryptOptions.
-[DEBUG 29/05/2013 11:10:25,985] com.myinstitution.myapp.Init.displayDecryptOptions(Init.java:188) - Exiting displayDecryptOptions.
-[DEBUG 29/05/2013 11:10:25,985] com.myinstitution.myapp.Init.processUserInputForDecryption(Init.java:192) - Entering processUserInputForDecryption.
-[DEBUG 29/05/2013 11:10:26,994] com.myinstitution.myapp.Init.processUserInputForDecryption(Init.java:198) - Starting Decryption of all files.
-[DEBUG 29/05/2013 11:10:26,995] com.myinstitution.myapp.Init.processUserInputForDecryption(Init.java:204) - Starting Decryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\encryptedfiles\Excel.xlsx'
-[DEBUG 29/05/2013 11:10:26,995] com.myinstitution.myapp.Init.decrypt(Init.java:242) - Entering decrypt.
-[DEBUG 29/05/2013 11:10:26,999] com.myinstitution.myapp.Decrypt.decrypt(Decrypt.java:14) - Entering decrypt.
-[INFO  29/05/2013 11:10:27,185] com.myinstitution.myapp.Decrypt.decrypt(Decrypt.java:20) - Successfully Completed Decryption.
-[DEBUG 29/05/2013 11:10:27,185] com.myinstitution.myapp.Decrypt.decrypt(Decrypt.java:21) - Exiting decrypt.
-[DEBUG 29/05/2013 11:10:27,188] com.myinstitution.myapp.Init.decrypt(Init.java:249) - Exiting decrypt.
-[DEBUG 29/05/2013 11:10:27,189] com.myinstitution.myapp.Init.processUserInputForDecryption(Init.java:204) - Starting Decryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\encryptedfiles\Image.bmp'
-[DEBUG 29/05/2013 11:10:27,189] com.myinstitution.myapp.Init.decrypt(Init.java:242) - Entering decrypt.
-[DEBUG 29/05/2013 11:10:27,190] com.myinstitution.myapp.Decrypt.decrypt(Decrypt.java:14) - Entering decrypt.
-[INFO  29/05/2013 11:10:39,103] com.myinstitution.myapp.Decrypt.decrypt(Decrypt.java:20) - Successfully Completed Decryption.
-[DEBUG 29/05/2013 11:10:39,103] com.myinstitution.myapp.Decrypt.decrypt(Decrypt.java:21) - Exiting decrypt.
-[DEBUG 29/05/2013 11:10:39,106] com.myinstitution.myapp.Init.decrypt(Init.java:249) - Exiting decrypt.
-[DEBUG 29/05/2013 11:10:39,106] com.myinstitution.myapp.Init.processUserInputForDecryption(Init.java:204) - Starting Decryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\encryptedfiles\passwords.data'
-[DEBUG 29/05/2013 11:10:39,106] com.myinstitution.myapp.Init.decrypt(Init.java:242) - Entering decrypt.
-[DEBUG 29/05/2013 11:10:39,107] com.myinstitution.myapp.Decrypt.decrypt(Decrypt.java:14) - Entering decrypt.
-[INFO  29/05/2013 11:10:39,109] com.myinstitution.myapp.Decrypt.decrypt(Decrypt.java:20) - Successfully Completed Decryption.
-[DEBUG 29/05/2013 11:10:39,109] com.myinstitution.myapp.Decrypt.decrypt(Decrypt.java:21) - Exiting decrypt.
-[DEBUG 29/05/2013 11:10:39,115] com.myinstitution.myapp.Init.decrypt(Init.java:249) - Exiting decrypt.
-[DEBUG 29/05/2013 11:10:39,115] com.myinstitution.myapp.Init.processUserInputForDecryption(Init.java:204) - Starting Decryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\encryptedfiles\PDF.pdf'
-[DEBUG 29/05/2013 11:10:39,116] com.myinstitution.myapp.Init.decrypt(Init.java:242) - Entering decrypt.
-[DEBUG 29/05/2013 11:10:39,117] com.myinstitution.myapp.Decrypt.decrypt(Decrypt.java:14) - Entering decrypt.
-[INFO  29/05/2013 11:10:41,045] com.myinstitution.myapp.Decrypt.decrypt(Decrypt.java:20) - Successfully Completed Decryption.
-[DEBUG 29/05/2013 11:10:41,045] com.myinstitution.myapp.Decrypt.decrypt(Decrypt.java:21) - Exiting decrypt.
-[DEBUG 29/05/2013 11:10:41,060] com.myinstitution.myapp.Init.decrypt(Init.java:249) - Exiting decrypt.
-[DEBUG 29/05/2013 11:10:41,060] com.myinstitution.myapp.Init.processUserInputForDecryption(Init.java:204) - Starting Decryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\encryptedfiles\Text.txt'
-[DEBUG 29/05/2013 11:10:41,061] com.myinstitution.myapp.Init.decrypt(Init.java:242) - Entering decrypt.
-[DEBUG 29/05/2013 11:10:41,061] com.myinstitution.myapp.Decrypt.decrypt(Decrypt.java:14) - Entering decrypt.
-[INFO  29/05/2013 11:10:41,062] com.myinstitution.myapp.Decrypt.decrypt(Decrypt.java:20) - Successfully Completed Decryption.
-[DEBUG 29/05/2013 11:10:41,062] com.myinstitution.myapp.Decrypt.decrypt(Decrypt.java:21) - Exiting decrypt.
-[DEBUG 29/05/2013 11:10:41,063] com.myinstitution.myapp.Init.decrypt(Init.java:249) - Exiting decrypt.
-[DEBUG 29/05/2013 11:10:41,063] com.myinstitution.myapp.Init.processUserInputForDecryption(Init.java:204) - Starting Decryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\encryptedfiles\Word.docx'
-[DEBUG 29/05/2013 11:10:41,063] com.myinstitution.myapp.Init.decrypt(Init.java:242) - Entering decrypt.
-[DEBUG 29/05/2013 11:10:41,064] com.myinstitution.myapp.Decrypt.decrypt(Decrypt.java:14) - Entering decrypt.
-[INFO  29/05/2013 11:10:41,148] com.myinstitution.myapp.Decrypt.decrypt(Decrypt.java:20) - Successfully Completed Decryption.
-[DEBUG 29/05/2013 11:10:41,149] com.myinstitution.myapp.Decrypt.decrypt(Decrypt.java:21) - Exiting decrypt.
-[DEBUG 29/05/2013 11:10:41,159] com.myinstitution.myapp.Init.decrypt(Init.java:249) - Exiting decrypt.
-[DEBUG 29/05/2013 11:10:41,165] com.myinstitution.myapp.Init.displayDecryptOptions(Init.java:182) - Entering displayDecryptOptions.
-[DEBUG 29/05/2013 11:10:41,168] com.myinstitution.myapp.Init.displayDecryptOptions(Init.java:188) - Exiting displayDecryptOptions.
-[DEBUG 29/05/2013 11:10:45,472] com.myinstitution.myapp.Init.processUserInputForDecryption(Init.java:227) - Exiting.
-[DEBUG 29/05/2013 11:10:45,473] com.myinstitution.myapp.Init.processUserInputForDecryption(Init.java:237) - Exiting processUserInputForDecryption.
-[DEBUG 29/05/2013 11:10:45,473] com.myinstitution.myapp.Init.decrypt(Init.java:178) - Exiting decrypt.
-[DEBUG 29/05/2013 11:10:45,473] com.myinstitution.myapp.Init.displayOptions(Init.java:55) - Entering displayOptions.
-[DEBUG 29/05/2013 11:10:45,474] com.myinstitution.myapp.Init.displayOptions(Init.java:60) - Exiting displayOptions.
-[DEBUG 29/05/2013 11:10:46,468] com.myinstitution.myapp.Init.processUserInput(Init.java:83) - Exiting.
+[DEBUG 05/06/2013 08:22:37,091] com.myinstitution.myapp.Init.main(Init.java:42) - Welcome to Encryption.
+[DEBUG 05/06/2013 08:22:37,095] com.myinstitution.myapp.Init.process(Init.java:49) - Entering process.
+[DEBUG 05/06/2013 08:22:37,095] com.myinstitution.myapp.Init.displayOptions(Init.java:56) - Entering displayOptions.
+[DEBUG 05/06/2013 08:22:37,096] com.myinstitution.myapp.Init.displayOptions(Init.java:61) - Exiting displayOptions.
+[DEBUG 05/06/2013 08:22:37,096] com.myinstitution.myapp.Init.processUserInput(Init.java:66) - Entering processUserInput.
+[DEBUG 05/06/2013 08:22:40,824] com.myinstitution.myapp.Init.processUserInput(Init.java:72) - Starting Encryption.
+[DEBUG 05/06/2013 08:22:40,825] com.myinstitution.myapp.Init.encrypt(Init.java:99) - Entering encrypt.
+[DEBUG 05/06/2013 08:22:40,825] com.myinstitution.myapp.Init.displayEncryptOptions(Init.java:106) - Entering displayEncryptOptions.
+[DEBUG 05/06/2013 08:22:40,825] com.myinstitution.myapp.Init.displayEncryptOptions(Init.java:112) - Exiting displayEncryptOptions.
+[DEBUG 05/06/2013 08:22:40,826] com.myinstitution.myapp.Init.processUserInputForEncryption(Init.java:116) - Entering processUserInputForEncryption.
+[DEBUG 05/06/2013 08:22:42,328] com.myinstitution.myapp.Init.processUserInputForEncryption(Init.java:122) - Starting Encryption of all files.
+[DEBUG 05/06/2013 08:22:42,332] com.myinstitution.myapp.Init.processUserInputForEncryption(Init.java:128) - Starting Encryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\plainfiles\Excel.xlsx'
+[DEBUG 05/06/2013 08:22:42,333] com.myinstitution.myapp.Init.encrypt(Init.java:167) - Entering encrypt.
+[DEBUG 05/06/2013 08:22:42,345] com.myinstitution.myapp.Encrypt.encrypt(Encrypt.java:15) - Entering encrypt.
+[INFO  05/06/2013 08:22:42,415] com.myinstitution.myapp.Encrypt.encrypt(Encrypt.java:21) - Successfully Completed Encryption.
+[DEBUG 05/06/2013 08:22:42,415] com.myinstitution.myapp.Encrypt.encrypt(Encrypt.java:22) - Exiting encrypt.
+[DEBUG 05/06/2013 08:22:42,418] com.myinstitution.myapp.Init.encrypt(Init.java:174) - Exiting encrypt.
+[DEBUG 05/06/2013 08:22:42,419] com.myinstitution.myapp.Init.processUserInputForEncryption(Init.java:128) - Starting Encryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\plainfiles\Image.bmp'
+[DEBUG 05/06/2013 08:22:42,419] com.myinstitution.myapp.Init.encrypt(Init.java:167) - Entering encrypt.
+[DEBUG 05/06/2013 08:22:42,420] com.myinstitution.myapp.Encrypt.encrypt(Encrypt.java:15) - Entering encrypt.
+[INFO  05/06/2013 08:22:46,855] com.myinstitution.myapp.Encrypt.encrypt(Encrypt.java:21) - Successfully Completed Encryption.
+[DEBUG 05/06/2013 08:22:46,855] com.myinstitution.myapp.Encrypt.encrypt(Encrypt.java:22) - Exiting encrypt.
+[DEBUG 05/06/2013 08:22:46,860] com.myinstitution.myapp.Init.encrypt(Init.java:174) - Exiting encrypt.
+[DEBUG 05/06/2013 08:22:46,860] com.myinstitution.myapp.Init.processUserInputForEncryption(Init.java:128) - Starting Encryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\plainfiles\passwords.data'
+[DEBUG 05/06/2013 08:22:46,860] com.myinstitution.myapp.Init.encrypt(Init.java:167) - Entering encrypt.
+[DEBUG 05/06/2013 08:22:46,861] com.myinstitution.myapp.Encrypt.encrypt(Encrypt.java:15) - Entering encrypt.
+[INFO  05/06/2013 08:22:46,863] com.myinstitution.myapp.Encrypt.encrypt(Encrypt.java:21) - Successfully Completed Encryption.
+[DEBUG 05/06/2013 08:22:46,863] com.myinstitution.myapp.Encrypt.encrypt(Encrypt.java:22) - Exiting encrypt.
+[DEBUG 05/06/2013 08:22:46,869] com.myinstitution.myapp.Init.encrypt(Init.java:174) - Exiting encrypt.
+[DEBUG 05/06/2013 08:22:46,869] com.myinstitution.myapp.Init.processUserInputForEncryption(Init.java:128) - Starting Encryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\plainfiles\PDF.pdf'
+[DEBUG 05/06/2013 08:22:46,870] com.myinstitution.myapp.Init.encrypt(Init.java:167) - Entering encrypt.
+[DEBUG 05/06/2013 08:22:46,871] com.myinstitution.myapp.Encrypt.encrypt(Encrypt.java:15) - Entering encrypt.
+[INFO  05/06/2013 08:22:48,744] com.myinstitution.myapp.Encrypt.encrypt(Encrypt.java:21) - Successfully Completed Encryption.
+[DEBUG 05/06/2013 08:22:48,744] com.myinstitution.myapp.Encrypt.encrypt(Encrypt.java:22) - Exiting encrypt.
+[DEBUG 05/06/2013 08:22:48,753] com.myinstitution.myapp.Init.encrypt(Init.java:174) - Exiting encrypt.
+[DEBUG 05/06/2013 08:22:48,754] com.myinstitution.myapp.Init.processUserInputForEncryption(Init.java:128) - Starting Encryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\plainfiles\Text.txt'
+[DEBUG 05/06/2013 08:22:48,754] com.myinstitution.myapp.Init.encrypt(Init.java:167) - Entering encrypt.
+[DEBUG 05/06/2013 08:22:48,755] com.myinstitution.myapp.Encrypt.encrypt(Encrypt.java:15) - Entering encrypt.
+[INFO  05/06/2013 08:22:48,755] com.myinstitution.myapp.Encrypt.encrypt(Encrypt.java:21) - Successfully Completed Encryption.
+[DEBUG 05/06/2013 08:22:48,756] com.myinstitution.myapp.Encrypt.encrypt(Encrypt.java:22) - Exiting encrypt.
+[DEBUG 05/06/2013 08:22:48,756] com.myinstitution.myapp.Init.encrypt(Init.java:174) - Exiting encrypt.
+[DEBUG 05/06/2013 08:22:48,756] com.myinstitution.myapp.Init.processUserInputForEncryption(Init.java:128) - Starting Encryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\plainfiles\Word.docx'
+[DEBUG 05/06/2013 08:22:48,756] com.myinstitution.myapp.Init.encrypt(Init.java:167) - Entering encrypt.
+[DEBUG 05/06/2013 08:22:48,757] com.myinstitution.myapp.Encrypt.encrypt(Encrypt.java:15) - Entering encrypt.
+[INFO  05/06/2013 08:22:48,840] com.myinstitution.myapp.Encrypt.encrypt(Encrypt.java:21) - Successfully Completed Encryption.
+[DEBUG 05/06/2013 08:22:48,840] com.myinstitution.myapp.Encrypt.encrypt(Encrypt.java:22) - Exiting encrypt.
+[DEBUG 05/06/2013 08:22:48,847] com.myinstitution.myapp.Init.encrypt(Init.java:174) - Exiting encrypt.
+[DEBUG 05/06/2013 08:22:48,848] com.myinstitution.myapp.Init.displayEncryptOptions(Init.java:106) - Entering displayEncryptOptions.
+[DEBUG 05/06/2013 08:22:48,848] com.myinstitution.myapp.Init.displayEncryptOptions(Init.java:112) - Exiting displayEncryptOptions.
+[DEBUG 05/06/2013 08:22:56,888] com.myinstitution.myapp.Init.processUserInputForEncryption(Init.java:151) - Exiting.
+[DEBUG 05/06/2013 08:22:56,890] com.myinstitution.myapp.Init.processUserInputForEncryption(Init.java:162) - Exiting processUserInputForEncryption.
+[DEBUG 05/06/2013 08:22:56,891] com.myinstitution.myapp.Init.encrypt(Init.java:102) - Exiting encrypt.
+[DEBUG 05/06/2013 08:22:56,891] com.myinstitution.myapp.Init.displayOptions(Init.java:56) - Entering displayOptions.
+[DEBUG 05/06/2013 08:22:56,892] com.myinstitution.myapp.Init.displayOptions(Init.java:61) - Exiting displayOptions.
+[DEBUG 05/06/2013 08:23:04,791] com.myinstitution.myapp.Init.processUserInput(Init.java:78) - Starting Decryption.
+[DEBUG 05/06/2013 08:23:04,791] com.myinstitution.myapp.Init.decrypt(Init.java:178) - Entering decrypt.
+[DEBUG 05/06/2013 08:23:04,791] com.myinstitution.myapp.Init.displayDecryptOptions(Init.java:185) - Entering displayDecryptOptions.
+[DEBUG 05/06/2013 08:23:04,792] com.myinstitution.myapp.Init.displayDecryptOptions(Init.java:191) - Exiting displayDecryptOptions.
+[DEBUG 05/06/2013 08:23:04,792] com.myinstitution.myapp.Init.processUserInputForDecryption(Init.java:195) - Entering processUserInputForDecryption.
+[DEBUG 05/06/2013 08:23:06,663] com.myinstitution.myapp.Init.processUserInputForDecryption(Init.java:201) - Starting Decryption of all files.
+[DEBUG 05/06/2013 08:23:06,665] com.myinstitution.myapp.Init.processUserInputForDecryption(Init.java:207) - Starting Decryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\encryptedfiles\Excel.xlsx'
+[DEBUG 05/06/2013 08:23:06,666] com.myinstitution.myapp.Init.decrypt(Init.java:246) - Entering decrypt.
+[DEBUG 05/06/2013 08:23:06,675] com.myinstitution.myapp.Decrypt.decrypt(Decrypt.java:14) - Entering decrypt.
+[INFO  05/06/2013 08:23:06,758] com.myinstitution.myapp.Decrypt.decrypt(Decrypt.java:20) - Successfully Completed Decryption.
+[DEBUG 05/06/2013 08:23:06,758] com.myinstitution.myapp.Decrypt.decrypt(Decrypt.java:21) - Exiting decrypt.
+[DEBUG 05/06/2013 08:23:06,761] com.myinstitution.myapp.Init.decrypt(Init.java:253) - Exiting decrypt.
+[DEBUG 05/06/2013 08:23:06,762] com.myinstitution.myapp.Init.processUserInputForDecryption(Init.java:207) - Starting Decryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\encryptedfiles\Image.bmp'
+[DEBUG 05/06/2013 08:23:06,762] com.myinstitution.myapp.Init.decrypt(Init.java:246) - Entering decrypt.
+[DEBUG 05/06/2013 08:23:06,763] com.myinstitution.myapp.Decrypt.decrypt(Decrypt.java:14) - Entering decrypt.
+[INFO  05/06/2013 08:23:11,224] com.myinstitution.myapp.Decrypt.decrypt(Decrypt.java:20) - Successfully Completed Decryption.
+[DEBUG 05/06/2013 08:23:11,224] com.myinstitution.myapp.Decrypt.decrypt(Decrypt.java:21) - Exiting decrypt.
+[DEBUG 05/06/2013 08:23:11,227] com.myinstitution.myapp.Init.decrypt(Init.java:253) - Exiting decrypt.
+[DEBUG 05/06/2013 08:23:11,227] com.myinstitution.myapp.Init.processUserInputForDecryption(Init.java:207) - Starting Decryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\encryptedfiles\passwords.data'
+[DEBUG 05/06/2013 08:23:11,228] com.myinstitution.myapp.Init.decrypt(Init.java:246) - Entering decrypt.
+[DEBUG 05/06/2013 08:23:11,229] com.myinstitution.myapp.Decrypt.decrypt(Decrypt.java:14) - Entering decrypt.
+[INFO  05/06/2013 08:23:11,230] com.myinstitution.myapp.Decrypt.decrypt(Decrypt.java:20) - Successfully Completed Decryption.
+[DEBUG 05/06/2013 08:23:11,231] com.myinstitution.myapp.Decrypt.decrypt(Decrypt.java:21) - Exiting decrypt.
+[DEBUG 05/06/2013 08:23:11,236] com.myinstitution.myapp.Init.decrypt(Init.java:253) - Exiting decrypt.
+[DEBUG 05/06/2013 08:23:11,236] com.myinstitution.myapp.Init.processUserInputForDecryption(Init.java:207) - Starting Decryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\encryptedfiles\PDF.pdf'
+[DEBUG 05/06/2013 08:23:11,236] com.myinstitution.myapp.Init.decrypt(Init.java:246) - Entering decrypt.
+[DEBUG 05/06/2013 08:23:11,238] com.myinstitution.myapp.Decrypt.decrypt(Decrypt.java:14) - Entering decrypt.
+[INFO  05/06/2013 08:23:13,244] com.myinstitution.myapp.Decrypt.decrypt(Decrypt.java:20) - Successfully Completed Decryption.
+[DEBUG 05/06/2013 08:23:13,244] com.myinstitution.myapp.Decrypt.decrypt(Decrypt.java:21) - Exiting decrypt.
+[DEBUG 05/06/2013 08:23:13,261] com.myinstitution.myapp.Init.decrypt(Init.java:253) - Exiting decrypt.
+[DEBUG 05/06/2013 08:23:13,262] com.myinstitution.myapp.Init.processUserInputForDecryption(Init.java:207) - Starting Decryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\encryptedfiles\Text.txt'
+[DEBUG 05/06/2013 08:23:13,262] com.myinstitution.myapp.Init.decrypt(Init.java:246) - Entering decrypt.
+[DEBUG 05/06/2013 08:23:13,264] com.myinstitution.myapp.Decrypt.decrypt(Decrypt.java:14) - Entering decrypt.
+[INFO  05/06/2013 08:23:13,265] com.myinstitution.myapp.Decrypt.decrypt(Decrypt.java:20) - Successfully Completed Decryption.
+[DEBUG 05/06/2013 08:23:13,265] com.myinstitution.myapp.Decrypt.decrypt(Decrypt.java:21) - Exiting decrypt.
+[DEBUG 05/06/2013 08:23:13,265] com.myinstitution.myapp.Init.decrypt(Init.java:253) - Exiting decrypt.
+[DEBUG 05/06/2013 08:23:13,265] com.myinstitution.myapp.Init.processUserInputForDecryption(Init.java:207) - Starting Decryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\encryptedfiles\Word.docx'
+[DEBUG 05/06/2013 08:23:13,266] com.myinstitution.myapp.Init.decrypt(Init.java:246) - Entering decrypt.
+[DEBUG 05/06/2013 08:23:13,266] com.myinstitution.myapp.Decrypt.decrypt(Decrypt.java:14) - Entering decrypt.
+[INFO  05/06/2013 08:23:13,346] com.myinstitution.myapp.Decrypt.decrypt(Decrypt.java:20) - Successfully Completed Decryption.
+[DEBUG 05/06/2013 08:23:13,346] com.myinstitution.myapp.Decrypt.decrypt(Decrypt.java:21) - Exiting decrypt.
+[DEBUG 05/06/2013 08:23:13,355] com.myinstitution.myapp.Init.decrypt(Init.java:253) - Exiting decrypt.
+[DEBUG 05/06/2013 08:23:13,360] com.myinstitution.myapp.Init.displayDecryptOptions(Init.java:185) - Entering displayDecryptOptions.
+[DEBUG 05/06/2013 08:23:13,362] com.myinstitution.myapp.Init.displayDecryptOptions(Init.java:191) - Exiting displayDecryptOptions.
+[DEBUG 05/06/2013 08:23:18,022] com.myinstitution.myapp.Init.processUserInputForDecryption(Init.java:230) - Exiting.
+[DEBUG 05/06/2013 08:23:18,023] com.myinstitution.myapp.Init.processUserInputForDecryption(Init.java:241) - Exiting processUserInputForDecryption.
+[DEBUG 05/06/2013 08:23:18,023] com.myinstitution.myapp.Init.decrypt(Init.java:181) - Exiting decrypt.
+[DEBUG 05/06/2013 08:23:18,023] com.myinstitution.myapp.Init.displayOptions(Init.java:56) - Entering displayOptions.
+[DEBUG 05/06/2013 08:23:18,024] com.myinstitution.myapp.Init.displayOptions(Init.java:61) - Exiting displayOptions.
+[DEBUG 05/06/2013 08:23:23,622] com.myinstitution.myapp.Init.processUserInput(Init.java:84) - Exiting.

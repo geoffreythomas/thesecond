@@ -35,6 +35,7 @@ public class Init {
 			+ DEFAULT_FILENAME;
 
 	private static final Logger LOGGER = Logger.getLogger(Init.class);
+	private static Scanner scanner;
 
 	public static void main(String[] args) throws IOException {
 		// BasicConfigurator.configure();
@@ -63,7 +64,7 @@ public class Init {
 	private static void processUserInput() throws FileNotFoundException,
 			IOException {
 		LOGGER.debug("Entering processUserInput.");
-		Scanner scanner = new Scanner(System.in);
+		scanner = new Scanner(System.in);
 		while (scanner.hasNext()) {
 			String nextLine = scanner.nextLine();
 			String choice = nextLine.trim();
@@ -113,7 +114,7 @@ public class Init {
 
 	private static void processUserInputForEncryption() throws IOException {
 		LOGGER.debug("Entering processUserInputForEncryption.");
-		Scanner scanner = new Scanner(System.in);
+		scanner = new Scanner(System.in);
 		while (scanner.hasNext()) {
 			String nextLine = scanner.nextLine();
 			String choice = nextLine.trim();
@@ -157,7 +158,7 @@ public class Init {
 				displayEncryptOptions();
 			}
 		}
-		scanner.close();
+		// scanner.close();
 		LOGGER.debug("Exiting processUserInputForEncryption.");
 	}
 
@@ -192,7 +193,7 @@ public class Init {
 
 	private static void processUserInputForDecryption() throws IOException {
 		LOGGER.debug("Entering processUserInputForDecryption.");
-		Scanner scanner = new Scanner(System.in);
+		scanner = new Scanner(System.in);
 		while (scanner.hasNext()) {
 			String nextLine = scanner.nextLine();
 			String choice = nextLine.trim();
@@ -236,7 +237,7 @@ public class Init {
 				displayDecryptOptions();
 			}
 		}
-		scanner.close();
+		// scanner.close();
 		LOGGER.debug("Exiting processUserInputForDecryption.");
 	}
 
