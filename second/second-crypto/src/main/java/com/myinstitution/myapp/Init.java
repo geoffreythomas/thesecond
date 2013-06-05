@@ -89,8 +89,8 @@ public class Init {
 				System.out.println("You have entered an invalid choice.");
 				displayOptions();
 			}
-			scanner.close();
 		}
+		scanner.close();
 		LOGGER.debug("Exiting processUserInput.");
 	}
 
