@@ -1,9 +1,7 @@
 package com.myinstitution.myapp;
 
 import java.io.File;
-import java.io.FileInputStream;
 import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.Scanner;
 
@@ -130,7 +128,7 @@ public class Init {
 					System.out.println("Starting Encryption of file: '"
 							+ inputFilepath + "'");
 					String outputfilePath = ENCRYPTED_FOLDER_OUTPUT + files[i];
-					encrypt(inputFilepath, outputfilePath);
+					getEncrypt().encrypt(inputFilepath, outputfilePath);
 					System.out.println("Completed Encryption of file: '"
 							+ inputFilepath + "'");
 				}
@@ -143,7 +141,7 @@ public class Init {
 				System.out.println("Starting Encryption of file: '"
 						+ inputFilepath + "'");
 				String outputfilePath = ENCRYPTED_FILE_OUTPUT;
-				encrypt(inputFilepath, outputfilePath);
+				getEncrypt().encrypt(inputFilepath, outputfilePath);
 				System.out.println("Completed Encryption of file: '"
 						+ inputFilepath + "'");
 				displayEncryptOptions();
@@ -162,16 +160,8 @@ public class Init {
 		LOGGER.debug("Exiting processUserInputForEncryption.");
 	}
 
-	private static void encrypt(String inputFilepath, String outputfilePath)
-			throws FileNotFoundException, IOException {
-		LOGGER.debug("Entering encrypt.");
-		FileInputStream fileInputStream = new FileInputStream(inputFilepath);
-		FileOutputStream fileOutputStream = new FileOutputStream(outputfilePath);
-		Encrypt encrypt = new Encrypt();
-		encrypt.encrypt(fileInputStream, fileOutputStream);
-		fileInputStream.close();
-		fileOutputStream.close();
-		LOGGER.debug("Exiting encrypt.");
+	private static Encrypt getEncrypt() {
+		return new Encrypt();
 	}
 
 	private static void decrypt() throws IOException {
@@ -209,7 +199,7 @@ public class Init {
 					System.out.println("Starting Decryption of file: '"
 							+ inputFilepath + "'");
 					String outputfilePath = DECRYPTED_FOLDER_OUTPUT + files[i];
-					decrypt(inputFilepath, outputfilePath);
+					getDecrypt().decrypt(inputFilepath, outputfilePath);
 					System.out.println("Completed Decryption of file: '"
 							+ inputFilepath + "'");
 				}
@@ -222,7 +212,7 @@ public class Init {
 				System.out.println("Starting Decryption of file: '"
 						+ inputFilepath + "'");
 				String outputfilePath = DECRYPTED_FILE_OUTPUT;
-				decrypt(inputFilepath, outputfilePath);
+				getDecrypt().decrypt(inputFilepath, outputfilePath);
 				System.out.println("Completed Decryption of file: '"
 						+ inputFilepath + "'");
 				displayDecryptOptions();
@@ -241,15 +231,7 @@ public class Init {
 		LOGGER.debug("Exiting processUserInputForDecryption.");
 	}
 
-	private static void decrypt(String inputFilepath, String outputfilePath)
-			throws IOException {
-		LOGGER.debug("Entering decrypt.");
-		FileInputStream fileInputStream = new FileInputStream(inputFilepath);
-		FileOutputStream fileOutputStream = new FileOutputStream(outputfilePath);
-		Decrypt decrypt = new Decrypt();
-		decrypt.decrypt(fileInputStream, fileOutputStream);
-		fileInputStream.close();
-		fileOutputStream.close();
-		LOGGER.debug("Exiting decrypt.");
+	private static Decrypt getDecrypt() {
+		return new Decrypt();
 	}
 }

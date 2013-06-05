@@ -9,15 +9,27 @@ import org.apache.log4j.Logger;
 public class Decrypt {
 	private static final Logger LOGGER = Logger.getLogger(Decrypt.class);
 
-	public void decrypt(FileInputStream fileInputStream,
+	private void decrypt(FileInputStream fileInputStream,
 			FileOutputStream fileOutputStream) throws IOException {
-		LOGGER.debug("Entering decrypt.");
+		LOGGER.debug("Entering.");
 		int read = fileInputStream.read();
 		while (read != -1) {
 			fileOutputStream.write(read - 1);
 			read = fileInputStream.read();
 		}
 		LOGGER.info("Successfully Completed Decryption.");
-		LOGGER.debug("Exiting decrypt.");
+		LOGGER.debug("Exiting.");
+	}
+
+	public void decrypt(String inputFilepath, String outputfilePath)
+			throws IOException {
+		LOGGER.debug("Entering.");
+		FileInputStream fileInputStream = new FileInputStream(inputFilepath);
+		FileOutputStream fileOutputStream = new FileOutputStream(outputfilePath);
+		Decrypt decrypt = new Decrypt();
+		decrypt.decrypt(fileInputStream, fileOutputStream);
+		fileInputStream.close();
+		fileOutputStream.close();
+		LOGGER.debug("Exiting.");
 	}
 }
