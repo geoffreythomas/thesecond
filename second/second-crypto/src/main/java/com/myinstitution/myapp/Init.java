@@ -89,6 +89,7 @@ public class Init {
 				System.out.println("You have entered an invalid choice.");
 				displayOptions();
 			}
+			scanner.close();
 		}
 		LOGGER.debug("Exiting processUserInput.");
 	}
@@ -156,6 +157,7 @@ public class Init {
 				displayEncryptOptions();
 			}
 		}
+		scanner.close();
 		LOGGER.debug("Exiting processUserInputForEncryption.");
 	}
 
@@ -234,6 +236,7 @@ public class Init {
 				displayDecryptOptions();
 			}
 		}
+		scanner.close();
 		LOGGER.debug("Exiting processUserInputForDecryption.");
 	}
 
