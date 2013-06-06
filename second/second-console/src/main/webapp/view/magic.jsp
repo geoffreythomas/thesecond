@@ -1,15 +1,13 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
-<%@ include file="/framework/jsp/commonDef.jspf" %>
-    
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<%@ include file="/framework/jsp/commonInclude.jspf" %>
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Ubuntu 01 Webapp Magic</title>
-<jsp:include page="/framework/jsp/commonInclude.jsp"></jsp:include>
 </head>
 <body>
+<br>
+<%@ include file="/framework/jsp/menu.jspf" %>
+<br>
 There is no such thing as magic. Only hard work exist.
 
 <div id="fi-basic"/>
