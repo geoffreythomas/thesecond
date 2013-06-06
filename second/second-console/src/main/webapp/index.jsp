@@ -2,13 +2,20 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Ubuntu 01 Webapp Welcome</title>
-
+<title>Welcome</title>
 </head>
 <body>
-Welcome to the Webapp.
-<br>
+<table>
+<tr>
+<td>
 <%@ include file="/framework/jsp/menu.jspf" %>
-<br>
+</td>
+</tr>
+<tr>
+<td>
+Welcome to the Webapp.
+</td>
+</tr>
+</table>
 </body>
 </html>

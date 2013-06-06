@@ -5,11 +5,18 @@
 <title>All Identities</title>
 </head>
 <body>
-<br>
+<table>
+<tr>
+<td>
 <%@ include file="/framework/jsp/menu.jspf" %>
-<br>
+</td>
+</tr>
+<tr>
+<td>
 All Identities
 <c:out   value="${identities}"   />
-
+</td>
+</tr>
+</table>
 </body>
 </html>

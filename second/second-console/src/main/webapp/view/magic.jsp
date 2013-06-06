@@ -2,22 +2,29 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Ubuntu 01 Webapp Magic</title>
+<title>Magic</title>
 </head>
 <body>
-<br>
+<table>
+<tr>
+<td>
 <%@ include file="/framework/jsp/menu.jspf" %>
-<br>
+</td>
+</tr>
+<tr>
+<td>
 There is no such thing as magic. Only hard work exist.
-
-<div id="fi-basic"/>
-<div id="fi-basic-btn"/>
-<div id="fi-button"/>
-<div id="fi-form"/>
+<div id="fi-basic"></div>
+<div id="fi-basic-btn"></div>
+<div id="fi-button"></div>
+<div id="fi-form"></div>
+</td>
+</tr>
+</table>
 </body>
 </html>
 
-<script language="javascript">
+<script lang="javascript">
 
 Ext.require([
              'Ext.form.field.File',

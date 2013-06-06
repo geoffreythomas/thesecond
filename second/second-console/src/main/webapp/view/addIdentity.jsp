@@ -5,9 +5,20 @@
 <title>Add User</title>
 </head>
 <body>
-<br>
+<table>
+<tr>
+<td>
 <%@ include file="/framework/jsp/menu.jspf" %>
-<br>
+</td>
+</tr>
+<tr>
+<td>
+<div id="form-div"></div>
+</td>
+</tr>
+</table>
+</body>
+</html>
 <script type="text/javascript">
 Ext.require([
              'Ext.form.*',
@@ -19,7 +30,7 @@ Ext.require([
              Ext.tip.QuickTipManager.init();
 
              var formPanel = Ext.widget('form', {
-                 renderTo: Ext.getBody(),
+                 renderTo: 'form-div',
                  frame: true,
                  width: 350,
                  bodyPadding: 10,
@@ -244,10 +255,5 @@ Ext.require([
              });
 
          });
-
-
 </script>
 
-
-</body>
-</html>
