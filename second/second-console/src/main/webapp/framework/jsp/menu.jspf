@@ -1,0 +1,69 @@
+
+<div id="main-menu"/>
+
+<script language="javascript">
+Ext.onReady(function(){
+
+	var mySplitButton = Ext.create('Ext.button.Split', {
+	    text: 'Home',
+	    handler: function() {
+	        var myForm = Ext.create('Ext.form.Panel', {
+	            title: 'myForm',
+	            standardSubmit: true,
+	            url: '<c:out value="${pageContext.request.contextPath}"/>',
+	        });
+	        myForm.submit();
+	    },
+	    menu: new Ext.menu.Menu({
+	        items: [
+					{
+						text: 'Magic', 
+						handler: function() {
+							submitForm("/view/magic.jsp");
+						}
+		            },
+					{
+						text: 'EXT JS', 
+						handler: function() {
+							submitForm("/view/magic.jsp");
+						}
+		            },
+					{
+						text: 'Spring MVC', 
+						handler: function() {
+							submitForm("/identities.do?action=listAllUsers");
+						}
+		            },
+					{
+						text: 'List Users', 
+						handler: function() {
+							submitForm("/identities.do?action=listAllUsers");
+						}
+		            },
+					{
+						text: 'Add User', 
+						handler: function() {
+							submitForm("/identities.do?action=prepareAddUser");
+						}
+		            },
+					{
+						text: 'Test', 
+						handler: function() {
+							submitForm("/identities.do?action=prepareAddUser");
+						}
+		            }
+	        ]
+	    })
+	});
+	
+	Ext.create('Ext.toolbar.Toolbar', {
+	    renderTo: 'main-menu',
+	    width   : 500,
+	    items: [
+	        mySplitButton
+	    ]
+	});
+});
+
+
+</script>
