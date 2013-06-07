@@ -1,5 +1,5 @@
-<link rel="stylesheet" href="<c:out value="${pageContext.request.contextPath}"/>/framework/ext-4.0.2a/resources/css/ext-all.css" type="text/css" />
-<script type="text/javascript" src="<c:out value="${pageContext.request.contextPath}"/>/framework/ext-4.0.2a/ext-all-debug-w-comments.js"></script> 
+<link rel="stylesheet" href="<c:out value="${pageContext.request.contextPath}"/>/framework/ext-4.2.1-gpl/resources/ext-theme-classic/ext-theme-classic-all.css" type="text/css" />
+<script type="text/javascript" src="<c:out value="${pageContext.request.contextPath}"/>/framework/ext-4.2.1-gpl/ext-all-debug-w-comments.js"></script> 
 <script type="text/javascript">
 Ext.BLANK_IMAGE_URL="<c:out value="${pageContext.request.contextPath}"/>/images/s.gif";
 </script>
