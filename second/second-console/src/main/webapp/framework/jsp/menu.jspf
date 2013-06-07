@@ -1,92 +1,92 @@
 
-<div id="main-menu"/>
+<div id="main-menu"></div>
 
-<script language="javascript">
+<script lang="javascript">
 Ext.onReady(function(){
 
-	var mySplitButton1 = Ext.create('Ext.button.Split', {
-	    text: 'Home',
-	    handler: function() {
-		    submitForm("");
-	    },
-	    menu: new Ext.menu.Menu({
-	        items: [
-					{
-						text: 'Home', 
-						handler: function() {
-							submitForm("");
-						}
-		            }
-	        ]
-	    })
-	});
-	
-	var mySplitButton2 = Ext.create('Ext.button.Split', {
-	    text: 'Manage Users',
-	    handler: function() {
-	    	submitForm("/identities.do?action=listAllUsers");
-	    },
-	    menu: new Ext.menu.Menu({
-	        items: [
-					{
-						text: 'List Users', 
-						handler: function() {
-							submitForm("/identities.do?action=listAllUsers");
-						}
-		            },
-					{
-						text: 'Add User', 
-						handler: function() {
-							submitForm("/identities.do?action=prepareAddUser");
-						}
-		            }
-	        ]
-	    })
-	});
-	
-	var mySplitButton3 = Ext.create('Ext.button.Split', {
-	    text: 'Others',
-	    handler: function() {
-	    	submitForm("");
-	    },
-	    menu: new Ext.menu.Menu({
-	        items: [
-					{
-						text: 'Magic', 
-						handler: function() {
-							submitForm("/view/magic.jsp");
-						}
-		            },
-					{
-						text: 'EXT JS', 
-						handler: function() {
-							submitForm("/view/magic.jsp");
-						}
-		            },
-					{
-						text: 'Spring MVC', 
-						handler: function() {
-							submitForm("/identities.do?action=listAllUsers");
-						}
-		            },
-					{
-						text: 'Test', 
-						handler: function() {
-							submitForm("/identities.do?action=prepareAddUser");
-						}
-		            }
-	        ]
-	    })
-	});
-	
-	Ext.create('Ext.toolbar.Toolbar', {
-	    renderTo: 'main-menu',
-	    width   : 700,
-	    items: [
-		        mySplitButton1,
-		        mySplitButton2,
-		        mySplitButton3
-	    ]
-	});
+    var mySplitButton1 = Ext.create('Ext.button.Split', {
+        text: 'Home',
+        handler: function() {
+            submitForm("");
+        },
+        menu: new Ext.menu.Menu({
+            items: [
+                    {
+                        text: 'Home', 
+                        handler: function() {
+                            submitForm("");
+                        }
+                    }
+            ]
+        })
+    });
+    
+    var mySplitButton2 = Ext.create('Ext.button.Split', {
+        text: 'Manage Users',
+        handler: function() {
+            submitForm("/identities.do?action=listAllUsers");
+        },
+        menu: new Ext.menu.Menu({
+            items: [
+                    {
+                        text: 'List Users', 
+                        handler: function() {
+                            submitForm("/identities.do?action=listAllUsers");
+                        }
+                    },
+                    {
+                        text: 'Add User', 
+                        handler: function() {
+                            submitForm("/identities.do?action=prepareAddUser");
+                        }
+                    }
+            ]
+        })
+    });
+    
+    var mySplitButton3 = Ext.create('Ext.button.Split', {
+        text: 'Others',
+        handler: function() {
+            submitForm("");
+        },
+        menu: new Ext.menu.Menu({
+            items: [
+                    {
+                        text: 'Magic', 
+                        handler: function() {
+                            submitForm("/view/magic.jsp");
+                        }
+                    },
+                    {
+                        text: 'EXT JS', 
+                        handler: function() {
+                            submitForm("/view/magic.jsp");
+                        }
+                    },
+                    {
+                        text: 'Spring MVC', 
+                        handler: function() {
+                            submitForm("/identities.do?action=listAllUsers");
+                        }
+                    },
+                    {
+                        text: 'Test', 
+                        handler: function() {
+                            submitForm("/identities.do?action=prepareAddUser");
+                        }
+                    }
+            ]
+        })
+    });
+    
+    Ext.create('Ext.toolbar.Toolbar', {
+        renderTo: 'main-menu',
+        width   : 700,
+        items: [
+                mySplitButton1,
+                mySplitButton2,
+                mySplitButton3
+    ]
+    });
 });
 </script>

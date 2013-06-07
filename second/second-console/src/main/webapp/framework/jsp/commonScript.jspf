@@ -5,16 +5,16 @@ Ext.BLANK_IMAGE_URL="<c:out value="${pageContext.request.contextPath}"/>/images/
 </script>
 
 <script lang="javascript">
-	function submitForm(formURL) {
-		getForm(formURL).submit();
-	}
-	
-	function getForm(formURL) {
-		var myForm = Ext.create('Ext.form.Panel', {
-			title: 'myForm',
-			standardSubmit: true,
-			url: '<c:out value="${pageContext.request.contextPath}"/>' + formURL,
-		});
-		return myForm;
-	}
+    function submitForm(formURL) {
+        getForm(formURL).submit();
+    }
+    
+    function getForm(formURL) {
+        var myForm = Ext.create('Ext.form.Panel', {
+            title: 'myForm',
+            standardSubmit: true,
+            url: '<c:out value="${pageContext.request.contextPath}"/>' + formURL,
+        });
+        return myForm;
+    }
 </script>
