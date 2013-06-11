@@ -26,27 +26,22 @@ public class UserBeanImpl implements UserBean {
     }
 
     public void addUsers() {
-        // TODO Auto-generated method stub
 
     }
 
     public void updateUser() {
-        // TODO Auto-generated method stub
 
     }
 
     public void deleteUser() {
-        // TODO Auto-generated method stub
 
     }
 
     public void deleteUsers() {
-        // TODO Auto-generated method stub
 
     }
 
     public void getUserByID() {
-        // TODO Auto-generated method stub
 
     }
 
