@@ -3,7 +3,7 @@ package com.geoffrey.second.controller;
 import java.util.HashMap;
 import java.util.Map;
 
-import org.apache.log4j.Logger;
+import org.slf4j.Logger;
 import org.springframework.beans.factory.BeanFactory;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
@@ -14,12 +14,14 @@ import org.springframework.web.servlet.ModelAndView;
 
 import com.geoffrey.second.identity.UserDTO;
 import com.geoffrey.second.identity.client.UserBean;
+import com.myinstitution.myapp.logger.LoggerFactory;
 
 @Controller
 @RequestMapping("/identities.do")
 public class IdentityController {
 
-    private static Logger logger = Logger.getLogger(IdentityController.class);
+    private static Logger logger = LoggerFactory
+            .getLogger(IdentityController.class);
 
     @RequestMapping(params = "action=listAllUsers")
     public ModelAndView listAllUsers() {

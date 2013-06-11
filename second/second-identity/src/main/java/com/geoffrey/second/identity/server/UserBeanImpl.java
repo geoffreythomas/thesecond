@@ -2,16 +2,17 @@ package com.geoffrey.second.identity.server;
 
 import java.util.GregorianCalendar;
 
-import org.apache.log4j.Logger;
+import org.slf4j.Logger;
 
 import com.geoffrey.second.identity.UserDTO;
 import com.geoffrey.second.identity.client.UserBean;
+import com.myinstitution.myapp.logger.LoggerFactory;
 
 public class UserBeanImpl implements UserBean {
 
     private static final long serialVersionUID = -5469068509021751946L;
 
-    private static Logger logger = Logger.getLogger(UserBeanImpl.class);
+    private static Logger logger = LoggerFactory.getLogger(UserBeanImpl.class);
 
     public String listUsers() {
         return "[Polgar, Judit -" + GregorianCalendar.getInstance().getTime()
