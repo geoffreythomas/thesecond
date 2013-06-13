@@ -1,28 +1,9 @@
-<%@ include file="/framework/jsp/commonInclude.jspf" %>
-<html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Magic</title>
-</head>
-<body>
-<table>
-<tr>
-<td>
-<%@ include file="/framework/jsp/menu.jspf" %>
-</td>
-</tr>
-<tr>
-<td>
+
 There is no such thing as magic. Only hard work exist.
 <div id="fi-basic"></div>
 <div id="fi-basic-btn"></div>
 <div id="fi-button"></div>
 <div id="fi-form"></div>
-</td>
-</tr>
-</table>
-</body>
-</html>
 
 <script lang="javascript">
 

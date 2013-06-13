@@ -61,6 +61,22 @@ public class IdentityController {
         return users;
     }
 
+    @RequestMapping(params = "action=magic")
+    public ModelAndView magic() {
+        logger.info("Entering");
+        ModelAndView modelAndView = new ModelAndView("magic");
+        logger.info("Exiting");
+        return modelAndView;
+    }
+
+    @RequestMapping(params = "action=test")
+    public ModelAndView test() {
+        logger.info("Entering");
+        ModelAndView modelAndView = new ModelAndView("test");
+        logger.info("Exiting");
+        return modelAndView;
+    }
+
     public static UserBean getUserBean() {
         UserBean userBean;
         userBean = (UserBean) getBeanFactory().getBean(UserBean.BEAN_ID);

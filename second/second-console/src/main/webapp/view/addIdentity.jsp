@@ -1,24 +1,7 @@
-<%@ include file="/framework/jsp/commonInclude.jspf" %>
-<html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Add User</title>
-</head>
-<body>
-<table>
-<tr>
-<td>
-<%@ include file="/framework/jsp/menu.jspf" %>
-</td>
-</tr>
-<tr>
-<td>
+<%@ include file="/framework/jsp/commonDef.jspf" %>
+
 <div id="form-div"></div>
-</td>
-</tr>
-</table>
-</body>
-</html>
+
 <script type="text/javascript">
 Ext.require([
              'Ext.form.*',

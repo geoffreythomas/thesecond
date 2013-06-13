@@ -54,13 +54,7 @@ Ext.onReady(function(){
                     {
                         text: 'Magic', 
                         handler: function() {
-                            submitForm("/view/magic.jsp");
-                        }
-                    },
-                    {
-                        text: 'EXT JS', 
-                        handler: function() {
-                            submitForm("/view/magic.jsp");
+                            submitForm("/identities.do?action=magic");
                         }
                     },
                     {
@@ -72,7 +66,7 @@ Ext.onReady(function(){
                     {
                         text: 'Test', 
                         handler: function() {
-                            submitForm("/identities.do?action=prepareAddUser");
+                            submitForm("/identities.do?action=test");
                         }
                     }
             ]
