@@ -4,9 +4,6 @@ import java.util.HashMap;
 import java.util.Map;
 
 import org.slf4j.Logger;
-import org.springframework.beans.factory.BeanFactory;
-import org.springframework.context.ApplicationContext;
-import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -18,46 +15,46 @@ import com.myinstitution.myapp.logger.LoggerFactory;
 
 @Controller
 @RequestMapping("/identities.do")
-public class IdentityController {
+public class IdentityController extends AbstractController {
 
     private static Logger logger = LoggerFactory
             .getLogger(IdentityController.class);
 
     @RequestMapping(params = "action=listAllUsers")
     public ModelAndView listAllUsers() {
-        logger.info("Entering listAllUsers");
-        logger.debug("testing");
+        logger.info("Entering");
+        logger.debug("testing debug");
         logger.error("testing error");
         Map<String, Object> map = new HashMap<String, Object>();
         map.put("identities", listUsers());
         ModelAndView modelAndView = new ModelAndView("listIdentities", map);
-        logger.info("Exiting listAllUsers");
+        logger.info("Exiting");
         return modelAndView;
     }
 
     @RequestMapping(params = "action=prepareAddUser")
     public ModelAndView prepareAddUser() {
-        logger.info("Entering prepareAddUser");
+        logger.info("Entering");
         ModelAndView modelAndView = new ModelAndView("addIdentity");
-        logger.info("Exiting prepareAddUser");
+        logger.info("Exiting");
         return modelAndView;
     }
 
     @RequestMapping(params = "action=addUser")
     public String addUser(@ModelAttribute("userDTO") UserDTO dto) {
-        logger.info("Entering addUser");
+        logger.info("Entering");
         UserBean userBean = getUserBean();
         userBean.addUser(dto);
-        logger.info("Exiting addUser");
+        logger.info("Exiting");
         return "redirect:identities.do?action=listAllUsers";
     }
 
     public static String listUsers() {
-        logger.info("Entering listUsers");
+        logger.info("Entering");
         UserBean userBean = getUserBean();
         String users = userBean.listUsers();
         logger.info("Users: " + users);
-        logger.info("Exiting listUsers");
+        logger.info("Exiting");
         return users;
     }
 
@@ -86,17 +83,10 @@ public class IdentityController {
     }
 
     public static UserBean getUserBean() {
+        logger.info("Entering");
         UserBean userBean;
         userBean = (UserBean) getBeanFactory().getBean(UserBean.BEAN_ID);
+        logger.info("Exiting");
         return userBean;
-    }
-
-    public static BeanFactory getBeanFactory() {
-        ApplicationContext context = new ClassPathXmlApplicationContext(
-                new String[] { "spring-identity.xml" });
-
-        // an ApplicationContext is also a BeanFactory (via inheritance)
-        BeanFactory factory = context;
-        return factory;
     }
 }
