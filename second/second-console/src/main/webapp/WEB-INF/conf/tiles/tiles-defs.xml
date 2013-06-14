@@ -5,29 +5,33 @@
 
 <tiles-definitions>
     <definition name="base" template="/framework/jsp/layouts/mainLayout.jsp">
-        <put-attribute name="title" value="Test" />
         <put-attribute name="header" value="/framework/jsp/commonInclude.jsp" />
         <put-attribute name="menu" value="/framework/jsp/menu.jspf" />
         <put-attribute name="body" />
     </definition>
    
     <definition name="magic" extends="base">
+        <put-attribute name="title" value="Magic" />
         <put-attribute name="body" value="/view/magic.jsp" />
     </definition>
     
     <definition name="addIdentity" extends="base">
+        <put-attribute name="title" value="Add Identity" />
         <put-attribute name="body" value="/view/addIdentity.jsp" />
     </definition>
 
     <definition name="listIdentities" extends="base">
+        <put-attribute name="title" value="List Identities" />
         <put-attribute name="body" value="/view/listIdentities.jsp" />
     </definition>
         
     <definition name="test" extends="base">
+        <put-attribute name="title" value="Test" />
         <put-attribute name="body" value="/view/test.jsp" />
     </definition>
     
     <definition name="home" extends="base">
+        <put-attribute name="title" value="Home" />
         <put-attribute name="body" value="/view/home.jsp" />
     </definition>
 </tiles-definitions>
