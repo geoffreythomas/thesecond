@@ -1,10 +1,7 @@
 <%@ page session="false" %>
 <%@ taglib uri="http://tiles.apache.org/tags-tiles" prefix="tiles" %>
-<!-- Start mainLayout -->
 
-<!-- Start header -->
 <tiles:insertAttribute name="header" defaultValue="This is the default header." defaultValueType="template"/>
-<!-- End header -->
 <html>
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -33,4 +30,3 @@
     </table>
   </body>
 </html>
-<!-- End mainLayout -->
