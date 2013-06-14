@@ -1,7 +1,6 @@
-package com.myinstitution.myapp;
+package com.myinstitution.myapp.crypto;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
@@ -9,28 +8,28 @@ import org.slf4j.Logger;
 
 import com.myinstitution.myapp.logger.LoggerFactory;
 
-public class Encrypt {
-    private static final Logger LOGGER = LoggerFactory.getLogger(Encrypt.class);
+public class Decrypt {
+    private static final Logger LOGGER = LoggerFactory.getLogger(Decrypt.class);
 
-    private void encrypt(FileInputStream fileInputStream,
+    private void decrypt(FileInputStream fileInputStream,
             FileOutputStream fileOutputStream) throws IOException {
         LOGGER.debug("Entering.");
         int read = fileInputStream.read();
         while (read != -1) {
-            fileOutputStream.write(read + 1);
+            fileOutputStream.write(read - 1);
             read = fileInputStream.read();
         }
-        LOGGER.info("Successfully Completed Encryption.");
+        LOGGER.info("Successfully Completed Decryption.");
         LOGGER.debug("Exiting.");
     }
 
-    public void encrypt(String inputFilepath, String outputfilePath)
-            throws FileNotFoundException, IOException {
+    public void decrypt(String inputFilepath, String outputfilePath)
+            throws IOException {
         LOGGER.debug("Entering.");
         FileInputStream fileInputStream = new FileInputStream(inputFilepath);
         FileOutputStream fileOutputStream = new FileOutputStream(outputfilePath);
-        Encrypt encrypt = new Encrypt();
-        encrypt.encrypt(fileInputStream, fileOutputStream);
+        Decrypt decrypt = new Decrypt();
+        decrypt.decrypt(fileInputStream, fileOutputStream);
         fileInputStream.close();
         fileOutputStream.close();
         LOGGER.debug("Exiting.");

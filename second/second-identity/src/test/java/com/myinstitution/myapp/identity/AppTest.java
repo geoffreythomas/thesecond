@@ -1,4 +1,4 @@
-package com.geoffrey.second.controller;
+package com.myinstitution.myapp.identity;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

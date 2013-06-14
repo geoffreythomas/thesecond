@@ -1,4 +1,4 @@
-package com.geoffrey.second.identity;
+package com.myinstitution.myapp.identity;
 
 import java.io.Serializable;
 

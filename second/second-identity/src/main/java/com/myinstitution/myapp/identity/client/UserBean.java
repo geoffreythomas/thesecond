@@ -1,8 +1,8 @@
-package com.geoffrey.second.identity.client;
+package com.myinstitution.myapp.identity.client;
 
 import java.io.Serializable;
 
-import com.geoffrey.second.identity.UserDTO;
+import com.myinstitution.myapp.identity.UserDTO;
 
 public interface UserBean extends Serializable {
     public static final String BEAN_ID = "UserBean";

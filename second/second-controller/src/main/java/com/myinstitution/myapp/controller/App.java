@@ -1,4 +1,4 @@
-package com.geoffrey.second.controller;
+package com.myinstitution.myapp.controller;
 
 /**
  * Hello world!

@@ -1,4 +1,4 @@
-package com.geoffrey.second.controller;
+package com.myinstitution.myapp.controller;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -12,8 +12,8 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.geoffrey.second.identity.UserDTO;
-import com.geoffrey.second.identity.client.UserBean;
+import com.myinstitution.myapp.identity.UserDTO;
+import com.myinstitution.myapp.identity.client.UserBean;
 import com.myinstitution.myapp.logger.LoggerFactory;
 
 @Controller

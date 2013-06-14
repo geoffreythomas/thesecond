@@ -1,11 +1,11 @@
-package com.geoffrey.second.identity.server;
+package com.myinstitution.myapp.identity.server;
 
 import java.util.GregorianCalendar;
 
 import org.slf4j.Logger;
 
-import com.geoffrey.second.identity.UserDTO;
-import com.geoffrey.second.identity.client.UserBean;
+import com.myinstitution.myapp.identity.UserDTO;
+import com.myinstitution.myapp.identity.client.UserBean;
 import com.myinstitution.myapp.logger.LoggerFactory;
 
 public class UserBeanImpl implements UserBean {

@@ -3,7 +3,7 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-<bean id="UserBean" class="com.geoffrey.second.identity.server.UserBeanImpl">
+<bean id="UserBean" class="com.myinstitution.myapp.identity.server.UserBeanImpl">
 	
 </bean>
 </beans>

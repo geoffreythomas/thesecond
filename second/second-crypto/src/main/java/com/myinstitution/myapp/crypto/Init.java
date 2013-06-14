@@ -1,4 +1,4 @@
-package com.myinstitution.myapp;
+package com.myinstitution.myapp.crypto;
 
 import java.io.File;
 import java.io.FileNotFoundException;
