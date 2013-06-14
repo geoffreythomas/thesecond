@@ -58,30 +58,6 @@ public class IdentityController extends AbstractController {
         return users;
     }
 
-    @RequestMapping(params = "action=magic")
-    public ModelAndView magic() {
-        logger.info("Entering");
-        ModelAndView modelAndView = new ModelAndView("magic");
-        logger.info("Exiting");
-        return modelAndView;
-    }
-
-    @RequestMapping(params = "action=home")
-    public ModelAndView home() {
-        logger.info("Entering");
-        ModelAndView modelAndView = new ModelAndView("home");
-        logger.info("Exiting");
-        return modelAndView;
-    }
-
-    @RequestMapping(params = "action=test")
-    public ModelAndView test() {
-        logger.info("Entering");
-        ModelAndView modelAndView = new ModelAndView("test");
-        logger.info("Exiting");
-        return modelAndView;
-    }
-
     public static UserBean getUserBean() {
         logger.info("Entering");
         UserBean userBean;

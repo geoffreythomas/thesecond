@@ -47,20 +47,20 @@ Ext.onReady(function(){
     var mySplitButton3 = Ext.create('Ext.button.Split', {
         text: 'Others',
         handler: function() {
-            submitForm("");
+            submitForm("/welcome.do?action=test");
         },
         menu: new Ext.menu.Menu({
             items: [
                     {
                         text: 'Magic', 
                         handler: function() {
-                            submitForm("/identities.do?action=magic");
+                            submitForm("/welcome.do?action=magic");
                         }
                     },
                     {
                         text: 'Test', 
                         handler: function() {
-                            submitForm("/identities.do?action=test");
+                            submitForm("/welcome.do?action=test");
                         }
                     }
             ]
