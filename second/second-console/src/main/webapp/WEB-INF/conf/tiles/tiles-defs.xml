@@ -28,6 +28,6 @@
     </definition>
     
     <definition name="home" extends="base">
-        <put-attribute name="body" value="/view/test.jsp" />
+        <put-attribute name="body" value="/view/home.jsp" />
     </definition>
 </tiles-definitions>

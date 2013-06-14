@@ -69,6 +69,14 @@ public class IdentityController {
         return modelAndView;
     }
 
+    @RequestMapping(params = "action=home")
+    public ModelAndView home() {
+        logger.info("Entering");
+        ModelAndView modelAndView = new ModelAndView("home");
+        logger.info("Exiting");
+        return modelAndView;
+    }
+
     @RequestMapping(params = "action=test")
     public ModelAndView test() {
         logger.info("Entering");

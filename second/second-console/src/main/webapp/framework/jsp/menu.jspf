@@ -58,12 +58,6 @@ Ext.onReady(function(){
                         }
                     },
                     {
-                        text: 'Spring MVC', 
-                        handler: function() {
-                            submitForm("/identities.do?action=listAllUsers");
-                        }
-                    },
-                    {
                         text: 'Test', 
                         handler: function() {
                             submitForm("/identities.do?action=test");
