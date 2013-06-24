@@ -14,6 +14,9 @@
         <dependent-module archiveName="second-identity-0.0.2-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/second-identity/second-identity">
             <dependency-type>uses</dependency-type>
         </dependent-module>
+        <dependent-module archiveName="second-crypto-0.0.2-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/second-crypto/second-crypto">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
         <property name="context-root" value="second-console"/>
         <property name="java-output-path" value="/second-console/target/classes"/>
     </wb-module>

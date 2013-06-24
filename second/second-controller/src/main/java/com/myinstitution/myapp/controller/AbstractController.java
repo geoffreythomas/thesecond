@@ -15,7 +15,7 @@ public abstract class AbstractController {
     public static BeanFactory getBeanFactory() {
         logger.info("Entering");
         ApplicationContext context = new ClassPathXmlApplicationContext(
-                new String[] { "spring-identity.xml" });
+                new String[] { "spring-identity.xml", "spring-crypto.xml" });
 
         // an ApplicationContext is also a BeanFactory (via inheritance)
         BeanFactory factory = context;

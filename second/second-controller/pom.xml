@@ -29,6 +29,13 @@
   		<scope>compile</scope>
   	</dependency>
     <dependency>
+        <groupId>${project.parent.groupId}</groupId>
+        <artifactId>second-crypto</artifactId>
+        <version>${project.parent.version}</version>
+        <type>jar</type>
+        <scope>compile</scope>
+    </dependency>
+    <dependency>
         <groupId>junit</groupId>
   	    <artifactId>junit</artifactId>
     </dependency>
