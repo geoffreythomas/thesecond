@@ -15,7 +15,7 @@ public class CryptoController extends AbstractController {
             .getLogger(CryptoController.class);
 
     @RequestMapping(params = "action=prepareCryptoHome")
-    public ModelAndView prepareAddUser() {
+    public ModelAndView prepareCryptoHome() {
         logger.info("Entering");
         ModelAndView modelAndView = new ModelAndView("cryptoHome");
         logger.info("Exiting");

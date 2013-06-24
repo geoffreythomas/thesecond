@@ -12,22 +12,27 @@
    
     <definition name="magic" extends="base">
         <put-attribute name="title" value="Magic" />
-        <put-attribute name="body" value="/view/magic.jsp" />
+        <put-attribute name="body" value="/view/test/magic.jsp" />
     </definition>
     
     <definition name="addIdentity" extends="base">
         <put-attribute name="title" value="Add Identity" />
-        <put-attribute name="body" value="/view/addIdentity.jsp" />
+        <put-attribute name="body" value="/view/users/addIdentity.jsp" />
     </definition>
 
     <definition name="listIdentities" extends="base">
         <put-attribute name="title" value="List Identities" />
-        <put-attribute name="body" value="/view/listIdentities.jsp" />
+        <put-attribute name="body" value="/view/users/listIdentities.jsp" />
     </definition>
-        
+     
+    <definition name="cryptoHome" extends="base">
+        <put-attribute name="title" value="Crypto Home" />
+        <put-attribute name="body" value="/view/crypto/cryptoHome.jsp" />
+    </definition>
+    
     <definition name="test" extends="base">
         <put-attribute name="title" value="Test" />
-        <put-attribute name="body" value="/view/test.jsp" />
+        <put-attribute name="body" value="/view/test/test.jsp" />
     </definition>
     
     <definition name="home" extends="base">

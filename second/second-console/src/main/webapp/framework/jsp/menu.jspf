@@ -43,8 +43,25 @@ Ext.onReady(function(){
             ]
         })
     });
-    
+
     var mySplitButton3 = Ext.create('Ext.button.Split', {
+        text: 'Crypto',
+        handler: function() {
+            submitForm("/crypto.do?action=prepareCryptoHome");
+        },
+        menu: new Ext.menu.Menu({
+            items: [
+                    {
+                        text: 'Crypto', 
+                        handler: function() {
+                            submitForm("/crypto.do?action=prepareCryptoHome");
+                        }
+                    }
+            ]
+        })
+    });
+    
+    var mySplitButtonZ = Ext.create('Ext.button.Split', {
         text: 'Others',
         handler: function() {
             submitForm("/welcome.do?action=test");
@@ -73,7 +90,8 @@ Ext.onReady(function(){
         items: [
                 mySplitButton1,
                 mySplitButton2,
-                mySplitButton3
+                mySplitButton3,
+                mySplitButtonZ
     ]
     });
 });
