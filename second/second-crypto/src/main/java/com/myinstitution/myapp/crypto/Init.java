@@ -163,7 +163,7 @@ public class Init {
     }
 
     private static Encrypt getEncrypt() {
-        return new Encrypt();
+        return new EncryptDefaultImpl();
     }
 
     private static void decrypt() throws IOException {
@@ -234,6 +234,6 @@ public class Init {
     }
 
     private static Decrypt getDecrypt() {
-        return new Decrypt();
+        return new DecryptDefaultImpl();
     }
 }

@@ -3,10 +3,10 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-<bean id="DecryptBean" class="com.myinstitution.myapp.crypto.Decrypt">
+<bean id="DecryptBean" class="com.myinstitution.myapp.crypto.DecryptDefaultImpl">
 	
 </bean>
-<bean id="EncryptBean" class="com.myinstitution.myapp.crypto.Encrypt">
+<bean id="EncryptBean" class="com.myinstitution.myapp.crypto.EncryptDefaultImpl">
     
 </bean>
 </beans>
