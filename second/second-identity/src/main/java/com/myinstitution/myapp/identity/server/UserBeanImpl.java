@@ -23,6 +23,7 @@ public class UserBeanImpl implements UserBean {
     public void addUser(UserDTO userDTO) {
         logger.info("Entering addUser");
         logger.info(userDTO.getFirstName());
+        logger.info(userDTO.getLastName());
         logger.info("Exiting addUser");
     }
 
