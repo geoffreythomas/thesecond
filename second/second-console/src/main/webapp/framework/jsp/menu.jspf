@@ -6,13 +6,14 @@ Ext.onReady(function(){
 
     var mySplitButton1 = Ext.create('Ext.button.Split', {
         text: 'Home',
+        id: 'mainMenu_Level0_Home',
         handler: function() {
             submitForm("");
         },
         menu: new Ext.menu.Menu({
             items: [
                     {
-                        text: 'Home', 
+                        text: 'Home',
                         handler: function() {
                             submitForm("");
                         }
@@ -23,6 +24,7 @@ Ext.onReady(function(){
     
     var mySplitButton2 = Ext.create('Ext.button.Split', {
         text: 'Manage Users',
+        id: 'mainMenu_Level0_ManageUsers',
         handler: function() {
             submitForm("/identities.do?action=listAllUsers");
         },

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <artifactId>second</artifactId>
+    <groupId>com.geoffrey</groupId>
+    <version>0.0.3-SNAPSHOT</version>
+  </parent>
+  <artifactId>second-ft</artifactId>
+  <name>second-ft</name>
+  <dependencies>
+    <dependency>
+        <groupId>org.seleniumhq.selenium</groupId>
+        <artifactId>selenium-java</artifactId>
+    </dependency>  
+    <dependency>
+        <groupId>org.testng</groupId>
+        <artifactId>testng</artifactId>
+    </dependency>
+  </dependencies>
+</project>

@@ -152,6 +152,13 @@
             <type>jar</type>
             <scope>test</scope>
         </dependency>
+        <dependency>
+	        <groupId>org.seleniumhq.selenium</groupId>
+	        <artifactId>selenium-java</artifactId>
+            <version>${org.seleniumhq.selenium.version}</version>
+            <type>jar</type>
+            <scope>test</scope>
+        </dependency>
   	</dependencies>
   </dependencyManagement>
   
@@ -165,6 +172,7 @@
     <javax.servlet.servlet.version>3.1.0</javax.servlet.servlet.version>
     <javax.servlet.jsp.version>2.3.1</javax.servlet.jsp.version>
     <org.testng.version>6.8.5</org.testng.version>
+    <org.seleniumhq.selenium.version>2.33.0</org.seleniumhq.selenium.version>
   </properties>
 
   <dependencies>
@@ -175,6 +183,7 @@
   	<module>second-controller</module>
   	<module>second-crypto</module>
     <module>second-logger</module>
+    <module>second-ft</module>
   </modules>
   
   <build>
@@ -224,7 +233,6 @@
   </build>
   
   <reporting>
-    <outputDirectory>C:\Storehouse\eclipse\workspaces\git-juno-jee\thesecond\second\target\site</outputDirectory>
     <plugins>
       <plugin>
         <groupId>org.codehaus.mojo</groupId>
