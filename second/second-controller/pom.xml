@@ -5,7 +5,7 @@
   <parent>
     <artifactId>second</artifactId>
     <groupId>com.geoffrey</groupId>
-    <version>0.0.2-SNAPSHOT</version>
+    <version>0.0.3-SNAPSHOT</version>
   </parent>
   <artifactId>second-controller</artifactId>
   <name>second-controller</name>

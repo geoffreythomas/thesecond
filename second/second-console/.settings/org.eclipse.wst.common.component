@@ -5,16 +5,16 @@
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/test/java"/>
-        <dependent-module archiveName="second-controller-0.0.2-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/second-controller/second-controller">
+        <dependent-module archiveName="second-controller-0.0.3-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/second-controller/second-controller">
             <dependency-type>uses</dependency-type>
         </dependent-module>
-        <dependent-module archiveName="second-logger-0.0.2-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/second-logger/second-logger">
+        <dependent-module archiveName="second-logger-0.0.3-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/second-logger/second-logger">
             <dependency-type>uses</dependency-type>
         </dependent-module>
-        <dependent-module archiveName="second-identity-0.0.2-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/second-identity/second-identity">
+        <dependent-module archiveName="second-identity-0.0.3-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/second-identity/second-identity">
             <dependency-type>uses</dependency-type>
         </dependent-module>
-        <dependent-module archiveName="second-crypto-0.0.2-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/second-crypto/second-crypto">
+        <dependent-module archiveName="second-crypto-0.0.3-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/second-crypto/second-crypto">
             <dependency-type>uses</dependency-type>
         </dependent-module>
         <property name="context-root" value="second-console"/>
