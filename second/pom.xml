@@ -183,6 +183,7 @@
   	<module>second-controller</module>
   	<module>second-crypto</module>
     <module>second-logger</module>
+    <module>second-common</module>
     <module>second-ft</module>
   </modules>
   
