@@ -184,6 +184,7 @@
   	<module>second-crypto</module>
     <module>second-logger</module>
     <module>second-common</module>
+    <module>second-esafe</module>
     <module>second-ft</module>
   </modules>
   
