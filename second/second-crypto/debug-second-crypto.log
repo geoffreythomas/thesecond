@@ -718,3 +718,950 @@
 [DEBUG 25/06/2013 02:16:10,118] com.myinstitution.myapp.crypto.Init.displayOptions(Init.java:56) - Entering displayOptions.
 [DEBUG 25/06/2013 02:16:10,118] com.myinstitution.myapp.crypto.Init.displayOptions(Init.java:61) - Exiting displayOptions.
 [DEBUG 25/06/2013 02:16:11,540] com.myinstitution.myapp.crypto.Init.processUserInput(Init.java:84) - Exiting.
+[DEBUG 06/11/2013 01:14:54,794] com.myinstitution.myapp.crypto.Init.main(Init.java:42) - Welcome to Encryption.
+[DEBUG 06/11/2013 01:14:54,800] com.myinstitution.myapp.crypto.Init.process(Init.java:49) - Entering process.
+[DEBUG 06/11/2013 01:14:54,800] com.myinstitution.myapp.crypto.Init.displayOptions(Init.java:56) - Entering displayOptions.
+[DEBUG 06/11/2013 01:14:54,801] com.myinstitution.myapp.crypto.Init.displayOptions(Init.java:61) - Exiting displayOptions.
+[DEBUG 06/11/2013 01:14:54,801] com.myinstitution.myapp.crypto.Init.processUserInput(Init.java:66) - Entering processUserInput.
+[DEBUG 06/11/2013 01:15:13,448] com.myinstitution.myapp.crypto.Init.processUserInput(Init.java:84) - Exiting.
+[DEBUG 06/11/2013 01:15:21,083] com.myinstitution.myapp.crypto.Init.main(Init.java:42) - Welcome to Encryption.
+[DEBUG 06/11/2013 01:15:21,088] com.myinstitution.myapp.crypto.Init.process(Init.java:49) - Entering process.
+[DEBUG 06/11/2013 01:15:21,088] com.myinstitution.myapp.crypto.Init.displayOptions(Init.java:56) - Entering displayOptions.
+[DEBUG 06/11/2013 01:15:21,089] com.myinstitution.myapp.crypto.Init.displayOptions(Init.java:61) - Exiting displayOptions.
+[DEBUG 06/11/2013 01:15:21,089] com.myinstitution.myapp.crypto.Init.processUserInput(Init.java:66) - Entering processUserInput.
+[DEBUG 06/11/2013 01:15:30,016] com.myinstitution.myapp.crypto.Init.processUserInput(Init.java:72) - Starting Encryption.
+[DEBUG 06/11/2013 01:15:30,017] com.myinstitution.myapp.crypto.Init.encrypt(Init.java:99) - Entering encrypt.
+[DEBUG 06/11/2013 01:15:30,017] com.myinstitution.myapp.crypto.Init.displayEncryptOptions(Init.java:106) - Entering displayEncryptOptions.
+[DEBUG 06/11/2013 01:15:30,017] com.myinstitution.myapp.crypto.Init.displayEncryptOptions(Init.java:112) - Exiting displayEncryptOptions.
+[DEBUG 06/11/2013 01:15:30,017] com.myinstitution.myapp.crypto.Init.processUserInputForEncryption(Init.java:116) - Entering processUserInputForEncryption.
+[DEBUG 06/11/2013 01:15:36,466] com.myinstitution.myapp.crypto.Init.processUserInputForEncryption(Init.java:122) - Starting Encryption of all files.
+[DEBUG 06/11/2013 01:15:36,507] com.myinstitution.myapp.crypto.Init.processUserInputForEncryption(Init.java:128) - Starting Encryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\plainfiles\Excel.xlsx'
+[DEBUG 06/11/2013 01:15:36,508] com.myinstitution.myapp.crypto.EncryptDefaultImpl.encrypt(EncryptDefaultImpl.java:34) - Entering.
+[DEBUG 06/11/2013 01:15:36,537] com.myinstitution.myapp.crypto.EncryptDefaultImpl.encrypt(EncryptDefaultImpl.java:20) - Entering.
+[INFO  06/11/2013 01:15:36,584] com.myinstitution.myapp.crypto.EncryptDefaultImpl.encrypt(EncryptDefaultImpl.java:26) - Successfully Completed Encryption.
+[DEBUG 06/11/2013 01:15:36,584] com.myinstitution.myapp.crypto.EncryptDefaultImpl.encrypt(EncryptDefaultImpl.java:27) - Exiting.
+[DEBUG 06/11/2013 01:15:36,596] com.myinstitution.myapp.crypto.EncryptDefaultImpl.encrypt(EncryptDefaultImpl.java:41) - Exiting.
+[DEBUG 06/11/2013 01:15:36,596] com.myinstitution.myapp.crypto.Init.processUserInputForEncryption(Init.java:128) - Starting Encryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\plainfiles\Image.bmp'
+[DEBUG 06/11/2013 01:15:36,596] com.myinstitution.myapp.crypto.EncryptDefaultImpl.encrypt(EncryptDefaultImpl.java:34) - Entering.
+[DEBUG 06/11/2013 01:15:36,633] com.myinstitution.myapp.crypto.EncryptDefaultImpl.encrypt(EncryptDefaultImpl.java:20) - Entering.
+[INFO  06/11/2013 01:15:40,980] com.myinstitution.myapp.crypto.EncryptDefaultImpl.encrypt(EncryptDefaultImpl.java:26) - Successfully Completed Encryption.
+[DEBUG 06/11/2013 01:15:40,980] com.myinstitution.myapp.crypto.EncryptDefaultImpl.encrypt(EncryptDefaultImpl.java:27) - Exiting.
+[DEBUG 06/11/2013 01:15:40,984] com.myinstitution.myapp.crypto.EncryptDefaultImpl.encrypt(EncryptDefaultImpl.java:41) - Exiting.
+[DEBUG 06/11/2013 01:15:40,984] com.myinstitution.myapp.crypto.Init.processUserInputForEncryption(Init.java:128) - Starting Encryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\plainfiles\passwords.data'
+[DEBUG 06/11/2013 01:15:40,984] com.myinstitution.myapp.crypto.EncryptDefaultImpl.encrypt(EncryptDefaultImpl.java:34) - Entering.
+[DEBUG 06/11/2013 01:15:40,990] com.myinstitution.myapp.crypto.EncryptDefaultImpl.encrypt(EncryptDefaultImpl.java:20) - Entering.
+[INFO  06/11/2013 01:15:40,992] com.myinstitution.myapp.crypto.EncryptDefaultImpl.encrypt(EncryptDefaultImpl.java:26) - Successfully Completed Encryption.
+[DEBUG 06/11/2013 01:15:40,993] com.myinstitution.myapp.crypto.EncryptDefaultImpl.encrypt(EncryptDefaultImpl.java:27) - Exiting.
+[DEBUG 06/11/2013 01:15:40,999] com.myinstitution.myapp.crypto.EncryptDefaultImpl.encrypt(EncryptDefaultImpl.java:41) - Exiting.
+[DEBUG 06/11/2013 01:15:40,999] com.myinstitution.myapp.crypto.Init.processUserInputForEncryption(Init.java:128) - Starting Encryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\plainfiles\PDF.pdf'
+[DEBUG 06/11/2013 01:15:40,999] com.myinstitution.myapp.crypto.EncryptDefaultImpl.encrypt(EncryptDefaultImpl.java:34) - Entering.
+[DEBUG 06/11/2013 01:15:41,042] com.myinstitution.myapp.crypto.EncryptDefaultImpl.encrypt(EncryptDefaultImpl.java:20) - Entering.
+[INFO  06/11/2013 01:15:42,851] com.myinstitution.myapp.crypto.EncryptDefaultImpl.encrypt(EncryptDefaultImpl.java:26) - Successfully Completed Encryption.
+[DEBUG 06/11/2013 01:15:42,851] com.myinstitution.myapp.crypto.EncryptDefaultImpl.encrypt(EncryptDefaultImpl.java:27) - Exiting.
+[DEBUG 06/11/2013 01:15:42,861] com.myinstitution.myapp.crypto.EncryptDefaultImpl.encrypt(EncryptDefaultImpl.java:41) - Exiting.
+[DEBUG 06/11/2013 01:15:42,861] com.myinstitution.myapp.crypto.Init.processUserInputForEncryption(Init.java:128) - Starting Encryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\plainfiles\Text.txt'
+[DEBUG 06/11/2013 01:15:42,861] com.myinstitution.myapp.crypto.EncryptDefaultImpl.encrypt(EncryptDefaultImpl.java:34) - Entering.
+[DEBUG 06/11/2013 01:15:42,901] com.myinstitution.myapp.crypto.EncryptDefaultImpl.encrypt(EncryptDefaultImpl.java:20) - Entering.
+[INFO  06/11/2013 01:15:42,901] com.myinstitution.myapp.crypto.EncryptDefaultImpl.encrypt(EncryptDefaultImpl.java:26) - Successfully Completed Encryption.
+[DEBUG 06/11/2013 01:15:42,901] com.myinstitution.myapp.crypto.EncryptDefaultImpl.encrypt(EncryptDefaultImpl.java:27) - Exiting.
+[DEBUG 06/11/2013 01:15:42,902] com.myinstitution.myapp.crypto.EncryptDefaultImpl.encrypt(EncryptDefaultImpl.java:41) - Exiting.
+[DEBUG 06/11/2013 01:15:42,902] com.myinstitution.myapp.crypto.Init.processUserInputForEncryption(Init.java:128) - Starting Encryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\plainfiles\Word.docx'
+[DEBUG 06/11/2013 01:15:42,902] com.myinstitution.myapp.crypto.EncryptDefaultImpl.encrypt(EncryptDefaultImpl.java:34) - Entering.
+[DEBUG 06/11/2013 01:15:42,918] com.myinstitution.myapp.crypto.EncryptDefaultImpl.encrypt(EncryptDefaultImpl.java:20) - Entering.
+[INFO  06/11/2013 01:15:42,997] com.myinstitution.myapp.crypto.EncryptDefaultImpl.encrypt(EncryptDefaultImpl.java:26) - Successfully Completed Encryption.
+[DEBUG 06/11/2013 01:15:42,997] com.myinstitution.myapp.crypto.EncryptDefaultImpl.encrypt(EncryptDefaultImpl.java:27) - Exiting.
+[DEBUG 06/11/2013 01:15:43,006] com.myinstitution.myapp.crypto.EncryptDefaultImpl.encrypt(EncryptDefaultImpl.java:41) - Exiting.
+[DEBUG 06/11/2013 01:15:43,006] com.myinstitution.myapp.crypto.Init.displayEncryptOptions(Init.java:106) - Entering displayEncryptOptions.
+[DEBUG 06/11/2013 01:15:43,006] com.myinstitution.myapp.crypto.Init.displayEncryptOptions(Init.java:112) - Exiting displayEncryptOptions.
+[DEBUG 06/11/2013 01:15:52,656] com.myinstitution.myapp.crypto.Init.processUserInputForEncryption(Init.java:122) - Starting Encryption of all files.
+[DEBUG 06/11/2013 01:15:52,657] com.myinstitution.myapp.crypto.Init.processUserInputForEncryption(Init.java:128) - Starting Encryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\plainfiles\Excel.xlsx'
+[DEBUG 06/11/2013 01:15:52,658] com.myinstitution.myapp.crypto.EncryptDefaultImpl.encrypt(EncryptDefaultImpl.java:34) - Entering.
+[DEBUG 06/11/2013 01:15:52,658] com.myinstitution.myapp.crypto.EncryptDefaultImpl.encrypt(EncryptDefaultImpl.java:20) - Entering.
+[INFO  06/11/2013 01:15:52,718] com.myinstitution.myapp.crypto.EncryptDefaultImpl.encrypt(EncryptDefaultImpl.java:26) - Successfully Completed Encryption.
+[DEBUG 06/11/2013 01:15:52,718] com.myinstitution.myapp.crypto.EncryptDefaultImpl.encrypt(EncryptDefaultImpl.java:27) - Exiting.
+[DEBUG 06/11/2013 01:15:52,727] com.myinstitution.myapp.crypto.EncryptDefaultImpl.encrypt(EncryptDefaultImpl.java:41) - Exiting.
+[DEBUG 06/11/2013 01:15:52,742] com.myinstitution.myapp.crypto.Init.processUserInputForEncryption(Init.java:128) - Starting Encryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\plainfiles\Image.bmp'
+[DEBUG 06/11/2013 01:15:52,743] com.myinstitution.myapp.crypto.EncryptDefaultImpl.encrypt(EncryptDefaultImpl.java:34) - Entering.
+[DEBUG 06/11/2013 01:15:52,744] com.myinstitution.myapp.crypto.EncryptDefaultImpl.encrypt(EncryptDefaultImpl.java:20) - Entering.
+[INFO  06/11/2013 01:15:57,081] com.myinstitution.myapp.crypto.EncryptDefaultImpl.encrypt(EncryptDefaultImpl.java:26) - Successfully Completed Encryption.
+[DEBUG 06/11/2013 01:15:57,082] com.myinstitution.myapp.crypto.EncryptDefaultImpl.encrypt(EncryptDefaultImpl.java:27) - Exiting.
+[DEBUG 06/11/2013 01:15:57,086] com.myinstitution.myapp.crypto.EncryptDefaultImpl.encrypt(EncryptDefaultImpl.java:41) - Exiting.
+[DEBUG 06/11/2013 01:15:57,086] com.myinstitution.myapp.crypto.Init.processUserInputForEncryption(Init.java:128) - Starting Encryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\plainfiles\passwords.data'
+[DEBUG 06/11/2013 01:15:57,087] com.myinstitution.myapp.crypto.EncryptDefaultImpl.encrypt(EncryptDefaultImpl.java:34) - Entering.
+[DEBUG 06/11/2013 01:15:57,087] com.myinstitution.myapp.crypto.EncryptDefaultImpl.encrypt(EncryptDefaultImpl.java:20) - Entering.
+[INFO  06/11/2013 01:15:57,089] com.myinstitution.myapp.crypto.EncryptDefaultImpl.encrypt(EncryptDefaultImpl.java:26) - Successfully Completed Encryption.
+[DEBUG 06/11/2013 01:15:57,089] com.myinstitution.myapp.crypto.EncryptDefaultImpl.encrypt(EncryptDefaultImpl.java:27) - Exiting.
+[DEBUG 06/11/2013 01:15:57,094] com.myinstitution.myapp.crypto.EncryptDefaultImpl.encrypt(EncryptDefaultImpl.java:41) - Exiting.
+[DEBUG 06/11/2013 01:15:57,094] com.myinstitution.myapp.crypto.Init.processUserInputForEncryption(Init.java:128) - Starting Encryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\plainfiles\PDF.pdf'
+[DEBUG 06/11/2013 01:15:57,095] com.myinstitution.myapp.crypto.EncryptDefaultImpl.encrypt(EncryptDefaultImpl.java:34) - Entering.
+[DEBUG 06/11/2013 01:15:57,095] com.myinstitution.myapp.crypto.EncryptDefaultImpl.encrypt(EncryptDefaultImpl.java:20) - Entering.
+[INFO  06/11/2013 01:15:58,878] com.myinstitution.myapp.crypto.EncryptDefaultImpl.encrypt(EncryptDefaultImpl.java:26) - Successfully Completed Encryption.
+[DEBUG 06/11/2013 01:15:58,879] com.myinstitution.myapp.crypto.EncryptDefaultImpl.encrypt(EncryptDefaultImpl.java:27) - Exiting.
+[DEBUG 06/11/2013 01:15:58,889] com.myinstitution.myapp.crypto.EncryptDefaultImpl.encrypt(EncryptDefaultImpl.java:41) - Exiting.
+[DEBUG 06/11/2013 01:15:58,890] com.myinstitution.myapp.crypto.Init.processUserInputForEncryption(Init.java:128) - Starting Encryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\plainfiles\Text.txt'
+[DEBUG 06/11/2013 01:15:58,890] com.myinstitution.myapp.crypto.EncryptDefaultImpl.encrypt(EncryptDefaultImpl.java:34) - Entering.
+[DEBUG 06/11/2013 01:15:58,891] com.myinstitution.myapp.crypto.EncryptDefaultImpl.encrypt(EncryptDefaultImpl.java:20) - Entering.
+[INFO  06/11/2013 01:15:58,891] com.myinstitution.myapp.crypto.EncryptDefaultImpl.encrypt(EncryptDefaultImpl.java:26) - Successfully Completed Encryption.
+[DEBUG 06/11/2013 01:15:58,891] com.myinstitution.myapp.crypto.EncryptDefaultImpl.encrypt(EncryptDefaultImpl.java:27) - Exiting.
+[DEBUG 06/11/2013 01:15:58,892] com.myinstitution.myapp.crypto.EncryptDefaultImpl.encrypt(EncryptDefaultImpl.java:41) - Exiting.
+[DEBUG 06/11/2013 01:15:58,892] com.myinstitution.myapp.crypto.Init.processUserInputForEncryption(Init.java:128) - Starting Encryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\plainfiles\Word.docx'
+[DEBUG 06/11/2013 01:15:58,892] com.myinstitution.myapp.crypto.EncryptDefaultImpl.encrypt(EncryptDefaultImpl.java:34) - Entering.
+[DEBUG 06/11/2013 01:15:58,893] com.myinstitution.myapp.crypto.EncryptDefaultImpl.encrypt(EncryptDefaultImpl.java:20) - Entering.
+[INFO  06/11/2013 01:15:58,975] com.myinstitution.myapp.crypto.EncryptDefaultImpl.encrypt(EncryptDefaultImpl.java:26) - Successfully Completed Encryption.
+[DEBUG 06/11/2013 01:15:58,976] com.myinstitution.myapp.crypto.EncryptDefaultImpl.encrypt(EncryptDefaultImpl.java:27) - Exiting.
+[DEBUG 06/11/2013 01:15:58,984] com.myinstitution.myapp.crypto.EncryptDefaultImpl.encrypt(EncryptDefaultImpl.java:41) - Exiting.
+[DEBUG 06/11/2013 01:15:58,984] com.myinstitution.myapp.crypto.Init.displayEncryptOptions(Init.java:106) - Entering displayEncryptOptions.
+[DEBUG 06/11/2013 01:15:58,985] com.myinstitution.myapp.crypto.Init.displayEncryptOptions(Init.java:112) - Exiting displayEncryptOptions.
+[DEBUG 06/11/2013 01:17:43,872] com.myinstitution.myapp.crypto.Init.processUserInputForEncryption(Init.java:151) - Exiting.
+[DEBUG 06/11/2013 01:17:43,873] com.myinstitution.myapp.crypto.Init.processUserInputForEncryption(Init.java:162) - Exiting processUserInputForEncryption.
+[DEBUG 06/11/2013 01:17:43,873] com.myinstitution.myapp.crypto.Init.encrypt(Init.java:102) - Exiting encrypt.
+[DEBUG 06/11/2013 01:17:43,874] com.myinstitution.myapp.crypto.Init.displayOptions(Init.java:56) - Entering displayOptions.
+[DEBUG 06/11/2013 01:17:43,874] com.myinstitution.myapp.crypto.Init.displayOptions(Init.java:61) - Exiting displayOptions.
+[DEBUG 06/11/2013 01:17:48,072] com.myinstitution.myapp.crypto.Init.processUserInput(Init.java:84) - Exiting.
+[DEBUG 06/11/2013 02:01:04,991] com.myinstitution.myapp.crypto.PlayGround2.main(PlayGround2.java:48) - Welcome to Encryption.
+[DEBUG 06/11/2013 02:01:04,997] com.myinstitution.myapp.crypto.PlayGround2.process(PlayGround2.java:55) - Entering process.
+[DEBUG 06/11/2013 02:01:04,997] com.myinstitution.myapp.crypto.PlayGround2.displayOptions(PlayGround2.java:62) - Entering displayOptions.
+[DEBUG 06/11/2013 02:01:04,998] com.myinstitution.myapp.crypto.PlayGround2.displayOptions(PlayGround2.java:70) - Exiting displayOptions.
+[DEBUG 06/11/2013 02:01:04,998] com.myinstitution.myapp.crypto.PlayGround2.processUserInput(PlayGround2.java:74) - Entering processUserInput.
+[DEBUG 06/11/2013 02:01:18,777] com.myinstitution.myapp.crypto.PlayGround2.processUserInput(PlayGround2.java:98) - Starting to use default key.
+[DEBUG 06/11/2013 02:01:18,777] com.myinstitution.myapp.crypto.PlayGround2.useDefaultKey(PlayGround2.java:272) - Entering useDefaultKey.
+[DEBUG 06/11/2013 02:01:18,783] com.myinstitution.myapp.esafe.ESafeImpl.<init>(ESafeImpl.java:15) - Constructing esafe
+[DEBUG 06/11/2013 02:01:18,783] com.myinstitution.myapp.esafe.ESafeImpl.<init>(ESafeImpl.java:19) - Check if esafe already exist
+[DEBUG 06/11/2013 02:01:18,783] com.myinstitution.myapp.esafe.ESafeImpl.retrieveESafe(ESafeImpl.java:36) - Retrieving esafe
+[DEBUG 06/11/2013 02:01:18,795] com.myinstitution.myapp.esafe.ESafeImpl.retrieveESafe(ESafeImpl.java:38) - Retrieved esafe
+[DEBUG 06/11/2013 02:01:18,795] com.myinstitution.myapp.esafe.ESafeImpl.retrieveItemAsBinary(ESafeImpl.java:43) - Retrieving item from esafe
+[DEBUG 06/11/2013 02:01:18,796] com.myinstitution.myapp.esafe.ESafeImpl.retrieveESafe(ESafeImpl.java:36) - Retrieving esafe
+[DEBUG 06/11/2013 02:01:18,797] com.myinstitution.myapp.esafe.ESafeImpl.retrieveESafe(ESafeImpl.java:38) - Retrieved esafe
+[DEBUG 06/11/2013 02:01:18,800] com.myinstitution.myapp.crypto.PlayGround2.useDefaultKey(PlayGround2.java:274) - Default keyKey is BASE_DATA_KEY
+[DEBUG 06/11/2013 02:01:18,801] com.myinstitution.myapp.crypto.PlayGround2.useDefaultKey(PlayGround2.java:275) - Default Key is [B@7c42d227
+[DEBUG 06/11/2013 02:01:18,803] com.myinstitution.myapp.crypto.PlayGround2.useDefaultKey(PlayGround2.java:277) - Exiting useDefaultKey.
+[DEBUG 06/11/2013 02:01:18,804] com.myinstitution.myapp.crypto.PlayGround2.displayOptions(PlayGround2.java:62) - Entering displayOptions.
+[DEBUG 06/11/2013 02:01:18,804] com.myinstitution.myapp.crypto.PlayGround2.displayOptions(PlayGround2.java:70) - Exiting displayOptions.
+[DEBUG 06/11/2013 02:02:19,872] com.myinstitution.myapp.crypto.PlayGround2.processUserInput(PlayGround2.java:80) - Starting Encryption.
+[DEBUG 06/11/2013 02:02:19,872] com.myinstitution.myapp.crypto.PlayGround2.encrypt(PlayGround2.java:119) - Entering encrypt.
+[DEBUG 06/11/2013 02:02:19,872] com.myinstitution.myapp.crypto.PlayGround2.displayEncryptOptions(PlayGround2.java:126) - Entering displayEncryptOptions.
+[DEBUG 06/11/2013 02:02:19,873] com.myinstitution.myapp.crypto.PlayGround2.displayEncryptOptions(PlayGround2.java:132) - Exiting displayEncryptOptions.
+[DEBUG 06/11/2013 02:02:19,873] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForEncryption(PlayGround2.java:136) - Entering processUserInputForEncryption.
+[DEBUG 06/11/2013 02:02:24,244] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForEncryption(PlayGround2.java:142) - Starting Encryption of all files.
+[DEBUG 06/11/2013 02:02:24,245] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForEncryption(PlayGround2.java:148) - Starting Encryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\plainfiles\Excel.xlsx'
+[DEBUG 06/11/2013 02:02:24,246] com.myinstitution.myapp.crypto.EncryptDefaultImpl2.encrypt(EncryptDefaultImpl2.java:23) - Entering.
+[DEBUG 06/11/2013 02:02:24,650] com.myinstitution.myapp.crypto.EncryptDefaultImpl2.encrypt(EncryptDefaultImpl2.java:28) - Sealed Object: javax.crypto.SealedObject@5cbe930a
+[INFO  06/11/2013 02:02:24,650] com.myinstitution.myapp.crypto.EncryptDefaultImpl2.encrypt(EncryptDefaultImpl2.java:29) - Successfully Completed Encryption.
+[DEBUG 06/11/2013 02:02:24,664] com.myinstitution.myapp.crypto.EncryptDefaultImpl2.encrypt(EncryptDefaultImpl2.java:35) - Exiting.
+[DEBUG 06/11/2013 02:02:24,665] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForEncryption(PlayGround2.java:148) - Starting Encryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\plainfiles\Image.bmp'
+[DEBUG 06/11/2013 02:02:24,665] com.myinstitution.myapp.crypto.EncryptDefaultImpl2.encrypt(EncryptDefaultImpl2.java:23) - Entering.
+[DEBUG 06/11/2013 02:02:24,731] com.myinstitution.myapp.crypto.EncryptDefaultImpl2.encrypt(EncryptDefaultImpl2.java:28) - Sealed Object: javax.crypto.SealedObject@3618a665
+[INFO  06/11/2013 02:02:24,731] com.myinstitution.myapp.crypto.EncryptDefaultImpl2.encrypt(EncryptDefaultImpl2.java:29) - Successfully Completed Encryption.
+[DEBUG 06/11/2013 02:02:24,836] com.myinstitution.myapp.crypto.EncryptDefaultImpl2.encrypt(EncryptDefaultImpl2.java:35) - Exiting.
+[DEBUG 06/11/2013 02:02:24,837] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForEncryption(PlayGround2.java:148) - Starting Encryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\plainfiles\passwords.data'
+[DEBUG 06/11/2013 02:02:24,837] com.myinstitution.myapp.crypto.EncryptDefaultImpl2.encrypt(EncryptDefaultImpl2.java:23) - Entering.
+[DEBUG 06/11/2013 02:02:24,839] com.myinstitution.myapp.crypto.EncryptDefaultImpl2.encrypt(EncryptDefaultImpl2.java:28) - Sealed Object: javax.crypto.SealedObject@2810b7f7
+[INFO  06/11/2013 02:02:24,840] com.myinstitution.myapp.crypto.EncryptDefaultImpl2.encrypt(EncryptDefaultImpl2.java:29) - Successfully Completed Encryption.
+[DEBUG 06/11/2013 02:02:24,858] com.myinstitution.myapp.crypto.EncryptDefaultImpl2.encrypt(EncryptDefaultImpl2.java:35) - Exiting.
+[DEBUG 06/11/2013 02:02:24,858] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForEncryption(PlayGround2.java:148) - Starting Encryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\plainfiles\PDF.pdf'
+[DEBUG 06/11/2013 02:02:24,859] com.myinstitution.myapp.crypto.EncryptDefaultImpl2.encrypt(EncryptDefaultImpl2.java:23) - Entering.
+[DEBUG 06/11/2013 02:02:24,868] com.myinstitution.myapp.crypto.EncryptDefaultImpl2.encrypt(EncryptDefaultImpl2.java:28) - Sealed Object: javax.crypto.SealedObject@75610154
+[INFO  06/11/2013 02:02:24,869] com.myinstitution.myapp.crypto.EncryptDefaultImpl2.encrypt(EncryptDefaultImpl2.java:29) - Successfully Completed Encryption.
+[DEBUG 06/11/2013 02:02:24,895] com.myinstitution.myapp.crypto.EncryptDefaultImpl2.encrypt(EncryptDefaultImpl2.java:35) - Exiting.
+[DEBUG 06/11/2013 02:02:24,895] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForEncryption(PlayGround2.java:148) - Starting Encryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\plainfiles\Text.txt'
+[DEBUG 06/11/2013 02:02:24,895] com.myinstitution.myapp.crypto.EncryptDefaultImpl2.encrypt(EncryptDefaultImpl2.java:23) - Entering.
+[DEBUG 06/11/2013 02:02:24,897] com.myinstitution.myapp.crypto.EncryptDefaultImpl2.encrypt(EncryptDefaultImpl2.java:28) - Sealed Object: javax.crypto.SealedObject@7c3422b5
+[INFO  06/11/2013 02:02:24,898] com.myinstitution.myapp.crypto.EncryptDefaultImpl2.encrypt(EncryptDefaultImpl2.java:29) - Successfully Completed Encryption.
+[DEBUG 06/11/2013 02:02:24,899] com.myinstitution.myapp.crypto.EncryptDefaultImpl2.encrypt(EncryptDefaultImpl2.java:35) - Exiting.
+[DEBUG 06/11/2013 02:02:24,899] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForEncryption(PlayGround2.java:148) - Starting Encryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\plainfiles\Word.docx'
+[DEBUG 06/11/2013 02:02:24,899] com.myinstitution.myapp.crypto.EncryptDefaultImpl2.encrypt(EncryptDefaultImpl2.java:23) - Entering.
+[DEBUG 06/11/2013 02:02:24,902] com.myinstitution.myapp.crypto.EncryptDefaultImpl2.encrypt(EncryptDefaultImpl2.java:28) - Sealed Object: javax.crypto.SealedObject@25b94dbc
+[INFO  06/11/2013 02:02:24,902] com.myinstitution.myapp.crypto.EncryptDefaultImpl2.encrypt(EncryptDefaultImpl2.java:29) - Successfully Completed Encryption.
+[DEBUG 06/11/2013 02:02:24,908] com.myinstitution.myapp.crypto.EncryptDefaultImpl2.encrypt(EncryptDefaultImpl2.java:35) - Exiting.
+[DEBUG 06/11/2013 02:02:24,908] com.myinstitution.myapp.crypto.PlayGround2.displayEncryptOptions(PlayGround2.java:126) - Entering displayEncryptOptions.
+[DEBUG 06/11/2013 02:02:24,908] com.myinstitution.myapp.crypto.PlayGround2.displayEncryptOptions(PlayGround2.java:132) - Exiting displayEncryptOptions.
+[DEBUG 06/11/2013 02:04:11,319] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForEncryption(PlayGround2.java:171) - Exiting.
+[DEBUG 06/11/2013 02:04:11,320] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForEncryption(PlayGround2.java:182) - Exiting processUserInputForEncryption.
+[DEBUG 06/11/2013 02:04:11,320] com.myinstitution.myapp.crypto.PlayGround2.encrypt(PlayGround2.java:122) - Exiting encrypt.
+[DEBUG 06/11/2013 02:04:11,320] com.myinstitution.myapp.crypto.PlayGround2.displayOptions(PlayGround2.java:62) - Entering displayOptions.
+[DEBUG 06/11/2013 02:04:11,320] com.myinstitution.myapp.crypto.PlayGround2.displayOptions(PlayGround2.java:70) - Exiting displayOptions.
+[DEBUG 06/11/2013 02:04:13,865] com.myinstitution.myapp.crypto.PlayGround2.processUserInput(PlayGround2.java:86) - Starting Decryption.
+[DEBUG 06/11/2013 02:04:13,865] com.myinstitution.myapp.crypto.PlayGround2.decrypt(PlayGround2.java:190) - Entering decrypt.
+[DEBUG 06/11/2013 02:04:13,865] com.myinstitution.myapp.crypto.PlayGround2.displayDecryptOptions(PlayGround2.java:197) - Entering displayDecryptOptions.
+[DEBUG 06/11/2013 02:04:13,865] com.myinstitution.myapp.crypto.PlayGround2.displayDecryptOptions(PlayGround2.java:203) - Exiting displayDecryptOptions.
+[DEBUG 06/11/2013 02:04:13,865] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:207) - Entering processUserInputForDecryption.
+[DEBUG 06/11/2013 02:04:19,207] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:213) - Starting Decryption of all files.
+[DEBUG 06/11/2013 02:04:19,208] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:219) - Starting Decryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\encryptedfiles\Excel.xlsx'
+[DEBUG 06/11/2013 02:04:19,209] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:22) - Entering.
+[ERROR 06/11/2013 02:04:19,256] com.myinstitution.myapp.common.FilePersistence.read(FilePersistence.java:47) - ERROR_READING_FILE {0}C:\Storehouse\tmp\second\com\myinstitution\myapp\input\encryptedfiles\Excel.xlsx
+[DEBUG 06/11/2013 02:04:19,257] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:34) - Exiting.
+[DEBUG 06/11/2013 02:04:19,258] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:219) - Starting Decryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\encryptedfiles\Image.bmp'
+[DEBUG 06/11/2013 02:04:19,258] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:22) - Entering.
+[ERROR 06/11/2013 02:04:19,276] com.myinstitution.myapp.common.FilePersistence.read(FilePersistence.java:47) - ERROR_READING_FILE {0}C:\Storehouse\tmp\second\com\myinstitution\myapp\input\encryptedfiles\Image.bmp
+[DEBUG 06/11/2013 02:04:19,277] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:34) - Exiting.
+[DEBUG 06/11/2013 02:04:19,277] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:219) - Starting Decryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\encryptedfiles\passwords.data'
+[DEBUG 06/11/2013 02:04:19,277] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:22) - Entering.
+[ERROR 06/11/2013 02:04:19,283] com.myinstitution.myapp.common.FilePersistence.read(FilePersistence.java:47) - ERROR_READING_FILE {0}C:\Storehouse\tmp\second\com\myinstitution\myapp\input\encryptedfiles\passwords.data
+[DEBUG 06/11/2013 02:04:19,284] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:34) - Exiting.
+[DEBUG 06/11/2013 02:04:19,285] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:219) - Starting Decryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\encryptedfiles\PDF.pdf'
+[DEBUG 06/11/2013 02:04:19,285] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:22) - Entering.
+[ERROR 06/11/2013 02:04:19,306] com.myinstitution.myapp.common.FilePersistence.read(FilePersistence.java:47) - ERROR_READING_FILE {0}C:\Storehouse\tmp\second\com\myinstitution\myapp\input\encryptedfiles\PDF.pdf
+[DEBUG 06/11/2013 02:04:19,307] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:34) - Exiting.
+[DEBUG 06/11/2013 02:04:19,308] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:219) - Starting Decryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\encryptedfiles\Text.txt'
+[DEBUG 06/11/2013 02:04:19,308] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:22) - Entering.
+[ERROR 06/11/2013 02:04:19,311] com.myinstitution.myapp.common.FilePersistence.read(FilePersistence.java:47) - ERROR_READING_FILE {0}C:\Storehouse\tmp\second\com\myinstitution\myapp\input\encryptedfiles\Text.txt
+[DEBUG 06/11/2013 02:04:19,312] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:34) - Exiting.
+[DEBUG 06/11/2013 02:04:19,312] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:219) - Starting Decryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\encryptedfiles\Word.docx'
+[DEBUG 06/11/2013 02:04:19,312] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:22) - Entering.
+[ERROR 06/11/2013 02:04:19,331] com.myinstitution.myapp.common.FilePersistence.read(FilePersistence.java:47) - ERROR_READING_FILE {0}C:\Storehouse\tmp\second\com\myinstitution\myapp\input\encryptedfiles\Word.docx
+[DEBUG 06/11/2013 02:04:19,332] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:34) - Exiting.
+[DEBUG 06/11/2013 02:04:19,332] com.myinstitution.myapp.crypto.PlayGround2.displayDecryptOptions(PlayGround2.java:197) - Entering displayDecryptOptions.
+[DEBUG 06/11/2013 02:04:19,333] com.myinstitution.myapp.crypto.PlayGround2.displayDecryptOptions(PlayGround2.java:203) - Exiting displayDecryptOptions.
+[DEBUG 06/11/2013 02:05:08,168] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:213) - Starting Decryption of all files.
+[DEBUG 06/11/2013 02:05:08,169] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:219) - Starting Decryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\encryptedfiles\Excel.xlsx'
+[DEBUG 06/11/2013 02:05:08,169] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:22) - Entering.
+[DEBUG 06/11/2013 02:05:08,180] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:34) - Exiting.
+[DEBUG 06/11/2013 02:05:08,181] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:219) - Starting Decryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\encryptedfiles\Image.bmp'
+[DEBUG 06/11/2013 02:05:08,181] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:22) - Entering.
+[DEBUG 06/11/2013 02:05:08,357] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:34) - Exiting.
+[DEBUG 06/11/2013 02:05:08,357] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:219) - Starting Decryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\encryptedfiles\passwords.data'
+[DEBUG 06/11/2013 02:05:08,357] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:22) - Entering.
+[DEBUG 06/11/2013 02:05:08,361] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:34) - Exiting.
+[DEBUG 06/11/2013 02:05:08,361] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:219) - Starting Decryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\encryptedfiles\PDF.pdf'
+[DEBUG 06/11/2013 02:05:08,362] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:22) - Entering.
+[DEBUG 06/11/2013 02:05:08,379] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:34) - Exiting.
+[DEBUG 06/11/2013 02:05:08,379] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:219) - Starting Decryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\encryptedfiles\Text.txt'
+[DEBUG 06/11/2013 02:05:08,379] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:22) - Entering.
+[DEBUG 06/11/2013 02:05:08,387] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:34) - Exiting.
+[DEBUG 06/11/2013 02:05:08,387] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:219) - Starting Decryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\encryptedfiles\Word.docx'
+[DEBUG 06/11/2013 02:05:08,388] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:22) - Entering.
+[DEBUG 06/11/2013 02:05:08,391] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:34) - Exiting.
+[DEBUG 06/11/2013 02:05:08,391] com.myinstitution.myapp.crypto.PlayGround2.displayDecryptOptions(PlayGround2.java:197) - Entering displayDecryptOptions.
+[DEBUG 06/11/2013 02:05:08,391] com.myinstitution.myapp.crypto.PlayGround2.displayDecryptOptions(PlayGround2.java:203) - Exiting displayDecryptOptions.
+[DEBUG 06/11/2013 02:05:30,309] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:242) - Exiting.
+[DEBUG 06/11/2013 02:05:30,309] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:253) - Exiting processUserInputForDecryption.
+[DEBUG 06/11/2013 02:05:30,310] com.myinstitution.myapp.crypto.PlayGround2.decrypt(PlayGround2.java:193) - Exiting decrypt.
+[DEBUG 06/11/2013 02:05:30,310] com.myinstitution.myapp.crypto.PlayGround2.displayOptions(PlayGround2.java:62) - Entering displayOptions.
+[DEBUG 06/11/2013 02:05:30,310] com.myinstitution.myapp.crypto.PlayGround2.displayOptions(PlayGround2.java:70) - Exiting displayOptions.
+[DEBUG 06/11/2013 02:05:40,587] com.myinstitution.myapp.crypto.PlayGround2.processUserInput(PlayGround2.java:92) - Starting Key Generation.
+[DEBUG 06/11/2013 02:05:40,587] com.myinstitution.myapp.crypto.PlayGround2.generateKey(PlayGround2.java:261) - Entering generateKey.
+[DEBUG 06/11/2013 02:05:40,591] com.myinstitution.myapp.esafe.ESafeImpl.<init>(ESafeImpl.java:15) - Constructing esafe
+[DEBUG 06/11/2013 02:05:40,591] com.myinstitution.myapp.esafe.ESafeImpl.<init>(ESafeImpl.java:19) - Check if esafe already exist
+[DEBUG 06/11/2013 02:05:40,591] com.myinstitution.myapp.esafe.ESafeImpl.retrieveESafe(ESafeImpl.java:36) - Retrieving esafe
+[DEBUG 06/11/2013 02:05:40,592] com.myinstitution.myapp.esafe.ESafeImpl.retrieveESafe(ESafeImpl.java:38) - Retrieved esafe
+[DEBUG 06/11/2013 02:05:40,592] com.myinstitution.myapp.esafe.ESafeImpl.containsItem(ESafeImpl.java:48) - Checking if item is there in esafe
+[DEBUG 06/11/2013 02:05:40,592] com.myinstitution.myapp.esafe.ESafeImpl.retrieveESafe(ESafeImpl.java:36) - Retrieving esafe
+[DEBUG 06/11/2013 02:05:40,593] com.myinstitution.myapp.esafe.ESafeImpl.retrieveESafe(ESafeImpl.java:38) - Retrieved esafe
+[ERROR 06/11/2013 02:05:40,594] com.myinstitution.myapp.crypto.KeyStore2.throwException(KeyStore2.java:67) - Error storing key in esafe: [Ljava.lang.String;@5e536b73
+java.lang.Exception: A Key already exists with the keyKey: BASE_DATA_KEY
+	at com.myinstitution.myapp.crypto.KeyStore2.saveKey(KeyStore2.java:31)
+	at com.myinstitution.myapp.crypto.PlayGround2.generateKey(PlayGround2.java:265)
+	at com.myinstitution.myapp.crypto.PlayGround2.processUserInput(PlayGround2.java:94)
+	at com.myinstitution.myapp.crypto.PlayGround2.process(PlayGround2.java:57)
+	at com.myinstitution.myapp.crypto.PlayGround2.main(PlayGround2.java:50)
+[ERROR 06/11/2013 02:05:40,598] com.myinstitution.myapp.crypto.KeyStore2.throwException(KeyStore2.java:68) - ERROR_GENERIC {0}
+[DEBUG 06/11/2013 02:10:31,240] com.myinstitution.myapp.crypto.PlayGround2.main(PlayGround2.java:48) - Welcome to Encryption.
+[DEBUG 06/11/2013 02:10:31,245] com.myinstitution.myapp.crypto.PlayGround2.process(PlayGround2.java:55) - Entering process.
+[DEBUG 06/11/2013 02:10:31,245] com.myinstitution.myapp.crypto.PlayGround2.displayOptions(PlayGround2.java:62) - Entering displayOptions.
+[DEBUG 06/11/2013 02:10:31,246] com.myinstitution.myapp.crypto.PlayGround2.displayOptions(PlayGround2.java:70) - Exiting displayOptions.
+[DEBUG 06/11/2013 02:10:31,246] com.myinstitution.myapp.crypto.PlayGround2.processUserInput(PlayGround2.java:74) - Entering processUserInput.
+[DEBUG 06/11/2013 02:10:35,522] com.myinstitution.myapp.crypto.PlayGround2.processUserInput(PlayGround2.java:98) - Starting to use default key.
+[DEBUG 06/11/2013 02:10:35,522] com.myinstitution.myapp.crypto.PlayGround2.useDefaultKey(PlayGround2.java:272) - Entering useDefaultKey.
+[DEBUG 06/11/2013 02:10:35,527] com.myinstitution.myapp.esafe.ESafeImpl.<init>(ESafeImpl.java:15) - Constructing esafe
+[DEBUG 06/11/2013 02:10:35,527] com.myinstitution.myapp.esafe.ESafeImpl.<init>(ESafeImpl.java:19) - Check if esafe already exist
+[DEBUG 06/11/2013 02:10:35,528] com.myinstitution.myapp.esafe.ESafeImpl.retrieveESafe(ESafeImpl.java:36) - Retrieving esafe
+[DEBUG 06/11/2013 02:10:35,540] com.myinstitution.myapp.esafe.ESafeImpl.retrieveESafe(ESafeImpl.java:38) - Retrieved esafe
+[DEBUG 06/11/2013 02:10:35,540] com.myinstitution.myapp.esafe.ESafeImpl.retrieveItemAsBinary(ESafeImpl.java:43) - Retrieving item from esafe
+[DEBUG 06/11/2013 02:10:35,541] com.myinstitution.myapp.esafe.ESafeImpl.retrieveESafe(ESafeImpl.java:36) - Retrieving esafe
+[DEBUG 06/11/2013 02:10:35,542] com.myinstitution.myapp.esafe.ESafeImpl.retrieveESafe(ESafeImpl.java:38) - Retrieved esafe
+[DEBUG 06/11/2013 02:10:35,545] com.myinstitution.myapp.crypto.PlayGround2.useDefaultKey(PlayGround2.java:274) - Default keyKey is BASE_DATA_KEY
+[DEBUG 06/11/2013 02:10:35,545] com.myinstitution.myapp.crypto.PlayGround2.useDefaultKey(PlayGround2.java:275) - Default Key is [B@4c057cc6
+[DEBUG 06/11/2013 02:10:35,548] com.myinstitution.myapp.crypto.PlayGround2.useDefaultKey(PlayGround2.java:277) - Exiting useDefaultKey.
+[DEBUG 06/11/2013 02:10:35,549] com.myinstitution.myapp.crypto.PlayGround2.displayOptions(PlayGround2.java:62) - Entering displayOptions.
+[DEBUG 06/11/2013 02:10:35,549] com.myinstitution.myapp.crypto.PlayGround2.displayOptions(PlayGround2.java:70) - Exiting displayOptions.
+[DEBUG 06/11/2013 02:10:44,348] com.myinstitution.myapp.crypto.PlayGround2.processUserInput(PlayGround2.java:86) - Starting Decryption.
+[DEBUG 06/11/2013 02:10:44,348] com.myinstitution.myapp.crypto.PlayGround2.decrypt(PlayGround2.java:190) - Entering decrypt.
+[DEBUG 06/11/2013 02:10:44,348] com.myinstitution.myapp.crypto.PlayGround2.displayDecryptOptions(PlayGround2.java:197) - Entering displayDecryptOptions.
+[DEBUG 06/11/2013 02:10:44,349] com.myinstitution.myapp.crypto.PlayGround2.displayDecryptOptions(PlayGround2.java:203) - Exiting displayDecryptOptions.
+[DEBUG 06/11/2013 02:10:44,349] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:207) - Entering processUserInputForDecryption.
+[DEBUG 06/11/2013 02:10:46,079] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:213) - Starting Decryption of all files.
+[DEBUG 06/11/2013 02:10:46,080] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:219) - Starting Decryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\encryptedfiles\Excel.xlsx'
+[DEBUG 06/11/2013 02:10:46,081] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:22) - Entering.
+[DEBUG 06/11/2013 02:10:46,467] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:34) - Exiting.
+[DEBUG 06/11/2013 02:10:46,467] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:219) - Starting Decryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\encryptedfiles\Image.bmp'
+[DEBUG 06/11/2013 02:10:46,468] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:22) - Entering.
+[DEBUG 06/11/2013 02:10:46,648] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:34) - Exiting.
+[DEBUG 06/11/2013 02:10:46,649] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:219) - Starting Decryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\encryptedfiles\passwords.data'
+[DEBUG 06/11/2013 02:10:46,649] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:22) - Entering.
+[DEBUG 06/11/2013 02:10:46,654] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:34) - Exiting.
+[DEBUG 06/11/2013 02:10:46,654] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:219) - Starting Decryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\encryptedfiles\PDF.pdf'
+[DEBUG 06/11/2013 02:10:46,656] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:22) - Entering.
+[DEBUG 06/11/2013 02:10:46,674] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:34) - Exiting.
+[DEBUG 06/11/2013 02:10:46,674] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:219) - Starting Decryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\encryptedfiles\Text.txt'
+[DEBUG 06/11/2013 02:10:46,674] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:22) - Entering.
+[DEBUG 06/11/2013 02:10:46,678] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:34) - Exiting.
+[DEBUG 06/11/2013 02:10:46,679] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:219) - Starting Decryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\encryptedfiles\Word.docx'
+[DEBUG 06/11/2013 02:10:46,679] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:22) - Entering.
+[DEBUG 06/11/2013 02:10:46,683] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:34) - Exiting.
+[DEBUG 06/11/2013 02:10:46,684] com.myinstitution.myapp.crypto.PlayGround2.displayDecryptOptions(PlayGround2.java:197) - Entering displayDecryptOptions.
+[DEBUG 06/11/2013 02:10:46,684] com.myinstitution.myapp.crypto.PlayGround2.displayDecryptOptions(PlayGround2.java:203) - Exiting displayDecryptOptions.
+[DEBUG 06/11/2013 02:11:14,676] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:242) - Exiting.
+[DEBUG 06/11/2013 02:11:14,676] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:253) - Exiting processUserInputForDecryption.
+[DEBUG 06/11/2013 02:11:14,676] com.myinstitution.myapp.crypto.PlayGround2.decrypt(PlayGround2.java:193) - Exiting decrypt.
+[DEBUG 06/11/2013 02:11:14,677] com.myinstitution.myapp.crypto.PlayGround2.displayOptions(PlayGround2.java:62) - Entering displayOptions.
+[DEBUG 06/11/2013 02:11:14,677] com.myinstitution.myapp.crypto.PlayGround2.displayOptions(PlayGround2.java:70) - Exiting displayOptions.
+[DEBUG 06/11/2013 02:11:16,338] com.myinstitution.myapp.crypto.PlayGround2.processUserInput(PlayGround2.java:104) - Exiting.
+[DEBUG 06/11/2013 02:12:07,862] com.myinstitution.myapp.crypto.PlayGround2.main(PlayGround2.java:48) - Welcome to Encryption.
+[DEBUG 06/11/2013 02:12:07,866] com.myinstitution.myapp.crypto.PlayGround2.process(PlayGround2.java:55) - Entering process.
+[DEBUG 06/11/2013 02:12:07,867] com.myinstitution.myapp.crypto.PlayGround2.displayOptions(PlayGround2.java:62) - Entering displayOptions.
+[DEBUG 06/11/2013 02:12:07,867] com.myinstitution.myapp.crypto.PlayGround2.displayOptions(PlayGround2.java:70) - Exiting displayOptions.
+[DEBUG 06/11/2013 02:12:07,867] com.myinstitution.myapp.crypto.PlayGround2.processUserInput(PlayGround2.java:74) - Entering processUserInput.
+[DEBUG 06/11/2013 02:12:18,796] com.myinstitution.myapp.crypto.PlayGround2.processUserInput(PlayGround2.java:86) - Starting Decryption.
+[DEBUG 06/11/2013 02:12:18,797] com.myinstitution.myapp.crypto.PlayGround2.decrypt(PlayGround2.java:190) - Entering decrypt.
+[DEBUG 06/11/2013 02:12:18,797] com.myinstitution.myapp.crypto.PlayGround2.displayDecryptOptions(PlayGround2.java:197) - Entering displayDecryptOptions.
+[DEBUG 06/11/2013 02:12:18,797] com.myinstitution.myapp.crypto.PlayGround2.displayDecryptOptions(PlayGround2.java:203) - Exiting displayDecryptOptions.
+[DEBUG 06/11/2013 02:12:18,797] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:207) - Entering processUserInputForDecryption.
+[DEBUG 06/11/2013 02:12:21,324] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:213) - Starting Decryption of all files.
+[DEBUG 06/11/2013 02:12:21,325] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:219) - Starting Decryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\encryptedfiles\Excel.xlsx'
+[DEBUG 06/11/2013 02:12:21,326] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:22) - Entering.
+[ERROR 06/11/2013 02:12:21,472] com.myinstitution.myapp.crypto.Crypto2.throwException(Crypto2.java:54) - Error during decryption: [Ljava.lang.String;@4474c7fe
+java.lang.NullPointerException: key is null
+	at javax.crypto.SealedObject.getObject(SealedObject.java:348)
+	at com.myinstitution.myapp.crypto.Crypto2.decrypt(Crypto2.java:44)
+	at com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:26)
+	at com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:224)
+	at com.myinstitution.myapp.crypto.PlayGround2.decrypt(PlayGround2.java:192)
+	at com.myinstitution.myapp.crypto.PlayGround2.processUserInput(PlayGround2.java:88)
+	at com.myinstitution.myapp.crypto.PlayGround2.process(PlayGround2.java:57)
+	at com.myinstitution.myapp.crypto.PlayGround2.main(PlayGround2.java:50)
+[ERROR 06/11/2013 02:12:21,478] com.myinstitution.myapp.crypto.Crypto2.throwException(Crypto2.java:55) - ERROR_GENERIC {0}
+[DEBUG 06/11/2013 02:12:21,479] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:34) - Exiting.
+[DEBUG 06/11/2013 02:12:21,482] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:219) - Starting Decryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\encryptedfiles\Image.bmp'
+[DEBUG 06/11/2013 02:12:21,482] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:22) - Entering.
+[ERROR 06/11/2013 02:12:21,490] com.myinstitution.myapp.crypto.Crypto2.throwException(Crypto2.java:54) - Error during decryption: [Ljava.lang.String;@114c86cf
+java.lang.NullPointerException: key is null
+	at javax.crypto.SealedObject.getObject(SealedObject.java:348)
+	at com.myinstitution.myapp.crypto.Crypto2.decrypt(Crypto2.java:44)
+	at com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:26)
+	at com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:224)
+	at com.myinstitution.myapp.crypto.PlayGround2.decrypt(PlayGround2.java:192)
+	at com.myinstitution.myapp.crypto.PlayGround2.processUserInput(PlayGround2.java:88)
+	at com.myinstitution.myapp.crypto.PlayGround2.process(PlayGround2.java:57)
+	at com.myinstitution.myapp.crypto.PlayGround2.main(PlayGround2.java:50)
+[ERROR 06/11/2013 02:12:21,491] com.myinstitution.myapp.crypto.Crypto2.throwException(Crypto2.java:55) - ERROR_GENERIC {0}
+[DEBUG 06/11/2013 02:12:21,492] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:34) - Exiting.
+[DEBUG 06/11/2013 02:12:21,492] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:219) - Starting Decryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\encryptedfiles\passwords.data'
+[DEBUG 06/11/2013 02:12:21,492] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:22) - Entering.
+[ERROR 06/11/2013 02:12:21,495] com.myinstitution.myapp.crypto.Crypto2.throwException(Crypto2.java:54) - Error during decryption: [Ljava.lang.String;@42e653a1
+java.lang.NullPointerException: key is null
+	at javax.crypto.SealedObject.getObject(SealedObject.java:348)
+	at com.myinstitution.myapp.crypto.Crypto2.decrypt(Crypto2.java:44)
+	at com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:26)
+	at com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:224)
+	at com.myinstitution.myapp.crypto.PlayGround2.decrypt(PlayGround2.java:192)
+	at com.myinstitution.myapp.crypto.PlayGround2.processUserInput(PlayGround2.java:88)
+	at com.myinstitution.myapp.crypto.PlayGround2.process(PlayGround2.java:57)
+	at com.myinstitution.myapp.crypto.PlayGround2.main(PlayGround2.java:50)
+[ERROR 06/11/2013 02:12:21,496] com.myinstitution.myapp.crypto.Crypto2.throwException(Crypto2.java:55) - ERROR_GENERIC {0}
+[DEBUG 06/11/2013 02:12:21,497] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:34) - Exiting.
+[DEBUG 06/11/2013 02:12:21,497] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:219) - Starting Decryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\encryptedfiles\PDF.pdf'
+[DEBUG 06/11/2013 02:12:21,497] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:22) - Entering.
+[ERROR 06/11/2013 02:12:21,503] com.myinstitution.myapp.crypto.Crypto2.throwException(Crypto2.java:54) - Error during decryption: [Ljava.lang.String;@2b29f6e7
+java.lang.NullPointerException: key is null
+	at javax.crypto.SealedObject.getObject(SealedObject.java:348)
+	at com.myinstitution.myapp.crypto.Crypto2.decrypt(Crypto2.java:44)
+	at com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:26)
+	at com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:224)
+	at com.myinstitution.myapp.crypto.PlayGround2.decrypt(PlayGround2.java:192)
+	at com.myinstitution.myapp.crypto.PlayGround2.processUserInput(PlayGround2.java:88)
+	at com.myinstitution.myapp.crypto.PlayGround2.process(PlayGround2.java:57)
+	at com.myinstitution.myapp.crypto.PlayGround2.main(PlayGround2.java:50)
+[ERROR 06/11/2013 02:12:21,503] com.myinstitution.myapp.crypto.Crypto2.throwException(Crypto2.java:55) - ERROR_GENERIC {0}
+[DEBUG 06/11/2013 02:12:21,504] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:34) - Exiting.
+[DEBUG 06/11/2013 02:12:21,505] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:219) - Starting Decryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\encryptedfiles\Text.txt'
+[DEBUG 06/11/2013 02:12:21,505] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:22) - Entering.
+[ERROR 06/11/2013 02:12:21,509] com.myinstitution.myapp.crypto.Crypto2.throwException(Crypto2.java:54) - Error during decryption: [Ljava.lang.String;@7f39425c
+java.lang.NullPointerException: key is null
+	at javax.crypto.SealedObject.getObject(SealedObject.java:348)
+	at com.myinstitution.myapp.crypto.Crypto2.decrypt(Crypto2.java:44)
+	at com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:26)
+	at com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:224)
+	at com.myinstitution.myapp.crypto.PlayGround2.decrypt(PlayGround2.java:192)
+	at com.myinstitution.myapp.crypto.PlayGround2.processUserInput(PlayGround2.java:88)
+	at com.myinstitution.myapp.crypto.PlayGround2.process(PlayGround2.java:57)
+	at com.myinstitution.myapp.crypto.PlayGround2.main(PlayGround2.java:50)
+[ERROR 06/11/2013 02:12:21,509] com.myinstitution.myapp.crypto.Crypto2.throwException(Crypto2.java:55) - ERROR_GENERIC {0}
+[DEBUG 06/11/2013 02:12:21,510] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:34) - Exiting.
+[DEBUG 06/11/2013 02:12:21,510] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:219) - Starting Decryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\encryptedfiles\Word.docx'
+[DEBUG 06/11/2013 02:12:21,511] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:22) - Entering.
+[ERROR 06/11/2013 02:12:21,514] com.myinstitution.myapp.crypto.Crypto2.throwException(Crypto2.java:54) - Error during decryption: [Ljava.lang.String;@7946738
+java.lang.NullPointerException: key is null
+	at javax.crypto.SealedObject.getObject(SealedObject.java:348)
+	at com.myinstitution.myapp.crypto.Crypto2.decrypt(Crypto2.java:44)
+	at com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:26)
+	at com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:224)
+	at com.myinstitution.myapp.crypto.PlayGround2.decrypt(PlayGround2.java:192)
+	at com.myinstitution.myapp.crypto.PlayGround2.processUserInput(PlayGround2.java:88)
+	at com.myinstitution.myapp.crypto.PlayGround2.process(PlayGround2.java:57)
+	at com.myinstitution.myapp.crypto.PlayGround2.main(PlayGround2.java:50)
+[ERROR 06/11/2013 02:12:21,515] com.myinstitution.myapp.crypto.Crypto2.throwException(Crypto2.java:55) - ERROR_GENERIC {0}
+[DEBUG 06/11/2013 02:12:21,516] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:34) - Exiting.
+[DEBUG 06/11/2013 02:12:21,517] com.myinstitution.myapp.crypto.PlayGround2.displayDecryptOptions(PlayGround2.java:197) - Entering displayDecryptOptions.
+[DEBUG 06/11/2013 02:12:21,517] com.myinstitution.myapp.crypto.PlayGround2.displayDecryptOptions(PlayGround2.java:203) - Exiting displayDecryptOptions.
+[DEBUG 06/11/2013 02:12:26,510] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:242) - Exiting.
+[DEBUG 06/11/2013 02:12:26,511] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:253) - Exiting processUserInputForDecryption.
+[DEBUG 06/11/2013 02:12:26,511] com.myinstitution.myapp.crypto.PlayGround2.decrypt(PlayGround2.java:193) - Exiting decrypt.
+[DEBUG 06/11/2013 02:12:26,511] com.myinstitution.myapp.crypto.PlayGround2.displayOptions(PlayGround2.java:62) - Entering displayOptions.
+[DEBUG 06/11/2013 02:12:26,512] com.myinstitution.myapp.crypto.PlayGround2.displayOptions(PlayGround2.java:70) - Exiting displayOptions.
+[DEBUG 06/11/2013 02:12:29,820] com.myinstitution.myapp.crypto.PlayGround2.processUserInput(PlayGround2.java:98) - Starting to use default key.
+[DEBUG 06/11/2013 02:12:29,820] com.myinstitution.myapp.crypto.PlayGround2.useDefaultKey(PlayGround2.java:272) - Entering useDefaultKey.
+[DEBUG 06/11/2013 02:12:29,826] com.myinstitution.myapp.esafe.ESafeImpl.<init>(ESafeImpl.java:15) - Constructing esafe
+[DEBUG 06/11/2013 02:12:29,826] com.myinstitution.myapp.esafe.ESafeImpl.<init>(ESafeImpl.java:19) - Check if esafe already exist
+[DEBUG 06/11/2013 02:12:29,826] com.myinstitution.myapp.esafe.ESafeImpl.retrieveESafe(ESafeImpl.java:36) - Retrieving esafe
+[DEBUG 06/11/2013 02:12:29,829] com.myinstitution.myapp.esafe.ESafeImpl.retrieveESafe(ESafeImpl.java:38) - Retrieved esafe
+[DEBUG 06/11/2013 02:12:29,829] com.myinstitution.myapp.esafe.ESafeImpl.retrieveItemAsBinary(ESafeImpl.java:43) - Retrieving item from esafe
+[DEBUG 06/11/2013 02:12:29,830] com.myinstitution.myapp.esafe.ESafeImpl.retrieveESafe(ESafeImpl.java:36) - Retrieving esafe
+[DEBUG 06/11/2013 02:12:29,831] com.myinstitution.myapp.esafe.ESafeImpl.retrieveESafe(ESafeImpl.java:38) - Retrieved esafe
+[DEBUG 06/11/2013 02:12:29,832] com.myinstitution.myapp.crypto.PlayGround2.useDefaultKey(PlayGround2.java:274) - Default keyKey is BASE_DATA_KEY
+[DEBUG 06/11/2013 02:12:29,832] com.myinstitution.myapp.crypto.PlayGround2.useDefaultKey(PlayGround2.java:275) - Default Key is [B@252b65bf
+[DEBUG 06/11/2013 02:12:29,832] com.myinstitution.myapp.crypto.PlayGround2.useDefaultKey(PlayGround2.java:277) - Exiting useDefaultKey.
+[DEBUG 06/11/2013 02:12:29,832] com.myinstitution.myapp.crypto.PlayGround2.displayOptions(PlayGround2.java:62) - Entering displayOptions.
+[DEBUG 06/11/2013 02:12:29,833] com.myinstitution.myapp.crypto.PlayGround2.displayOptions(PlayGround2.java:70) - Exiting displayOptions.
+[DEBUG 06/11/2013 02:12:32,178] com.myinstitution.myapp.crypto.PlayGround2.processUserInput(PlayGround2.java:86) - Starting Decryption.
+[DEBUG 06/11/2013 02:12:32,179] com.myinstitution.myapp.crypto.PlayGround2.decrypt(PlayGround2.java:190) - Entering decrypt.
+[DEBUG 06/11/2013 02:12:32,179] com.myinstitution.myapp.crypto.PlayGround2.displayDecryptOptions(PlayGround2.java:197) - Entering displayDecryptOptions.
+[DEBUG 06/11/2013 02:12:32,179] com.myinstitution.myapp.crypto.PlayGround2.displayDecryptOptions(PlayGround2.java:203) - Exiting displayDecryptOptions.
+[DEBUG 06/11/2013 02:12:32,179] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:207) - Entering processUserInputForDecryption.
+[DEBUG 06/11/2013 02:12:33,907] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:213) - Starting Decryption of all files.
+[DEBUG 06/11/2013 02:12:33,908] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:219) - Starting Decryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\encryptedfiles\Excel.xlsx'
+[DEBUG 06/11/2013 02:12:33,908] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:22) - Entering.
+[DEBUG 06/11/2013 02:12:34,168] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:34) - Exiting.
+[DEBUG 06/11/2013 02:12:34,168] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:219) - Starting Decryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\encryptedfiles\Image.bmp'
+[DEBUG 06/11/2013 02:12:34,168] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:22) - Entering.
+[DEBUG 06/11/2013 02:12:34,343] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:34) - Exiting.
+[DEBUG 06/11/2013 02:12:34,344] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:219) - Starting Decryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\encryptedfiles\passwords.data'
+[DEBUG 06/11/2013 02:12:34,344] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:22) - Entering.
+[DEBUG 06/11/2013 02:12:34,348] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:34) - Exiting.
+[DEBUG 06/11/2013 02:12:34,348] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:219) - Starting Decryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\encryptedfiles\PDF.pdf'
+[DEBUG 06/11/2013 02:12:34,348] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:22) - Entering.
+[DEBUG 06/11/2013 02:12:34,364] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:34) - Exiting.
+[DEBUG 06/11/2013 02:12:34,364] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:219) - Starting Decryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\encryptedfiles\Text.txt'
+[DEBUG 06/11/2013 02:12:34,365] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:22) - Entering.
+[DEBUG 06/11/2013 02:12:34,368] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:34) - Exiting.
+[DEBUG 06/11/2013 02:12:34,369] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:219) - Starting Decryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\encryptedfiles\Word.docx'
+[DEBUG 06/11/2013 02:12:34,369] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:22) - Entering.
+[DEBUG 06/11/2013 02:12:34,372] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:34) - Exiting.
+[DEBUG 06/11/2013 02:12:34,372] com.myinstitution.myapp.crypto.PlayGround2.displayDecryptOptions(PlayGround2.java:197) - Entering displayDecryptOptions.
+[DEBUG 06/11/2013 02:12:34,372] com.myinstitution.myapp.crypto.PlayGround2.displayDecryptOptions(PlayGround2.java:203) - Exiting displayDecryptOptions.
+[DEBUG 06/11/2013 02:12:44,423] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:242) - Exiting.
+[DEBUG 06/11/2013 02:12:44,423] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:253) - Exiting processUserInputForDecryption.
+[DEBUG 06/11/2013 02:12:44,423] com.myinstitution.myapp.crypto.PlayGround2.decrypt(PlayGround2.java:193) - Exiting decrypt.
+[DEBUG 06/11/2013 02:12:44,423] com.myinstitution.myapp.crypto.PlayGround2.displayOptions(PlayGround2.java:62) - Entering displayOptions.
+[DEBUG 06/11/2013 02:12:44,424] com.myinstitution.myapp.crypto.PlayGround2.displayOptions(PlayGround2.java:70) - Exiting displayOptions.
+[DEBUG 06/11/2013 02:12:48,801] com.myinstitution.myapp.crypto.PlayGround2.processUserInput(PlayGround2.java:92) - Starting Key Generation.
+[DEBUG 06/11/2013 02:12:48,801] com.myinstitution.myapp.crypto.PlayGround2.generateKey(PlayGround2.java:261) - Entering generateKey.
+[DEBUG 06/11/2013 02:12:48,839] com.myinstitution.myapp.esafe.ESafeImpl.<init>(ESafeImpl.java:15) - Constructing esafe
+[DEBUG 06/11/2013 02:12:48,839] com.myinstitution.myapp.esafe.ESafeImpl.<init>(ESafeImpl.java:19) - Check if esafe already exist
+[DEBUG 06/11/2013 02:12:48,839] com.myinstitution.myapp.esafe.ESafeImpl.retrieveESafe(ESafeImpl.java:36) - Retrieving esafe
+[DEBUG 06/11/2013 02:12:48,840] com.myinstitution.myapp.esafe.ESafeImpl.retrieveESafe(ESafeImpl.java:38) - Retrieved esafe
+[DEBUG 06/11/2013 02:12:48,840] com.myinstitution.myapp.esafe.ESafeImpl.containsItem(ESafeImpl.java:48) - Checking if item is there in esafe
+[DEBUG 06/11/2013 02:12:48,840] com.myinstitution.myapp.esafe.ESafeImpl.retrieveESafe(ESafeImpl.java:36) - Retrieving esafe
+[DEBUG 06/11/2013 02:12:48,841] com.myinstitution.myapp.esafe.ESafeImpl.retrieveESafe(ESafeImpl.java:38) - Retrieved esafe
+[DEBUG 06/11/2013 02:12:48,841] com.myinstitution.myapp.esafe.ESafeImpl.createItem(ESafeImpl.java:61) - Creating item in esafe
+[DEBUG 06/11/2013 02:12:48,841] com.myinstitution.myapp.esafe.ESafeImpl.retrieveESafe(ESafeImpl.java:36) - Retrieving esafe
+[DEBUG 06/11/2013 02:12:48,842] com.myinstitution.myapp.esafe.ESafeImpl.retrieveESafe(ESafeImpl.java:38) - Retrieved esafe
+[DEBUG 06/11/2013 02:12:48,885] com.myinstitution.myapp.esafe.ESafeImpl.createItem(ESafeImpl.java:65) - Created item in esafe
+[DEBUG 06/11/2013 02:12:48,885] com.myinstitution.myapp.crypto.PlayGround2.generateKey(PlayGround2.java:266) - keyKey is BASE_DATA_KEY_Wed Nov 06 02:12:48 IST 2013
+[DEBUG 06/11/2013 02:12:48,885] com.myinstitution.myapp.crypto.PlayGround2.generateKey(PlayGround2.java:268) - Exiting generateKey.
+[DEBUG 06/11/2013 02:12:48,885] com.myinstitution.myapp.crypto.PlayGround2.displayOptions(PlayGround2.java:62) - Entering displayOptions.
+[DEBUG 06/11/2013 02:12:48,886] com.myinstitution.myapp.crypto.PlayGround2.displayOptions(PlayGround2.java:70) - Exiting displayOptions.
+[DEBUG 06/11/2013 02:13:40,870] com.myinstitution.myapp.crypto.PlayGround2.processUserInput(PlayGround2.java:86) - Starting Decryption.
+[DEBUG 06/11/2013 02:13:40,870] com.myinstitution.myapp.crypto.PlayGround2.decrypt(PlayGround2.java:190) - Entering decrypt.
+[DEBUG 06/11/2013 02:13:40,870] com.myinstitution.myapp.crypto.PlayGround2.displayDecryptOptions(PlayGround2.java:197) - Entering displayDecryptOptions.
+[DEBUG 06/11/2013 02:13:40,871] com.myinstitution.myapp.crypto.PlayGround2.displayDecryptOptions(PlayGround2.java:203) - Exiting displayDecryptOptions.
+[DEBUG 06/11/2013 02:13:40,871] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:207) - Entering processUserInputForDecryption.
+[DEBUG 06/11/2013 02:13:45,147] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:213) - Starting Decryption of all files.
+[DEBUG 06/11/2013 02:13:45,147] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:219) - Starting Decryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\encryptedfiles\Excel.xlsx'
+[DEBUG 06/11/2013 02:13:45,148] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:22) - Entering.
+[ERROR 06/11/2013 02:13:45,150] com.myinstitution.myapp.crypto.Crypto2.throwException(Crypto2.java:54) - Error during decryption: [Ljava.lang.String;@4b7ac3e5
+java.security.InvalidKeyException: Given final block not properly padded
+	at javax.crypto.SealedObject.getObject(SealedObject.java:359)
+	at com.myinstitution.myapp.crypto.Crypto2.decrypt(Crypto2.java:44)
+	at com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:26)
+	at com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:224)
+	at com.myinstitution.myapp.crypto.PlayGround2.decrypt(PlayGround2.java:192)
+	at com.myinstitution.myapp.crypto.PlayGround2.processUserInput(PlayGround2.java:88)
+	at com.myinstitution.myapp.crypto.PlayGround2.process(PlayGround2.java:57)
+	at com.myinstitution.myapp.crypto.PlayGround2.main(PlayGround2.java:50)
+[ERROR 06/11/2013 02:13:45,151] com.myinstitution.myapp.crypto.Crypto2.throwException(Crypto2.java:55) - ERROR_GENERIC {0}
+[DEBUG 06/11/2013 02:13:45,151] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:34) - Exiting.
+[DEBUG 06/11/2013 02:13:45,151] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:219) - Starting Decryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\encryptedfiles\Image.bmp'
+[DEBUG 06/11/2013 02:13:45,151] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:22) - Entering.
+[ERROR 06/11/2013 02:13:45,171] com.myinstitution.myapp.crypto.Crypto2.throwException(Crypto2.java:54) - Error during decryption: [Ljava.lang.String;@7a4ff912
+java.security.InvalidKeyException: Given final block not properly padded
+	at javax.crypto.SealedObject.getObject(SealedObject.java:359)
+	at com.myinstitution.myapp.crypto.Crypto2.decrypt(Crypto2.java:44)
+	at com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:26)
+	at com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:224)
+	at com.myinstitution.myapp.crypto.PlayGround2.decrypt(PlayGround2.java:192)
+	at com.myinstitution.myapp.crypto.PlayGround2.processUserInput(PlayGround2.java:88)
+	at com.myinstitution.myapp.crypto.PlayGround2.process(PlayGround2.java:57)
+	at com.myinstitution.myapp.crypto.PlayGround2.main(PlayGround2.java:50)
+[ERROR 06/11/2013 02:13:45,171] com.myinstitution.myapp.crypto.Crypto2.throwException(Crypto2.java:55) - ERROR_GENERIC {0}
+[DEBUG 06/11/2013 02:13:45,172] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:34) - Exiting.
+[DEBUG 06/11/2013 02:13:45,172] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:219) - Starting Decryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\encryptedfiles\passwords.data'
+[DEBUG 06/11/2013 02:13:45,172] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:22) - Entering.
+[ERROR 06/11/2013 02:13:45,174] com.myinstitution.myapp.crypto.Crypto2.throwException(Crypto2.java:54) - Error during decryption: [Ljava.lang.String;@28da431b
+java.security.InvalidKeyException: Given final block not properly padded
+	at javax.crypto.SealedObject.getObject(SealedObject.java:359)
+	at com.myinstitution.myapp.crypto.Crypto2.decrypt(Crypto2.java:44)
+	at com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:26)
+	at com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:224)
+	at com.myinstitution.myapp.crypto.PlayGround2.decrypt(PlayGround2.java:192)
+	at com.myinstitution.myapp.crypto.PlayGround2.processUserInput(PlayGround2.java:88)
+	at com.myinstitution.myapp.crypto.PlayGround2.process(PlayGround2.java:57)
+	at com.myinstitution.myapp.crypto.PlayGround2.main(PlayGround2.java:50)
+[ERROR 06/11/2013 02:13:45,174] com.myinstitution.myapp.crypto.Crypto2.throwException(Crypto2.java:55) - ERROR_GENERIC {0}
+[DEBUG 06/11/2013 02:13:45,175] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:34) - Exiting.
+[DEBUG 06/11/2013 02:13:45,175] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:219) - Starting Decryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\encryptedfiles\PDF.pdf'
+[DEBUG 06/11/2013 02:13:45,175] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:22) - Entering.
+[ERROR 06/11/2013 02:13:45,194] com.myinstitution.myapp.crypto.Crypto2.throwException(Crypto2.java:54) - Error during decryption: [Ljava.lang.String;@251241f5
+java.security.InvalidKeyException: Given final block not properly padded
+	at javax.crypto.SealedObject.getObject(SealedObject.java:359)
+	at com.myinstitution.myapp.crypto.Crypto2.decrypt(Crypto2.java:44)
+	at com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:26)
+	at com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:224)
+	at com.myinstitution.myapp.crypto.PlayGround2.decrypt(PlayGround2.java:192)
+	at com.myinstitution.myapp.crypto.PlayGround2.processUserInput(PlayGround2.java:88)
+	at com.myinstitution.myapp.crypto.PlayGround2.process(PlayGround2.java:57)
+	at com.myinstitution.myapp.crypto.PlayGround2.main(PlayGround2.java:50)
+[ERROR 06/11/2013 02:13:45,195] com.myinstitution.myapp.crypto.Crypto2.throwException(Crypto2.java:55) - ERROR_GENERIC {0}
+[DEBUG 06/11/2013 02:13:45,195] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:34) - Exiting.
+[DEBUG 06/11/2013 02:13:45,196] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:219) - Starting Decryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\encryptedfiles\Text.txt'
+[DEBUG 06/11/2013 02:13:45,196] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:22) - Entering.
+[ERROR 06/11/2013 02:13:45,199] com.myinstitution.myapp.crypto.Crypto2.throwException(Crypto2.java:54) - Error during decryption: [Ljava.lang.String;@cfed7c
+java.security.InvalidKeyException: Given final block not properly padded
+	at javax.crypto.SealedObject.getObject(SealedObject.java:359)
+	at com.myinstitution.myapp.crypto.Crypto2.decrypt(Crypto2.java:44)
+	at com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:26)
+	at com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:224)
+	at com.myinstitution.myapp.crypto.PlayGround2.decrypt(PlayGround2.java:192)
+	at com.myinstitution.myapp.crypto.PlayGround2.processUserInput(PlayGround2.java:88)
+	at com.myinstitution.myapp.crypto.PlayGround2.process(PlayGround2.java:57)
+	at com.myinstitution.myapp.crypto.PlayGround2.main(PlayGround2.java:50)
+[ERROR 06/11/2013 02:13:45,199] com.myinstitution.myapp.crypto.Crypto2.throwException(Crypto2.java:55) - ERROR_GENERIC {0}
+[DEBUG 06/11/2013 02:13:45,200] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:34) - Exiting.
+[DEBUG 06/11/2013 02:13:45,201] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:219) - Starting Decryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\encryptedfiles\Word.docx'
+[DEBUG 06/11/2013 02:13:45,201] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:22) - Entering.
+[ERROR 06/11/2013 02:13:45,204] com.myinstitution.myapp.crypto.Crypto2.throwException(Crypto2.java:54) - Error during decryption: [Ljava.lang.String;@2550036c
+java.security.InvalidKeyException: Given final block not properly padded
+	at javax.crypto.SealedObject.getObject(SealedObject.java:359)
+	at com.myinstitution.myapp.crypto.Crypto2.decrypt(Crypto2.java:44)
+	at com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:26)
+	at com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:224)
+	at com.myinstitution.myapp.crypto.PlayGround2.decrypt(PlayGround2.java:192)
+	at com.myinstitution.myapp.crypto.PlayGround2.processUserInput(PlayGround2.java:88)
+	at com.myinstitution.myapp.crypto.PlayGround2.process(PlayGround2.java:57)
+	at com.myinstitution.myapp.crypto.PlayGround2.main(PlayGround2.java:50)
+[ERROR 06/11/2013 02:13:45,205] com.myinstitution.myapp.crypto.Crypto2.throwException(Crypto2.java:55) - ERROR_GENERIC {0}
+[DEBUG 06/11/2013 02:13:45,206] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:34) - Exiting.
+[DEBUG 06/11/2013 02:13:45,206] com.myinstitution.myapp.crypto.PlayGround2.displayDecryptOptions(PlayGround2.java:197) - Entering displayDecryptOptions.
+[DEBUG 06/11/2013 02:13:45,206] com.myinstitution.myapp.crypto.PlayGround2.displayDecryptOptions(PlayGround2.java:203) - Exiting displayDecryptOptions.
+[DEBUG 06/11/2013 02:13:59,469] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:242) - Exiting.
+[DEBUG 06/11/2013 02:13:59,469] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:253) - Exiting processUserInputForDecryption.
+[DEBUG 06/11/2013 02:13:59,469] com.myinstitution.myapp.crypto.PlayGround2.decrypt(PlayGround2.java:193) - Exiting decrypt.
+[DEBUG 06/11/2013 02:13:59,470] com.myinstitution.myapp.crypto.PlayGround2.displayOptions(PlayGround2.java:62) - Entering displayOptions.
+[DEBUG 06/11/2013 02:13:59,470] com.myinstitution.myapp.crypto.PlayGround2.displayOptions(PlayGround2.java:70) - Exiting displayOptions.
+[DEBUG 06/11/2013 02:14:10,255] com.myinstitution.myapp.crypto.PlayGround2.processUserInput(PlayGround2.java:80) - Starting Encryption.
+[DEBUG 06/11/2013 02:14:10,256] com.myinstitution.myapp.crypto.PlayGround2.encrypt(PlayGround2.java:119) - Entering encrypt.
+[DEBUG 06/11/2013 02:14:10,256] com.myinstitution.myapp.crypto.PlayGround2.displayEncryptOptions(PlayGround2.java:126) - Entering displayEncryptOptions.
+[DEBUG 06/11/2013 02:14:10,256] com.myinstitution.myapp.crypto.PlayGround2.displayEncryptOptions(PlayGround2.java:132) - Exiting displayEncryptOptions.
+[DEBUG 06/11/2013 02:14:10,256] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForEncryption(PlayGround2.java:136) - Entering processUserInputForEncryption.
+[DEBUG 06/11/2013 02:14:12,273] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForEncryption(PlayGround2.java:142) - Starting Encryption of all files.
+[DEBUG 06/11/2013 02:14:12,274] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForEncryption(PlayGround2.java:148) - Starting Encryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\plainfiles\Excel.xlsx'
+[DEBUG 06/11/2013 02:14:12,276] com.myinstitution.myapp.crypto.EncryptDefaultImpl2.encrypt(EncryptDefaultImpl2.java:23) - Entering.
+[DEBUG 06/11/2013 02:14:12,286] com.myinstitution.myapp.crypto.EncryptDefaultImpl2.encrypt(EncryptDefaultImpl2.java:28) - Sealed Object: javax.crypto.SealedObject@78462a0c
+[INFO  06/11/2013 02:14:12,286] com.myinstitution.myapp.crypto.EncryptDefaultImpl2.encrypt(EncryptDefaultImpl2.java:29) - Successfully Completed Encryption.
+[DEBUG 06/11/2013 02:14:12,292] com.myinstitution.myapp.crypto.EncryptDefaultImpl2.encrypt(EncryptDefaultImpl2.java:35) - Exiting.
+[DEBUG 06/11/2013 02:14:12,293] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForEncryption(PlayGround2.java:148) - Starting Encryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\plainfiles\Image.bmp'
+[DEBUG 06/11/2013 02:14:12,293] com.myinstitution.myapp.crypto.EncryptDefaultImpl2.encrypt(EncryptDefaultImpl2.java:23) - Entering.
+[DEBUG 06/11/2013 02:14:12,340] com.myinstitution.myapp.crypto.EncryptDefaultImpl2.encrypt(EncryptDefaultImpl2.java:28) - Sealed Object: javax.crypto.SealedObject@437a7f13
+[INFO  06/11/2013 02:14:12,340] com.myinstitution.myapp.crypto.EncryptDefaultImpl2.encrypt(EncryptDefaultImpl2.java:29) - Successfully Completed Encryption.
+[DEBUG 06/11/2013 02:14:12,358] com.myinstitution.myapp.crypto.EncryptDefaultImpl2.encrypt(EncryptDefaultImpl2.java:35) - Exiting.
+[DEBUG 06/11/2013 02:14:12,358] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForEncryption(PlayGround2.java:148) - Starting Encryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\plainfiles\passwords.data'
+[DEBUG 06/11/2013 02:14:12,358] com.myinstitution.myapp.crypto.EncryptDefaultImpl2.encrypt(EncryptDefaultImpl2.java:23) - Entering.
+[DEBUG 06/11/2013 02:14:12,360] com.myinstitution.myapp.crypto.EncryptDefaultImpl2.encrypt(EncryptDefaultImpl2.java:28) - Sealed Object: javax.crypto.SealedObject@156fb054
+[INFO  06/11/2013 02:14:12,361] com.myinstitution.myapp.crypto.EncryptDefaultImpl2.encrypt(EncryptDefaultImpl2.java:29) - Successfully Completed Encryption.
+[DEBUG 06/11/2013 02:14:12,366] com.myinstitution.myapp.crypto.EncryptDefaultImpl2.encrypt(EncryptDefaultImpl2.java:35) - Exiting.
+[DEBUG 06/11/2013 02:14:12,367] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForEncryption(PlayGround2.java:148) - Starting Encryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\plainfiles\PDF.pdf'
+[DEBUG 06/11/2013 02:14:12,367] com.myinstitution.myapp.crypto.EncryptDefaultImpl2.encrypt(EncryptDefaultImpl2.java:23) - Entering.
+[DEBUG 06/11/2013 02:14:12,380] com.myinstitution.myapp.crypto.EncryptDefaultImpl2.encrypt(EncryptDefaultImpl2.java:28) - Sealed Object: javax.crypto.SealedObject@3212de12
+[INFO  06/11/2013 02:14:12,380] com.myinstitution.myapp.crypto.EncryptDefaultImpl2.encrypt(EncryptDefaultImpl2.java:29) - Successfully Completed Encryption.
+[DEBUG 06/11/2013 02:14:12,424] com.myinstitution.myapp.crypto.EncryptDefaultImpl2.encrypt(EncryptDefaultImpl2.java:35) - Exiting.
+[DEBUG 06/11/2013 02:14:12,424] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForEncryption(PlayGround2.java:148) - Starting Encryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\plainfiles\Text.txt'
+[DEBUG 06/11/2013 02:14:12,424] com.myinstitution.myapp.crypto.EncryptDefaultImpl2.encrypt(EncryptDefaultImpl2.java:23) - Entering.
+[DEBUG 06/11/2013 02:14:12,426] com.myinstitution.myapp.crypto.EncryptDefaultImpl2.encrypt(EncryptDefaultImpl2.java:28) - Sealed Object: javax.crypto.SealedObject@4732a704
+[INFO  06/11/2013 02:14:12,427] com.myinstitution.myapp.crypto.EncryptDefaultImpl2.encrypt(EncryptDefaultImpl2.java:29) - Successfully Completed Encryption.
+[DEBUG 06/11/2013 02:14:12,428] com.myinstitution.myapp.crypto.EncryptDefaultImpl2.encrypt(EncryptDefaultImpl2.java:35) - Exiting.
+[DEBUG 06/11/2013 02:14:12,428] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForEncryption(PlayGround2.java:148) - Starting Encryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\plainfiles\Word.docx'
+[DEBUG 06/11/2013 02:14:12,428] com.myinstitution.myapp.crypto.EncryptDefaultImpl2.encrypt(EncryptDefaultImpl2.java:23) - Entering.
+[DEBUG 06/11/2013 02:14:12,430] com.myinstitution.myapp.crypto.EncryptDefaultImpl2.encrypt(EncryptDefaultImpl2.java:28) - Sealed Object: javax.crypto.SealedObject@2c9f3eba
+[INFO  06/11/2013 02:14:12,430] com.myinstitution.myapp.crypto.EncryptDefaultImpl2.encrypt(EncryptDefaultImpl2.java:29) - Successfully Completed Encryption.
+[DEBUG 06/11/2013 02:14:12,436] com.myinstitution.myapp.crypto.EncryptDefaultImpl2.encrypt(EncryptDefaultImpl2.java:35) - Exiting.
+[DEBUG 06/11/2013 02:14:12,436] com.myinstitution.myapp.crypto.PlayGround2.displayEncryptOptions(PlayGround2.java:126) - Entering displayEncryptOptions.
+[DEBUG 06/11/2013 02:14:12,437] com.myinstitution.myapp.crypto.PlayGround2.displayEncryptOptions(PlayGround2.java:132) - Exiting displayEncryptOptions.
+[DEBUG 06/11/2013 02:14:19,551] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForEncryption(PlayGround2.java:171) - Exiting.
+[DEBUG 06/11/2013 02:14:19,551] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForEncryption(PlayGround2.java:182) - Exiting processUserInputForEncryption.
+[DEBUG 06/11/2013 02:14:19,551] com.myinstitution.myapp.crypto.PlayGround2.encrypt(PlayGround2.java:122) - Exiting encrypt.
+[DEBUG 06/11/2013 02:14:19,551] com.myinstitution.myapp.crypto.PlayGround2.displayOptions(PlayGround2.java:62) - Entering displayOptions.
+[DEBUG 06/11/2013 02:14:19,552] com.myinstitution.myapp.crypto.PlayGround2.displayOptions(PlayGround2.java:70) - Exiting displayOptions.
+[DEBUG 06/11/2013 02:14:22,594] com.myinstitution.myapp.crypto.PlayGround2.processUserInput(PlayGround2.java:86) - Starting Decryption.
+[DEBUG 06/11/2013 02:14:22,594] com.myinstitution.myapp.crypto.PlayGround2.decrypt(PlayGround2.java:190) - Entering decrypt.
+[DEBUG 06/11/2013 02:14:22,594] com.myinstitution.myapp.crypto.PlayGround2.displayDecryptOptions(PlayGround2.java:197) - Entering displayDecryptOptions.
+[DEBUG 06/11/2013 02:14:22,595] com.myinstitution.myapp.crypto.PlayGround2.displayDecryptOptions(PlayGround2.java:203) - Exiting displayDecryptOptions.
+[DEBUG 06/11/2013 02:14:22,595] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:207) - Entering processUserInputForDecryption.
+[DEBUG 06/11/2013 02:14:25,335] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:213) - Starting Decryption of all files.
+[DEBUG 06/11/2013 02:14:25,336] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:219) - Starting Decryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\encryptedfiles\Excel.xlsx'
+[DEBUG 06/11/2013 02:14:25,336] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:22) - Entering.
+[ERROR 06/11/2013 02:14:25,338] com.myinstitution.myapp.crypto.Crypto2.throwException(Crypto2.java:54) - Error during decryption: [Ljava.lang.String;@5b0a485c
+java.security.InvalidKeyException: Given final block not properly padded
+	at javax.crypto.SealedObject.getObject(SealedObject.java:359)
+	at com.myinstitution.myapp.crypto.Crypto2.decrypt(Crypto2.java:44)
+	at com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:26)
+	at com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:224)
+	at com.myinstitution.myapp.crypto.PlayGround2.decrypt(PlayGround2.java:192)
+	at com.myinstitution.myapp.crypto.PlayGround2.processUserInput(PlayGround2.java:88)
+	at com.myinstitution.myapp.crypto.PlayGround2.process(PlayGround2.java:57)
+	at com.myinstitution.myapp.crypto.PlayGround2.main(PlayGround2.java:50)
+[ERROR 06/11/2013 02:14:25,339] com.myinstitution.myapp.crypto.Crypto2.throwException(Crypto2.java:55) - ERROR_GENERIC {0}
+[DEBUG 06/11/2013 02:14:25,339] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:34) - Exiting.
+[DEBUG 06/11/2013 02:14:25,339] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:219) - Starting Decryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\encryptedfiles\Image.bmp'
+[DEBUG 06/11/2013 02:14:25,339] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:22) - Entering.
+[ERROR 06/11/2013 02:14:25,375] com.myinstitution.myapp.crypto.Crypto2.throwException(Crypto2.java:54) - Error during decryption: [Ljava.lang.String;@6ac604
+java.security.InvalidKeyException: Given final block not properly padded
+	at javax.crypto.SealedObject.getObject(SealedObject.java:359)
+	at com.myinstitution.myapp.crypto.Crypto2.decrypt(Crypto2.java:44)
+	at com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:26)
+	at com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:224)
+	at com.myinstitution.myapp.crypto.PlayGround2.decrypt(PlayGround2.java:192)
+	at com.myinstitution.myapp.crypto.PlayGround2.processUserInput(PlayGround2.java:88)
+	at com.myinstitution.myapp.crypto.PlayGround2.process(PlayGround2.java:57)
+	at com.myinstitution.myapp.crypto.PlayGround2.main(PlayGround2.java:50)
+[ERROR 06/11/2013 02:14:25,375] com.myinstitution.myapp.crypto.Crypto2.throwException(Crypto2.java:55) - ERROR_GENERIC {0}
+[DEBUG 06/11/2013 02:14:25,376] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:34) - Exiting.
+[DEBUG 06/11/2013 02:14:25,376] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:219) - Starting Decryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\encryptedfiles\passwords.data'
+[DEBUG 06/11/2013 02:14:25,376] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:22) - Entering.
+[ERROR 06/11/2013 02:14:25,379] com.myinstitution.myapp.crypto.Crypto2.throwException(Crypto2.java:54) - Error during decryption: [Ljava.lang.String;@5cc75d38
+java.security.InvalidKeyException: Given final block not properly padded
+	at javax.crypto.SealedObject.getObject(SealedObject.java:359)
+	at com.myinstitution.myapp.crypto.Crypto2.decrypt(Crypto2.java:44)
+	at com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:26)
+	at com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:224)
+	at com.myinstitution.myapp.crypto.PlayGround2.decrypt(PlayGround2.java:192)
+	at com.myinstitution.myapp.crypto.PlayGround2.processUserInput(PlayGround2.java:88)
+	at com.myinstitution.myapp.crypto.PlayGround2.process(PlayGround2.java:57)
+	at com.myinstitution.myapp.crypto.PlayGround2.main(PlayGround2.java:50)
+[ERROR 06/11/2013 02:14:25,379] com.myinstitution.myapp.crypto.Crypto2.throwException(Crypto2.java:55) - ERROR_GENERIC {0}
+[DEBUG 06/11/2013 02:14:25,380] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:34) - Exiting.
+[DEBUG 06/11/2013 02:14:25,380] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:219) - Starting Decryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\encryptedfiles\PDF.pdf'
+[DEBUG 06/11/2013 02:14:25,380] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:22) - Entering.
+[ERROR 06/11/2013 02:14:25,392] com.myinstitution.myapp.crypto.Crypto2.throwException(Crypto2.java:54) - Error during decryption: [Ljava.lang.String;@7bd1a567
+java.security.InvalidKeyException: Given final block not properly padded
+	at javax.crypto.SealedObject.getObject(SealedObject.java:359)
+	at com.myinstitution.myapp.crypto.Crypto2.decrypt(Crypto2.java:44)
+	at com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:26)
+	at com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:224)
+	at com.myinstitution.myapp.crypto.PlayGround2.decrypt(PlayGround2.java:192)
+	at com.myinstitution.myapp.crypto.PlayGround2.processUserInput(PlayGround2.java:88)
+	at com.myinstitution.myapp.crypto.PlayGround2.process(PlayGround2.java:57)
+	at com.myinstitution.myapp.crypto.PlayGround2.main(PlayGround2.java:50)
+[ERROR 06/11/2013 02:14:25,392] com.myinstitution.myapp.crypto.Crypto2.throwException(Crypto2.java:55) - ERROR_GENERIC {0}
+[DEBUG 06/11/2013 02:14:25,393] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:34) - Exiting.
+[DEBUG 06/11/2013 02:14:25,393] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:219) - Starting Decryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\encryptedfiles\Text.txt'
+[DEBUG 06/11/2013 02:14:25,393] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:22) - Entering.
+[ERROR 06/11/2013 02:14:25,395] com.myinstitution.myapp.crypto.Crypto2.throwException(Crypto2.java:54) - Error during decryption: [Ljava.lang.String;@54397c28
+java.security.InvalidKeyException: Given final block not properly padded
+	at javax.crypto.SealedObject.getObject(SealedObject.java:359)
+	at com.myinstitution.myapp.crypto.Crypto2.decrypt(Crypto2.java:44)
+	at com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:26)
+	at com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:224)
+	at com.myinstitution.myapp.crypto.PlayGround2.decrypt(PlayGround2.java:192)
+	at com.myinstitution.myapp.crypto.PlayGround2.processUserInput(PlayGround2.java:88)
+	at com.myinstitution.myapp.crypto.PlayGround2.process(PlayGround2.java:57)
+	at com.myinstitution.myapp.crypto.PlayGround2.main(PlayGround2.java:50)
+[ERROR 06/11/2013 02:14:25,396] com.myinstitution.myapp.crypto.Crypto2.throwException(Crypto2.java:55) - ERROR_GENERIC {0}
+[DEBUG 06/11/2013 02:14:25,396] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:34) - Exiting.
+[DEBUG 06/11/2013 02:14:25,396] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:219) - Starting Decryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\encryptedfiles\Word.docx'
+[DEBUG 06/11/2013 02:14:25,397] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:22) - Entering.
+[ERROR 06/11/2013 02:14:25,399] com.myinstitution.myapp.crypto.Crypto2.throwException(Crypto2.java:54) - Error during decryption: [Ljava.lang.String;@24c31811
+java.security.InvalidKeyException: Given final block not properly padded
+	at javax.crypto.SealedObject.getObject(SealedObject.java:359)
+	at com.myinstitution.myapp.crypto.Crypto2.decrypt(Crypto2.java:44)
+	at com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:26)
+	at com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:224)
+	at com.myinstitution.myapp.crypto.PlayGround2.decrypt(PlayGround2.java:192)
+	at com.myinstitution.myapp.crypto.PlayGround2.processUserInput(PlayGround2.java:88)
+	at com.myinstitution.myapp.crypto.PlayGround2.process(PlayGround2.java:57)
+	at com.myinstitution.myapp.crypto.PlayGround2.main(PlayGround2.java:50)
+[ERROR 06/11/2013 02:14:25,400] com.myinstitution.myapp.crypto.Crypto2.throwException(Crypto2.java:55) - ERROR_GENERIC {0}
+[DEBUG 06/11/2013 02:14:25,400] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:34) - Exiting.
+[DEBUG 06/11/2013 02:14:25,400] com.myinstitution.myapp.crypto.PlayGround2.displayDecryptOptions(PlayGround2.java:197) - Entering displayDecryptOptions.
+[DEBUG 06/11/2013 02:14:25,401] com.myinstitution.myapp.crypto.PlayGround2.displayDecryptOptions(PlayGround2.java:203) - Exiting displayDecryptOptions.
+[DEBUG 06/11/2013 02:14:27,730] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:242) - Exiting.
+[DEBUG 06/11/2013 02:14:27,730] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:253) - Exiting processUserInputForDecryption.
+[DEBUG 06/11/2013 02:14:27,730] com.myinstitution.myapp.crypto.PlayGround2.decrypt(PlayGround2.java:193) - Exiting decrypt.
+[DEBUG 06/11/2013 02:14:27,730] com.myinstitution.myapp.crypto.PlayGround2.displayOptions(PlayGround2.java:62) - Entering displayOptions.
+[DEBUG 06/11/2013 02:14:27,731] com.myinstitution.myapp.crypto.PlayGround2.displayOptions(PlayGround2.java:70) - Exiting displayOptions.
+[DEBUG 06/11/2013 02:14:31,147] com.myinstitution.myapp.crypto.PlayGround2.processUserInput(PlayGround2.java:98) - Starting to use default key.
+[DEBUG 06/11/2013 02:14:31,147] com.myinstitution.myapp.crypto.PlayGround2.useDefaultKey(PlayGround2.java:272) - Entering useDefaultKey.
+[DEBUG 06/11/2013 02:14:31,147] com.myinstitution.myapp.esafe.ESafeImpl.<init>(ESafeImpl.java:15) - Constructing esafe
+[DEBUG 06/11/2013 02:14:31,148] com.myinstitution.myapp.esafe.ESafeImpl.<init>(ESafeImpl.java:19) - Check if esafe already exist
+[DEBUG 06/11/2013 02:14:31,148] com.myinstitution.myapp.esafe.ESafeImpl.retrieveESafe(ESafeImpl.java:36) - Retrieving esafe
+[DEBUG 06/11/2013 02:14:31,149] com.myinstitution.myapp.esafe.ESafeImpl.retrieveESafe(ESafeImpl.java:38) - Retrieved esafe
+[DEBUG 06/11/2013 02:14:31,149] com.myinstitution.myapp.esafe.ESafeImpl.retrieveItemAsBinary(ESafeImpl.java:43) - Retrieving item from esafe
+[DEBUG 06/11/2013 02:14:31,149] com.myinstitution.myapp.esafe.ESafeImpl.retrieveESafe(ESafeImpl.java:36) - Retrieving esafe
+[DEBUG 06/11/2013 02:14:31,150] com.myinstitution.myapp.esafe.ESafeImpl.retrieveESafe(ESafeImpl.java:38) - Retrieved esafe
+[DEBUG 06/11/2013 02:14:31,151] com.myinstitution.myapp.crypto.PlayGround2.useDefaultKey(PlayGround2.java:274) - Default keyKey is BASE_DATA_KEY
+[DEBUG 06/11/2013 02:14:31,151] com.myinstitution.myapp.crypto.PlayGround2.useDefaultKey(PlayGround2.java:275) - Default Key is [B@2296c1d
+[DEBUG 06/11/2013 02:14:31,151] com.myinstitution.myapp.crypto.PlayGround2.useDefaultKey(PlayGround2.java:277) - Exiting useDefaultKey.
+[DEBUG 06/11/2013 02:14:31,151] com.myinstitution.myapp.crypto.PlayGround2.displayOptions(PlayGround2.java:62) - Entering displayOptions.
+[DEBUG 06/11/2013 02:14:31,152] com.myinstitution.myapp.crypto.PlayGround2.displayOptions(PlayGround2.java:70) - Exiting displayOptions.
+[DEBUG 06/11/2013 02:14:43,913] com.myinstitution.myapp.crypto.PlayGround2.processUserInput(PlayGround2.java:86) - Starting Decryption.
+[DEBUG 06/11/2013 02:14:43,913] com.myinstitution.myapp.crypto.PlayGround2.decrypt(PlayGround2.java:190) - Entering decrypt.
+[DEBUG 06/11/2013 02:14:43,914] com.myinstitution.myapp.crypto.PlayGround2.displayDecryptOptions(PlayGround2.java:197) - Entering displayDecryptOptions.
+[DEBUG 06/11/2013 02:14:43,914] com.myinstitution.myapp.crypto.PlayGround2.displayDecryptOptions(PlayGround2.java:203) - Exiting displayDecryptOptions.
+[DEBUG 06/11/2013 02:14:43,914] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:207) - Entering processUserInputForDecryption.
+[DEBUG 06/11/2013 02:14:45,022] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:213) - Starting Decryption of all files.
+[DEBUG 06/11/2013 02:14:45,023] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:219) - Starting Decryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\encryptedfiles\Excel.xlsx'
+[DEBUG 06/11/2013 02:14:45,023] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:22) - Entering.
+[DEBUG 06/11/2013 02:14:45,026] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:34) - Exiting.
+[DEBUG 06/11/2013 02:14:45,026] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:219) - Starting Decryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\encryptedfiles\Image.bmp'
+[DEBUG 06/11/2013 02:14:45,026] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:22) - Entering.
+[DEBUG 06/11/2013 02:14:45,051] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:34) - Exiting.
+[DEBUG 06/11/2013 02:14:45,052] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:219) - Starting Decryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\encryptedfiles\passwords.data'
+[DEBUG 06/11/2013 02:14:45,052] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:22) - Entering.
+[DEBUG 06/11/2013 02:14:45,082] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:34) - Exiting.
+[DEBUG 06/11/2013 02:14:45,083] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:219) - Starting Decryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\encryptedfiles\PDF.pdf'
+[DEBUG 06/11/2013 02:14:45,083] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:22) - Entering.
+[DEBUG 06/11/2013 02:14:45,096] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:34) - Exiting.
+[DEBUG 06/11/2013 02:14:45,096] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:219) - Starting Decryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\encryptedfiles\Text.txt'
+[DEBUG 06/11/2013 02:14:45,096] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:22) - Entering.
+[DEBUG 06/11/2013 02:14:45,098] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:34) - Exiting.
+[DEBUG 06/11/2013 02:14:45,098] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:219) - Starting Decryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\encryptedfiles\Word.docx'
+[DEBUG 06/11/2013 02:14:45,099] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:22) - Entering.
+[DEBUG 06/11/2013 02:14:45,101] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:34) - Exiting.
+[DEBUG 06/11/2013 02:14:45,101] com.myinstitution.myapp.crypto.PlayGround2.displayDecryptOptions(PlayGround2.java:197) - Entering displayDecryptOptions.
+[DEBUG 06/11/2013 02:14:45,101] com.myinstitution.myapp.crypto.PlayGround2.displayDecryptOptions(PlayGround2.java:203) - Exiting displayDecryptOptions.
+[DEBUG 06/11/2013 02:15:05,085] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:242) - Exiting.
+[DEBUG 06/11/2013 02:15:05,086] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:253) - Exiting processUserInputForDecryption.
+[DEBUG 06/11/2013 02:15:05,086] com.myinstitution.myapp.crypto.PlayGround2.decrypt(PlayGround2.java:193) - Exiting decrypt.
+[DEBUG 06/11/2013 02:15:05,086] com.myinstitution.myapp.crypto.PlayGround2.displayOptions(PlayGround2.java:62) - Entering displayOptions.
+[DEBUG 06/11/2013 02:15:05,086] com.myinstitution.myapp.crypto.PlayGround2.displayOptions(PlayGround2.java:70) - Exiting displayOptions.
+[DEBUG 06/11/2013 02:15:08,865] com.myinstitution.myapp.crypto.PlayGround2.processUserInput(PlayGround2.java:80) - Starting Encryption.
+[DEBUG 06/11/2013 02:15:08,865] com.myinstitution.myapp.crypto.PlayGround2.encrypt(PlayGround2.java:119) - Entering encrypt.
+[DEBUG 06/11/2013 02:15:08,866] com.myinstitution.myapp.crypto.PlayGround2.displayEncryptOptions(PlayGround2.java:126) - Entering displayEncryptOptions.
+[DEBUG 06/11/2013 02:15:08,866] com.myinstitution.myapp.crypto.PlayGround2.displayEncryptOptions(PlayGround2.java:132) - Exiting displayEncryptOptions.
+[DEBUG 06/11/2013 02:15:08,866] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForEncryption(PlayGround2.java:136) - Entering processUserInputForEncryption.
+[DEBUG 06/11/2013 02:15:18,845] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForEncryption(PlayGround2.java:171) - Exiting.
+[DEBUG 06/11/2013 02:15:18,845] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForEncryption(PlayGround2.java:182) - Exiting processUserInputForEncryption.
+[DEBUG 06/11/2013 02:15:18,845] com.myinstitution.myapp.crypto.PlayGround2.encrypt(PlayGround2.java:122) - Exiting encrypt.
+[DEBUG 06/11/2013 02:15:18,846] com.myinstitution.myapp.crypto.PlayGround2.displayOptions(PlayGround2.java:62) - Entering displayOptions.
+[DEBUG 06/11/2013 02:15:18,846] com.myinstitution.myapp.crypto.PlayGround2.displayOptions(PlayGround2.java:70) - Exiting displayOptions.
+[DEBUG 06/11/2013 02:15:22,893] com.myinstitution.myapp.crypto.PlayGround2.processUserInput(PlayGround2.java:92) - Starting Key Generation.
+[DEBUG 06/11/2013 02:15:22,894] com.myinstitution.myapp.crypto.PlayGround2.generateKey(PlayGround2.java:261) - Entering generateKey.
+[DEBUG 06/11/2013 02:15:22,894] com.myinstitution.myapp.esafe.ESafeImpl.<init>(ESafeImpl.java:15) - Constructing esafe
+[DEBUG 06/11/2013 02:15:22,895] com.myinstitution.myapp.esafe.ESafeImpl.<init>(ESafeImpl.java:19) - Check if esafe already exist
+[DEBUG 06/11/2013 02:15:22,895] com.myinstitution.myapp.esafe.ESafeImpl.retrieveESafe(ESafeImpl.java:36) - Retrieving esafe
+[DEBUG 06/11/2013 02:15:22,896] com.myinstitution.myapp.esafe.ESafeImpl.retrieveESafe(ESafeImpl.java:38) - Retrieved esafe
+[DEBUG 06/11/2013 02:15:22,896] com.myinstitution.myapp.esafe.ESafeImpl.containsItem(ESafeImpl.java:48) - Checking if item is there in esafe
+[DEBUG 06/11/2013 02:15:22,896] com.myinstitution.myapp.esafe.ESafeImpl.retrieveESafe(ESafeImpl.java:36) - Retrieving esafe
+[DEBUG 06/11/2013 02:15:22,896] com.myinstitution.myapp.esafe.ESafeImpl.retrieveESafe(ESafeImpl.java:38) - Retrieved esafe
+[DEBUG 06/11/2013 02:15:22,896] com.myinstitution.myapp.esafe.ESafeImpl.createItem(ESafeImpl.java:61) - Creating item in esafe
+[DEBUG 06/11/2013 02:15:22,897] com.myinstitution.myapp.esafe.ESafeImpl.retrieveESafe(ESafeImpl.java:36) - Retrieving esafe
+[DEBUG 06/11/2013 02:15:22,897] com.myinstitution.myapp.esafe.ESafeImpl.retrieveESafe(ESafeImpl.java:38) - Retrieved esafe
+[DEBUG 06/11/2013 02:15:22,901] com.myinstitution.myapp.esafe.ESafeImpl.createItem(ESafeImpl.java:65) - Created item in esafe
+[DEBUG 06/11/2013 02:15:22,902] com.myinstitution.myapp.crypto.PlayGround2.generateKey(PlayGround2.java:266) - keyKey is BASE_DATA_KEY_Wed Nov 06 02:15:22 IST 2013
+[DEBUG 06/11/2013 02:15:22,902] com.myinstitution.myapp.crypto.PlayGround2.generateKey(PlayGround2.java:268) - Exiting generateKey.
+[DEBUG 06/11/2013 02:15:22,902] com.myinstitution.myapp.crypto.PlayGround2.displayOptions(PlayGround2.java:62) - Entering displayOptions.
+[DEBUG 06/11/2013 02:15:22,902] com.myinstitution.myapp.crypto.PlayGround2.displayOptions(PlayGround2.java:70) - Exiting displayOptions.
+[DEBUG 06/11/2013 02:15:25,378] com.myinstitution.myapp.crypto.PlayGround2.processUserInput(PlayGround2.java:80) - Starting Encryption.
+[DEBUG 06/11/2013 02:15:25,378] com.myinstitution.myapp.crypto.PlayGround2.encrypt(PlayGround2.java:119) - Entering encrypt.
+[DEBUG 06/11/2013 02:15:25,378] com.myinstitution.myapp.crypto.PlayGround2.displayEncryptOptions(PlayGround2.java:126) - Entering displayEncryptOptions.
+[DEBUG 06/11/2013 02:15:25,379] com.myinstitution.myapp.crypto.PlayGround2.displayEncryptOptions(PlayGround2.java:132) - Exiting displayEncryptOptions.
+[DEBUG 06/11/2013 02:15:25,379] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForEncryption(PlayGround2.java:136) - Entering processUserInputForEncryption.
+[DEBUG 06/11/2013 02:15:27,033] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForEncryption(PlayGround2.java:142) - Starting Encryption of all files.
+[DEBUG 06/11/2013 02:15:27,034] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForEncryption(PlayGround2.java:148) - Starting Encryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\plainfiles\Excel.xlsx'
+[DEBUG 06/11/2013 02:15:27,034] com.myinstitution.myapp.crypto.EncryptDefaultImpl2.encrypt(EncryptDefaultImpl2.java:23) - Entering.
+[DEBUG 06/11/2013 02:15:27,035] com.myinstitution.myapp.crypto.EncryptDefaultImpl2.encrypt(EncryptDefaultImpl2.java:28) - Sealed Object: javax.crypto.SealedObject@4af73283
+[INFO  06/11/2013 02:15:27,036] com.myinstitution.myapp.crypto.EncryptDefaultImpl2.encrypt(EncryptDefaultImpl2.java:29) - Successfully Completed Encryption.
+[DEBUG 06/11/2013 02:15:27,041] com.myinstitution.myapp.crypto.EncryptDefaultImpl2.encrypt(EncryptDefaultImpl2.java:35) - Exiting.
+[DEBUG 06/11/2013 02:15:27,042] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForEncryption(PlayGround2.java:148) - Starting Encryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\plainfiles\Image.bmp'
+[DEBUG 06/11/2013 02:15:27,042] com.myinstitution.myapp.crypto.EncryptDefaultImpl2.encrypt(EncryptDefaultImpl2.java:23) - Entering.
+[DEBUG 06/11/2013 02:15:27,088] com.myinstitution.myapp.crypto.EncryptDefaultImpl2.encrypt(EncryptDefaultImpl2.java:28) - Sealed Object: javax.crypto.SealedObject@44c2394
+[INFO  06/11/2013 02:15:27,088] com.myinstitution.myapp.crypto.EncryptDefaultImpl2.encrypt(EncryptDefaultImpl2.java:29) - Successfully Completed Encryption.
+[DEBUG 06/11/2013 02:15:27,105] com.myinstitution.myapp.crypto.EncryptDefaultImpl2.encrypt(EncryptDefaultImpl2.java:35) - Exiting.
+[DEBUG 06/11/2013 02:15:27,105] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForEncryption(PlayGround2.java:148) - Starting Encryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\plainfiles\passwords.data'
+[DEBUG 06/11/2013 02:15:27,106] com.myinstitution.myapp.crypto.EncryptDefaultImpl2.encrypt(EncryptDefaultImpl2.java:23) - Entering.
+[DEBUG 06/11/2013 02:15:27,107] com.myinstitution.myapp.crypto.EncryptDefaultImpl2.encrypt(EncryptDefaultImpl2.java:28) - Sealed Object: javax.crypto.SealedObject@77c55a79
+[INFO  06/11/2013 02:15:27,107] com.myinstitution.myapp.crypto.EncryptDefaultImpl2.encrypt(EncryptDefaultImpl2.java:29) - Successfully Completed Encryption.
+[DEBUG 06/11/2013 02:15:27,142] com.myinstitution.myapp.crypto.EncryptDefaultImpl2.encrypt(EncryptDefaultImpl2.java:35) - Exiting.
+[DEBUG 06/11/2013 02:15:27,143] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForEncryption(PlayGround2.java:148) - Starting Encryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\plainfiles\PDF.pdf'
+[DEBUG 06/11/2013 02:15:27,143] com.myinstitution.myapp.crypto.EncryptDefaultImpl2.encrypt(EncryptDefaultImpl2.java:23) - Entering.
+[DEBUG 06/11/2013 02:15:27,154] com.myinstitution.myapp.crypto.EncryptDefaultImpl2.encrypt(EncryptDefaultImpl2.java:28) - Sealed Object: javax.crypto.SealedObject@7f1a594c
+[INFO  06/11/2013 02:15:27,154] com.myinstitution.myapp.crypto.EncryptDefaultImpl2.encrypt(EncryptDefaultImpl2.java:29) - Successfully Completed Encryption.
+[DEBUG 06/11/2013 02:15:27,167] com.myinstitution.myapp.crypto.EncryptDefaultImpl2.encrypt(EncryptDefaultImpl2.java:35) - Exiting.
+[DEBUG 06/11/2013 02:15:27,168] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForEncryption(PlayGround2.java:148) - Starting Encryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\plainfiles\Text.txt'
+[DEBUG 06/11/2013 02:15:27,168] com.myinstitution.myapp.crypto.EncryptDefaultImpl2.encrypt(EncryptDefaultImpl2.java:23) - Entering.
+[DEBUG 06/11/2013 02:15:27,169] com.myinstitution.myapp.crypto.EncryptDefaultImpl2.encrypt(EncryptDefaultImpl2.java:28) - Sealed Object: javax.crypto.SealedObject@2b89ee45
+[INFO  06/11/2013 02:15:27,169] com.myinstitution.myapp.crypto.EncryptDefaultImpl2.encrypt(EncryptDefaultImpl2.java:29) - Successfully Completed Encryption.
+[DEBUG 06/11/2013 02:15:27,170] com.myinstitution.myapp.crypto.EncryptDefaultImpl2.encrypt(EncryptDefaultImpl2.java:35) - Exiting.
+[DEBUG 06/11/2013 02:15:27,170] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForEncryption(PlayGround2.java:148) - Starting Encryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\plainfiles\Word.docx'
+[DEBUG 06/11/2013 02:15:27,171] com.myinstitution.myapp.crypto.EncryptDefaultImpl2.encrypt(EncryptDefaultImpl2.java:23) - Entering.
+[DEBUG 06/11/2013 02:15:27,172] com.myinstitution.myapp.crypto.EncryptDefaultImpl2.encrypt(EncryptDefaultImpl2.java:28) - Sealed Object: javax.crypto.SealedObject@488d6877
+[INFO  06/11/2013 02:15:27,172] com.myinstitution.myapp.crypto.EncryptDefaultImpl2.encrypt(EncryptDefaultImpl2.java:29) - Successfully Completed Encryption.
+[DEBUG 06/11/2013 02:15:27,178] com.myinstitution.myapp.crypto.EncryptDefaultImpl2.encrypt(EncryptDefaultImpl2.java:35) - Exiting.
+[DEBUG 06/11/2013 02:15:27,178] com.myinstitution.myapp.crypto.PlayGround2.displayEncryptOptions(PlayGround2.java:126) - Entering displayEncryptOptions.
+[DEBUG 06/11/2013 02:15:27,178] com.myinstitution.myapp.crypto.PlayGround2.displayEncryptOptions(PlayGround2.java:132) - Exiting displayEncryptOptions.
+[DEBUG 06/11/2013 02:16:09,413] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForEncryption(PlayGround2.java:171) - Exiting.
+[DEBUG 06/11/2013 02:16:09,414] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForEncryption(PlayGround2.java:182) - Exiting processUserInputForEncryption.
+[DEBUG 06/11/2013 02:16:09,414] com.myinstitution.myapp.crypto.PlayGround2.encrypt(PlayGround2.java:122) - Exiting encrypt.
+[DEBUG 06/11/2013 02:16:09,414] com.myinstitution.myapp.crypto.PlayGround2.displayOptions(PlayGround2.java:62) - Entering displayOptions.
+[DEBUG 06/11/2013 02:16:09,414] com.myinstitution.myapp.crypto.PlayGround2.displayOptions(PlayGround2.java:70) - Exiting displayOptions.
+[DEBUG 06/11/2013 02:16:14,350] com.myinstitution.myapp.crypto.PlayGround2.processUserInput(PlayGround2.java:86) - Starting Decryption.
+[DEBUG 06/11/2013 02:16:14,351] com.myinstitution.myapp.crypto.PlayGround2.decrypt(PlayGround2.java:190) - Entering decrypt.
+[DEBUG 06/11/2013 02:16:14,351] com.myinstitution.myapp.crypto.PlayGround2.displayDecryptOptions(PlayGround2.java:197) - Entering displayDecryptOptions.
+[DEBUG 06/11/2013 02:16:14,351] com.myinstitution.myapp.crypto.PlayGround2.displayDecryptOptions(PlayGround2.java:203) - Exiting displayDecryptOptions.
+[DEBUG 06/11/2013 02:16:14,351] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:207) - Entering processUserInputForDecryption.
+[DEBUG 06/11/2013 02:16:15,926] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:213) - Starting Decryption of all files.
+[DEBUG 06/11/2013 02:16:15,927] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:219) - Starting Decryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\encryptedfiles\Excel.xlsx'
+[DEBUG 06/11/2013 02:16:15,927] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:22) - Entering.
+[DEBUG 06/11/2013 02:16:15,930] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:34) - Exiting.
+[DEBUG 06/11/2013 02:16:15,930] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:219) - Starting Decryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\encryptedfiles\Image.bmp'
+[DEBUG 06/11/2013 02:16:15,930] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:22) - Entering.
+[DEBUG 06/11/2013 02:16:15,970] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:34) - Exiting.
+[DEBUG 06/11/2013 02:16:15,971] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:219) - Starting Decryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\encryptedfiles\passwords.data'
+[DEBUG 06/11/2013 02:16:15,971] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:22) - Entering.
+[DEBUG 06/11/2013 02:16:15,973] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:34) - Exiting.
+[DEBUG 06/11/2013 02:16:15,973] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:219) - Starting Decryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\encryptedfiles\PDF.pdf'
+[DEBUG 06/11/2013 02:16:15,973] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:22) - Entering.
+[DEBUG 06/11/2013 02:16:15,986] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:34) - Exiting.
+[DEBUG 06/11/2013 02:16:15,986] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:219) - Starting Decryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\encryptedfiles\Text.txt'
+[DEBUG 06/11/2013 02:16:15,987] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:22) - Entering.
+[DEBUG 06/11/2013 02:16:15,989] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:34) - Exiting.
+[DEBUG 06/11/2013 02:16:15,989] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:219) - Starting Decryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\encryptedfiles\Word.docx'
+[DEBUG 06/11/2013 02:16:15,989] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:22) - Entering.
+[DEBUG 06/11/2013 02:16:15,992] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:34) - Exiting.
+[DEBUG 06/11/2013 02:16:15,992] com.myinstitution.myapp.crypto.PlayGround2.displayDecryptOptions(PlayGround2.java:197) - Entering displayDecryptOptions.
+[DEBUG 06/11/2013 02:16:15,992] com.myinstitution.myapp.crypto.PlayGround2.displayDecryptOptions(PlayGround2.java:203) - Exiting displayDecryptOptions.
+[DEBUG 06/11/2013 02:16:56,679] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:242) - Exiting.
+[DEBUG 06/11/2013 02:16:56,679] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:253) - Exiting processUserInputForDecryption.
+[DEBUG 06/11/2013 02:16:56,679] com.myinstitution.myapp.crypto.PlayGround2.decrypt(PlayGround2.java:193) - Exiting decrypt.
+[DEBUG 06/11/2013 02:16:56,680] com.myinstitution.myapp.crypto.PlayGround2.displayOptions(PlayGround2.java:62) - Entering displayOptions.
+[DEBUG 06/11/2013 02:16:56,680] com.myinstitution.myapp.crypto.PlayGround2.displayOptions(PlayGround2.java:70) - Exiting displayOptions.
+[DEBUG 06/11/2013 02:17:00,670] com.myinstitution.myapp.crypto.PlayGround2.processUserInput(PlayGround2.java:98) - Starting to use default key.
+[DEBUG 06/11/2013 02:17:00,671] com.myinstitution.myapp.crypto.PlayGround2.useDefaultKey(PlayGround2.java:272) - Entering useDefaultKey.
+[DEBUG 06/11/2013 02:17:00,671] com.myinstitution.myapp.esafe.ESafeImpl.<init>(ESafeImpl.java:15) - Constructing esafe
+[DEBUG 06/11/2013 02:17:00,671] com.myinstitution.myapp.esafe.ESafeImpl.<init>(ESafeImpl.java:19) - Check if esafe already exist
+[DEBUG 06/11/2013 02:17:00,671] com.myinstitution.myapp.esafe.ESafeImpl.retrieveESafe(ESafeImpl.java:36) - Retrieving esafe
+[DEBUG 06/11/2013 02:17:00,673] com.myinstitution.myapp.esafe.ESafeImpl.retrieveESafe(ESafeImpl.java:38) - Retrieved esafe
+[DEBUG 06/11/2013 02:17:00,673] com.myinstitution.myapp.esafe.ESafeImpl.retrieveItemAsBinary(ESafeImpl.java:43) - Retrieving item from esafe
+[DEBUG 06/11/2013 02:17:00,673] com.myinstitution.myapp.esafe.ESafeImpl.retrieveESafe(ESafeImpl.java:36) - Retrieving esafe
+[DEBUG 06/11/2013 02:17:00,674] com.myinstitution.myapp.esafe.ESafeImpl.retrieveESafe(ESafeImpl.java:38) - Retrieved esafe
+[DEBUG 06/11/2013 02:17:00,675] com.myinstitution.myapp.crypto.PlayGround2.useDefaultKey(PlayGround2.java:274) - Default keyKey is BASE_DATA_KEY
+[DEBUG 06/11/2013 02:17:00,675] com.myinstitution.myapp.crypto.PlayGround2.useDefaultKey(PlayGround2.java:275) - Default Key is [B@172d40de
+[DEBUG 06/11/2013 02:17:00,675] com.myinstitution.myapp.crypto.PlayGround2.useDefaultKey(PlayGround2.java:277) - Exiting useDefaultKey.
+[DEBUG 06/11/2013 02:17:00,675] com.myinstitution.myapp.crypto.PlayGround2.displayOptions(PlayGround2.java:62) - Entering displayOptions.
+[DEBUG 06/11/2013 02:17:00,676] com.myinstitution.myapp.crypto.PlayGround2.displayOptions(PlayGround2.java:70) - Exiting displayOptions.
+[DEBUG 06/11/2013 02:17:03,395] com.myinstitution.myapp.crypto.PlayGround2.processUserInput(PlayGround2.java:86) - Starting Decryption.
+[DEBUG 06/11/2013 02:17:03,395] com.myinstitution.myapp.crypto.PlayGround2.decrypt(PlayGround2.java:190) - Entering decrypt.
+[DEBUG 06/11/2013 02:17:03,395] com.myinstitution.myapp.crypto.PlayGround2.displayDecryptOptions(PlayGround2.java:197) - Entering displayDecryptOptions.
+[DEBUG 06/11/2013 02:17:03,396] com.myinstitution.myapp.crypto.PlayGround2.displayDecryptOptions(PlayGround2.java:203) - Exiting displayDecryptOptions.
+[DEBUG 06/11/2013 02:17:03,396] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:207) - Entering processUserInputForDecryption.
+[DEBUG 06/11/2013 02:17:04,859] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:213) - Starting Decryption of all files.
+[DEBUG 06/11/2013 02:17:04,859] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:219) - Starting Decryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\encryptedfiles\Excel.xlsx'
+[DEBUG 06/11/2013 02:17:04,860] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:22) - Entering.
+[ERROR 06/11/2013 02:17:04,861] com.myinstitution.myapp.crypto.Crypto2.throwException(Crypto2.java:54) - Error during decryption: [Ljava.lang.String;@1bfdbab5
+java.security.InvalidKeyException: Given final block not properly padded
+	at javax.crypto.SealedObject.getObject(SealedObject.java:359)
+	at com.myinstitution.myapp.crypto.Crypto2.decrypt(Crypto2.java:44)
+	at com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:26)
+	at com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:224)
+	at com.myinstitution.myapp.crypto.PlayGround2.decrypt(PlayGround2.java:192)
+	at com.myinstitution.myapp.crypto.PlayGround2.processUserInput(PlayGround2.java:88)
+	at com.myinstitution.myapp.crypto.PlayGround2.process(PlayGround2.java:57)
+	at com.myinstitution.myapp.crypto.PlayGround2.main(PlayGround2.java:50)
+[ERROR 06/11/2013 02:17:04,862] com.myinstitution.myapp.crypto.Crypto2.throwException(Crypto2.java:55) - ERROR_GENERIC {0}
+[DEBUG 06/11/2013 02:17:04,862] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:34) - Exiting.
+[DEBUG 06/11/2013 02:17:04,862] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:219) - Starting Decryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\encryptedfiles\Image.bmp'
+[DEBUG 06/11/2013 02:17:04,863] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:22) - Entering.
+[ERROR 06/11/2013 02:17:04,882] com.myinstitution.myapp.crypto.Crypto2.throwException(Crypto2.java:54) - Error during decryption: [Ljava.lang.String;@3d2656d3
+java.security.InvalidKeyException: Given final block not properly padded
+	at javax.crypto.SealedObject.getObject(SealedObject.java:359)
+	at com.myinstitution.myapp.crypto.Crypto2.decrypt(Crypto2.java:44)
+	at com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:26)
+	at com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:224)
+	at com.myinstitution.myapp.crypto.PlayGround2.decrypt(PlayGround2.java:192)
+	at com.myinstitution.myapp.crypto.PlayGround2.processUserInput(PlayGround2.java:88)
+	at com.myinstitution.myapp.crypto.PlayGround2.process(PlayGround2.java:57)
+	at com.myinstitution.myapp.crypto.PlayGround2.main(PlayGround2.java:50)
+[ERROR 06/11/2013 02:17:04,882] com.myinstitution.myapp.crypto.Crypto2.throwException(Crypto2.java:55) - ERROR_GENERIC {0}
+[DEBUG 06/11/2013 02:17:04,883] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:34) - Exiting.
+[DEBUG 06/11/2013 02:17:04,883] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:219) - Starting Decryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\encryptedfiles\passwords.data'
+[DEBUG 06/11/2013 02:17:04,883] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:22) - Entering.
+[ERROR 06/11/2013 02:17:04,884] com.myinstitution.myapp.crypto.Crypto2.throwException(Crypto2.java:54) - Error during decryption: [Ljava.lang.String;@d30adbf
+java.security.InvalidKeyException: Given final block not properly padded
+	at javax.crypto.SealedObject.getObject(SealedObject.java:359)
+	at com.myinstitution.myapp.crypto.Crypto2.decrypt(Crypto2.java:44)
+	at com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:26)
+	at com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:224)
+	at com.myinstitution.myapp.crypto.PlayGround2.decrypt(PlayGround2.java:192)
+	at com.myinstitution.myapp.crypto.PlayGround2.processUserInput(PlayGround2.java:88)
+	at com.myinstitution.myapp.crypto.PlayGround2.process(PlayGround2.java:57)
+	at com.myinstitution.myapp.crypto.PlayGround2.main(PlayGround2.java:50)
+[ERROR 06/11/2013 02:17:04,884] com.myinstitution.myapp.crypto.Crypto2.throwException(Crypto2.java:55) - ERROR_GENERIC {0}
+[DEBUG 06/11/2013 02:17:04,885] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:34) - Exiting.
+[DEBUG 06/11/2013 02:17:04,885] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:219) - Starting Decryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\encryptedfiles\PDF.pdf'
+[DEBUG 06/11/2013 02:17:04,885] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:22) - Entering.
+[ERROR 06/11/2013 02:17:04,892] com.myinstitution.myapp.crypto.Crypto2.throwException(Crypto2.java:54) - Error during decryption: [Ljava.lang.String;@2196fffc
+java.security.InvalidKeyException: Given final block not properly padded
+	at javax.crypto.SealedObject.getObject(SealedObject.java:359)
+	at com.myinstitution.myapp.crypto.Crypto2.decrypt(Crypto2.java:44)
+	at com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:26)
+	at com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:224)
+	at com.myinstitution.myapp.crypto.PlayGround2.decrypt(PlayGround2.java:192)
+	at com.myinstitution.myapp.crypto.PlayGround2.processUserInput(PlayGround2.java:88)
+	at com.myinstitution.myapp.crypto.PlayGround2.process(PlayGround2.java:57)
+	at com.myinstitution.myapp.crypto.PlayGround2.main(PlayGround2.java:50)
+[ERROR 06/11/2013 02:17:04,893] com.myinstitution.myapp.crypto.Crypto2.throwException(Crypto2.java:55) - ERROR_GENERIC {0}
+[DEBUG 06/11/2013 02:17:04,893] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:34) - Exiting.
+[DEBUG 06/11/2013 02:17:04,893] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:219) - Starting Decryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\encryptedfiles\Text.txt'
+[DEBUG 06/11/2013 02:17:04,894] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:22) - Entering.
+[ERROR 06/11/2013 02:17:04,895] com.myinstitution.myapp.crypto.Crypto2.throwException(Crypto2.java:54) - Error during decryption: [Ljava.lang.String;@16392c27
+java.security.InvalidKeyException: Given final block not properly padded
+	at javax.crypto.SealedObject.getObject(SealedObject.java:359)
+	at com.myinstitution.myapp.crypto.Crypto2.decrypt(Crypto2.java:44)
+	at com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:26)
+	at com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:224)
+	at com.myinstitution.myapp.crypto.PlayGround2.decrypt(PlayGround2.java:192)
+	at com.myinstitution.myapp.crypto.PlayGround2.processUserInput(PlayGround2.java:88)
+	at com.myinstitution.myapp.crypto.PlayGround2.process(PlayGround2.java:57)
+	at com.myinstitution.myapp.crypto.PlayGround2.main(PlayGround2.java:50)
+[ERROR 06/11/2013 02:17:04,895] com.myinstitution.myapp.crypto.Crypto2.throwException(Crypto2.java:55) - ERROR_GENERIC {0}
+[DEBUG 06/11/2013 02:17:04,896] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:34) - Exiting.
+[DEBUG 06/11/2013 02:17:04,896] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:219) - Starting Decryption of file: 'C:\Storehouse\tmp\second\com\myinstitution\myapp\input\encryptedfiles\Word.docx'
+[DEBUG 06/11/2013 02:17:04,896] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:22) - Entering.
+[ERROR 06/11/2013 02:17:04,898] com.myinstitution.myapp.crypto.Crypto2.throwException(Crypto2.java:54) - Error during decryption: [Ljava.lang.String;@3b59be0d
+java.security.InvalidKeyException: Given final block not properly padded
+	at javax.crypto.SealedObject.getObject(SealedObject.java:359)
+	at com.myinstitution.myapp.crypto.Crypto2.decrypt(Crypto2.java:44)
+	at com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:26)
+	at com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:224)
+	at com.myinstitution.myapp.crypto.PlayGround2.decrypt(PlayGround2.java:192)
+	at com.myinstitution.myapp.crypto.PlayGround2.processUserInput(PlayGround2.java:88)
+	at com.myinstitution.myapp.crypto.PlayGround2.process(PlayGround2.java:57)
+	at com.myinstitution.myapp.crypto.PlayGround2.main(PlayGround2.java:50)
+[ERROR 06/11/2013 02:17:04,899] com.myinstitution.myapp.crypto.Crypto2.throwException(Crypto2.java:55) - ERROR_GENERIC {0}
+[DEBUG 06/11/2013 02:17:04,899] com.myinstitution.myapp.crypto.DecryptDefaultImpl2.decrypt(DecryptDefaultImpl2.java:34) - Exiting.
+[DEBUG 06/11/2013 02:17:04,899] com.myinstitution.myapp.crypto.PlayGround2.displayDecryptOptions(PlayGround2.java:197) - Entering displayDecryptOptions.
+[DEBUG 06/11/2013 02:17:04,900] com.myinstitution.myapp.crypto.PlayGround2.displayDecryptOptions(PlayGround2.java:203) - Exiting displayDecryptOptions.
+[DEBUG 06/11/2013 02:17:06,748] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:242) - Exiting.
+[DEBUG 06/11/2013 02:17:06,748] com.myinstitution.myapp.crypto.PlayGround2.processUserInputForDecryption(PlayGround2.java:253) - Exiting processUserInputForDecryption.
+[DEBUG 06/11/2013 02:17:06,748] com.myinstitution.myapp.crypto.PlayGround2.decrypt(PlayGround2.java:193) - Exiting decrypt.
+[DEBUG 06/11/2013 02:17:06,748] com.myinstitution.myapp.crypto.PlayGround2.displayOptions(PlayGround2.java:62) - Entering displayOptions.
+[DEBUG 06/11/2013 02:17:06,749] com.myinstitution.myapp.crypto.PlayGround2.displayOptions(PlayGround2.java:70) - Exiting displayOptions.
+[DEBUG 06/11/2013 02:17:08,233] com.myinstitution.myapp.crypto.PlayGround2.processUserInput(PlayGround2.java:104) - Exiting.

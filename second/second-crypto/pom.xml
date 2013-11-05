@@ -16,6 +16,20 @@
   <dependencies>
     <dependency>
         <groupId>${project.parent.groupId}</groupId>
+        <artifactId>second-common</artifactId>
+        <version>${project.parent.version}</version>
+        <type>jar</type>
+        <scope>compile</scope>
+    </dependency>
+    <dependency>
+        <groupId>${project.parent.groupId}</groupId>
+        <artifactId>second-esafe</artifactId>
+        <version>${project.parent.version}</version>
+        <type>jar</type>
+        <scope>compile</scope>
+    </dependency>
+    <dependency>
+        <groupId>${project.parent.groupId}</groupId>
         <artifactId>second-logger</artifactId>
         <version>${project.parent.version}</version>
         <type>jar</type>

@@ -17,6 +17,12 @@
         <dependent-module archiveName="second-crypto-0.0.3-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/second-crypto/second-crypto">
             <dependency-type>uses</dependency-type>
         </dependent-module>
+        <dependent-module archiveName="second-common-0.0.3-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/second-common/second-common">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="second-esafe-0.0.3-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/second-esafe/second-esafe">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
         <property name="context-root" value="second-console"/>
         <property name="java-output-path" value="/second-console/target/classes"/>
     </wb-module>
