@@ -130,7 +130,7 @@ public class Init {
                     System.out.println("Starting Encryption of file: '"
                             + inputFilepath + "'");
                     String outputfilePath = ENCRYPTED_FOLDER_OUTPUT + files[i];
-                    getEncrypt().encrypt(inputFilepath, outputfilePath);
+                    getEncrypt().encrypt(inputFilepath, outputfilePath, null);
                     System.out.println("Completed Encryption of file: '"
                             + inputFilepath + "'");
                 }
@@ -143,7 +143,7 @@ public class Init {
                 System.out.println("Starting Encryption of file: '"
                         + inputFilepath + "'");
                 String outputfilePath = ENCRYPTED_FILE_OUTPUT;
-                getEncrypt().encrypt(inputFilepath, outputfilePath);
+                getEncrypt().encrypt(inputFilepath, outputfilePath, null);
                 System.out.println("Completed Encryption of file: '"
                         + inputFilepath + "'");
                 displayEncryptOptions();
@@ -201,7 +201,7 @@ public class Init {
                     System.out.println("Starting Decryption of file: '"
                             + inputFilepath + "'");
                     String outputfilePath = DECRYPTED_FOLDER_OUTPUT + files[i];
-                    getDecrypt().decrypt(inputFilepath, outputfilePath);
+                    getDecrypt().decrypt(inputFilepath, outputfilePath, null);
                     System.out.println("Completed Decryption of file: '"
                             + inputFilepath + "'");
                 }
@@ -214,7 +214,7 @@ public class Init {
                 System.out.println("Starting Decryption of file: '"
                         + inputFilepath + "'");
                 String outputfilePath = DECRYPTED_FILE_OUTPUT;
-                getDecrypt().decrypt(inputFilepath, outputfilePath);
+                getDecrypt().decrypt(inputFilepath, outputfilePath, null);
                 System.out.println("Completed Decryption of file: '"
                         + inputFilepath + "'");
                 displayDecryptOptions();

@@ -5,6 +5,8 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
+import javax.crypto.SecretKey;
+
 import org.slf4j.Logger;
 
 import com.myinstitution.myapp.logger.LoggerFactory;
@@ -26,7 +28,8 @@ public class EncryptDefaultImpl implements Encrypt {
     }
 
     @Override
-    public void encrypt(String inputFilepath, String outputfilePath)
+    public void encrypt(String inputFilepath, String outputfilePath,
+			SecretKey key)
             throws FileNotFoundException, IOException {
         LOGGER.debug("Entering.");
         FileInputStream fileInputStream = new FileInputStream(inputFilepath);

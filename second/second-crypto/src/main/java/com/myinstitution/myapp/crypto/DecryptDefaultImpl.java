@@ -4,6 +4,8 @@ import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
+import javax.crypto.SecretKey;
+
 import org.slf4j.Logger;
 
 import com.myinstitution.myapp.logger.LoggerFactory;
@@ -25,7 +27,8 @@ public class DecryptDefaultImpl implements Decrypt {
     }
 
     @Override
-    public void decrypt(String inputFilepath, String outputfilePath)
+    public void decrypt(String inputFilepath, String outputfilePath,
+			SecretKey key)
             throws IOException {
         LOGGER.debug("Entering.");
         FileInputStream fileInputStream = new FileInputStream(inputFilepath);
@@ -35,5 +38,5 @@ public class DecryptDefaultImpl implements Decrypt {
         fileInputStream.close();
         fileOutputStream.close();
         LOGGER.debug("Exiting.");
-    }
+	}
 }

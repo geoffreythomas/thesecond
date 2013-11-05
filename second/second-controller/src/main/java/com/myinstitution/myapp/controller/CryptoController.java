@@ -52,7 +52,7 @@ public class CryptoController extends AbstractController {
             String inputFilepath = PLAIN_FOLDER_INPUT + files[i];
             logger.debug("Starting Encryption of file: '" + inputFilepath + "'");
             String outputfilePath = ENCRYPTED_FOLDER_OUTPUT + files[i];
-            getEncrypt().encrypt(inputFilepath, outputfilePath);
+            getEncrypt().encrypt(inputFilepath, outputfilePath, null);
             logger.info("Completed Encryption of file: '" + inputFilepath + "'");
         }
         logger.info("Completed Encryption of all files.");
@@ -68,7 +68,7 @@ public class CryptoController extends AbstractController {
             String inputFilepath = ENCRYPTED_FOLDER_INPUT + files[i];
             logger.debug("Starting Decryption of file: '" + inputFilepath + "'");
             String outputfilePath = DECRYPTED_FOLDER_OUTPUT + files[i];
-            getDecrypt().decrypt(inputFilepath, outputfilePath);
+            getDecrypt().decrypt(inputFilepath, outputfilePath, null);
             logger.info("Completed Decryption of file: '" + inputFilepath + "'");
         }
         logger.info("Completed Decryption of all files.");
